@@ -1,4 +1,4 @@
-# AMADA: Arctic Monkeys' Albuns Data Analysis
+# AMADA: Arctic Monkeys' Albums Data Analysis
 
 ## Intro
 
