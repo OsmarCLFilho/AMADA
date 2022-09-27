@@ -7,3 +7,9 @@
 ## File Structure
 
 The project is separated into three main folders: **data**, **scripts** and **results**.
+
+The data folder is where every source of data, be it .csv files and similars or URLs to be scraped, are stored.
+
+The scripts folder is where the Python scripts for reading and extracting useful data from the data sources are kept.
+
+The results folder is where the extracted, meaningful data is stored in formats adequate for human reading.
