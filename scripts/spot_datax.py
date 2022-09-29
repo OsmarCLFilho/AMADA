@@ -13,7 +13,11 @@ album_uris.drop(index=["Favourite Worst Nightmare (Standard Version)","Live at t
 
 album_uris = album_uris["uri"]
 
-main_dataframe = pd.DataFrame(columns=["album", "name", "popularity", "duration_ms"])
+track_columns = ["album", "name", "popularity", "duration_ms"]
+audio_columns = ["tempo", "energy", "loudness", "speechiness", "instrumentalness"]
+data_columns = track_columns.copy().extend(audio_columns)
+
+main_dataframe = pd.DataFrame(columns=data_columns)
 
 for alb_uri in album_uris:
     track_uris = pd.DataFrame(spotify.album_tracks(alb_uri)["items"])
@@ -23,12 +27,10 @@ for alb_uri in album_uris:
 
     for tra_uri in track_uris:
         print(tra_uri)
-        full_track_data = pd.DataFrame([spotify.track(tra_uri)])
-        full_track_data.at[0, "album"] = full_track_data.at[0, "album"]["name"]
-        
-        final_track_data = full_track_data[["album","name","popularity","duration_ms"]]
+        track_data = pd.DataFrame([spotify.track(tra_uri)])[track_columns].join(pd.DataFrame(spotify.audio_features(tra_uri))[audio_columns])
+        track_data.at[0, "album"] = track_data.at[0, "album"]["name"]
 
-        main_dataframe = pd.concat(objs=[main_dataframe, final_track_data], axis="index")
+        main_dataframe = pd.concat(objs=[main_dataframe, track_data], axis="index")
 
 final_index = pd.MultiIndex.from_frame(main_dataframe[["album","name"]])
 

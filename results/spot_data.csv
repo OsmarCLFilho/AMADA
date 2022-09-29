@@ -1,71 +1,71 @@
-album,name,popularity,duration_ms
-"Whatever People Say I Am, That's What I'm Not",The View From The Afternoon,62,222946
-"Whatever People Say I Am, That's What I'm Not",I Bet You Look Good On The Dancefloor,75,173680
-"Whatever People Say I Am, That's What I'm Not",Fake Tales Of San Francisco,66,177946
-"Whatever People Say I Am, That's What I'm Not",Dancing Shoes,62,141133
-"Whatever People Say I Am, That's What I'm Not",You Probably Couldn't See For The Lights But You Were Staring Straight At Me,57,130813
-"Whatever People Say I Am, That's What I'm Not",Still Take You Home,59,173666
-"Whatever People Say I Am, That's What I'm Not",Riot Van,60,134933
-"Whatever People Say I Am, That's What I'm Not",Red Light Indicates Doors Are Secured,58,143626
-"Whatever People Say I Am, That's What I'm Not",Mardy Bum,73,175440
-"Whatever People Say I Am, That's What I'm Not",Perhaps Vampires Is A Bit Strong But…,57,268626
-"Whatever People Say I Am, That's What I'm Not",When The Sun Goes Down,76,202133
-"Whatever People Say I Am, That's What I'm Not",From The Ritz To The Rubble,69,193426
-"Whatever People Say I Am, That's What I'm Not",A Certain Romance,67,331200
-Favourite Worst Nightmare,Brianstorm,71,172866
-Favourite Worst Nightmare,Teddy Picker,72,165000
-Favourite Worst Nightmare,D is for Dangerous,62,138106
-Favourite Worst Nightmare,Balaclava,62,171226
-Favourite Worst Nightmare,Fluorescent Adolescent,78,183893
-Favourite Worst Nightmare,Only Ones Who Know,66,184760
-Favourite Worst Nightmare,Do Me a Favour,69,209253
-Favourite Worst Nightmare,This House is a Circus,59,191680
-Favourite Worst Nightmare,"If You Were There, Beware",59,276200
-Favourite Worst Nightmare,The Bad Thing,59,145213
-Favourite Worst Nightmare,Old Yellow Bricks,69,193226
-Favourite Worst Nightmare,505,88,253586
-Humbug,My Propeller,63,205746
-Humbug,Crying Lightning,71,224826
-Humbug,Dangerous Animals,55,210666
-Humbug,Secret Door,64,223066
-Humbug,Potion Approaching,55,212133
-Humbug,Fire And The Thud,53,237533
-Humbug,Cornerstone,68,197973
-Humbug,Dance Little Liar,60,283493
-Humbug,Pretty Visitors,62,220506
-Humbug,The Jeweller's Hands,53,344053
-Suck It and See,She's Thunderstorms,61,234920
-Suck It and See,Black Treacle,60,217440
-Suck It and See,Brick By Brick,53,179906
-Suck It and See,The Hellcat Spangled Shalalala,54,180373
-Suck It and See,Don't Sit Down 'Cause I've Moved Your Chair,62,183506
-Suck It and See,Library Pictures,54,142173
-Suck It and See,All My Own Stunts,50,232280
-Suck It and See,Reckless Serenade,54,162746
-Suck It and See,Piledriver Waltz,63,203880
-Suck It and See,Love is a Laserquest,65,191426
-Suck It and See,Suck It and See,63,225986
-Suck It and See,That's Where You're Wrong,55,256800
-AM,Do I Wanna Know?,65,272394
-AM,R U Mine?,59,201726
-AM,One For The Road,47,206051
-AM,Arabella,55,207356
-AM,I Want It All,43,185406
-AM,No. 1 Party Anthem,45,243131
-AM,Mad Sounds,41,215011
-AM,Fireside,43,181049
-AM,Why'd You Only Call Me When You're High?,64,161123
-AM,Snap Out Of It,55,193030
-AM,Knee Socks,52,257563
-AM,I Wanna Be Yours,65,183956
-Tranquility Base Hotel & Casino,Star Treatment,59,354640
-Tranquility Base Hotel & Casino,One Point Perspective,59,208640
-Tranquility Base Hotel & Casino,American Sports,52,158040
-Tranquility Base Hotel & Casino,Tranquility Base Hotel & Casino,59,212093
-Tranquility Base Hotel & Casino,Golden Trunks,51,173626
-Tranquility Base Hotel & Casino,Four Out Of Five,61,312346
-Tranquility Base Hotel & Casino,The World's First Ever Monster Truck Front Flip,50,180013
-Tranquility Base Hotel & Casino,Science Fiction,50,185906
-Tranquility Base Hotel & Casino,She Looks Like Fun,51,182560
-Tranquility Base Hotel & Casino,Batphone,51,271613
-Tranquility Base Hotel & Casino,The Ultracheese,53,217720
+album,name,popularity,duration_ms,tempo,energy,loudness,speechiness,instrumentalness
+"Whatever People Say I Am, That's What I'm Not",The View From The Afternoon,62,222946,146.478,0.922,-5.192,0.0674,0.0
+"Whatever People Say I Am, That's What I'm Not",I Bet You Look Good On The Dancefloor,75,173680,103.183,0.948,-4.19,0.0356,0.0
+"Whatever People Say I Am, That's What I'm Not",Fake Tales Of San Francisco,66,177946,127.158,0.778,-4.225,0.0449,0.0
+"Whatever People Say I Am, That's What I'm Not",Dancing Shoes,62,141133,144.499,0.889,-4.137,0.0461,0.0
+"Whatever People Say I Am, That's What I'm Not",You Probably Couldn't See For The Lights But You Were Staring Straight At Me,57,130813,105.492,0.972,-4.274,0.0589,0.0
+"Whatever People Say I Am, That's What I'm Not",Still Take You Home,59,173666,108.934,0.946,-4.192,0.0378,0.0
+"Whatever People Say I Am, That's What I'm Not",Riot Van,60,134933,103.537,0.333,-14.342,0.046,0.0
+"Whatever People Say I Am, That's What I'm Not",Red Light Indicates Doors Are Secured,58,143626,110.683,0.846,-4.831,0.0311,0.0
+"Whatever People Say I Am, That's What I'm Not",Mardy Bum,73,175440,112.215,0.599,-5.447,0.0365,0.0
+"Whatever People Say I Am, That's What I'm Not",Perhaps Vampires Is A Bit Strong But…,57,268626,134.982,0.914,-4.917,0.081,8.75e-05
+"Whatever People Say I Am, That's What I'm Not",When The Sun Goes Down,76,202133,169.152,0.875,-4.758,0.199,0.0
+"Whatever People Say I Am, That's What I'm Not",From The Ritz To The Rubble,69,193426,189.286,0.882,-5.176,0.0439,0.0
+"Whatever People Say I Am, That's What I'm Not",A Certain Romance,67,331200,137.949,0.881,-5.587,0.0401,6.06e-05
+Favourite Worst Nightmare,Brianstorm,71,172866,165.182,0.974,-4.706,0.191,0.00155
+Favourite Worst Nightmare,Teddy Picker,72,165000,150.1,0.963,-5.116,0.0882,0.000889
+Favourite Worst Nightmare,D is for Dangerous,62,138106,145.061,0.925,-4.689,0.0362,0.000161
+Favourite Worst Nightmare,Balaclava,62,171226,137.617,0.811,-4.4,0.0919,0.000129
+Favourite Worst Nightmare,Fluorescent Adolescent,79,183893,112.056,0.828,-5.377,0.0281,0.000144
+Favourite Worst Nightmare,Only Ones Who Know,66,184760,128.37,0.399,-10.696,0.0338,0.0019
+Favourite Worst Nightmare,Do Me a Favour,69,209253,180.15,0.738,-6.638,0.0619,0.0577
+Favourite Worst Nightmare,This House is a Circus,60,191680,155.322,0.844,-5.253,0.0431,0.00196
+Favourite Worst Nightmare,"If You Were There, Beware",59,276200,135.546,0.805,-6.74,0.0383,0.048
+Favourite Worst Nightmare,The Bad Thing,59,145213,111.066,0.952,-3.638,0.075,0.0
+Favourite Worst Nightmare,Old Yellow Bricks,69,193226,135.158,0.837,-4.315,0.0682,6.62e-06
+Favourite Worst Nightmare,505,88,253586,140.266,0.866,-5.822,0.0568,7.78e-05
+Humbug,My Propeller,63,205746,115.752,0.657,-6.758,0.0295,0.0552
+Humbug,Crying Lightning,71,224826,106.719,0.885,-4.423,0.0461,0.00041
+Humbug,Dangerous Animals,55,210666,125.363,0.922,-5.189,0.18,2.39e-06
+Humbug,Secret Door,64,223066,124.615,0.806,-6.554,0.0769,1.11e-05
+Humbug,Potion Approaching,55,212133,103.659,0.758,-8.945,0.0429,0.0673
+Humbug,Fire And The Thud,53,237533,114.904,0.61,-11.228,0.0388,0.006
+Humbug,Cornerstone,68,197973,169.252,0.721,-5.81,0.0387,0.0
+Humbug,Dance Little Liar,61,283493,100.158,0.607,-9.133,0.0352,0.769
+Humbug,Pretty Visitors,62,220506,83.354,0.896,-5.576,0.464,2.83e-05
+Humbug,The Jeweller's Hands,53,344053,96.935,0.8,-8.116,0.0488,0.0834
+Suck It and See,She's Thunderstorms,61,234920,118.929,0.898,-4.906,0.0329,0.00236
+Suck It and See,Black Treacle,60,217440,100.061,0.89,-5.759,0.0655,0.0
+Suck It and See,Brick By Brick,53,179906,132.206,0.807,-4.741,0.0528,0.00368
+Suck It and See,The Hellcat Spangled Shalalala,54,180373,130.22,0.872,-4.992,0.0507,0.00062
+Suck It and See,Don't Sit Down 'Cause I've Moved Your Chair,62,183506,119.729,0.912,-5.148,0.0451,0.278
+Suck It and See,Library Pictures,54,142173,96.954,0.939,-5.836,0.0549,0.00601
+Suck It and See,All My Own Stunts,51,232280,127.283,0.943,-4.934,0.0537,0.0181
+Suck It and See,Reckless Serenade,54,162746,127.966,0.694,-6.632,0.0392,0.0144
+Suck It and See,Piledriver Waltz,63,203880,110.008,0.865,-4.547,0.0391,0.000116
+Suck It and See,Love is a Laserquest,65,191426,169.926,0.662,-6.873,0.0402,0.908
+Suck It and See,Suck It and See,64,225986,128.291,0.932,-5.017,0.057,0.114
+Suck It and See,That's Where You're Wrong,55,256800,135.937,0.883,-5.554,0.0638,0.558
+AM,Do I Wanna Know?,65,272394,85.03,0.532,-7.596,0.0323,0.000263
+AM,R U Mine?,59,201726,97.094,0.758,-5.692,0.0371,0.0
+AM,One For The Road,47,206051,180.048,0.668,-6.849,0.036,0.0615
+AM,Arabella,55,207356,179.949,0.558,-6.986,0.0895,1.26e-06
+AM,I Want It All,43,185406,131.052,0.81,-5.579,0.0347,0.0748
+AM,No. 1 Party Anthem,46,243131,115.013,0.698,-5.563,0.0297,0.0887
+AM,Mad Sounds,41,215011,80.001,0.462,-10.71,0.03,0.196
+AM,Fireside,43,181049,100.033,0.953,-5.611,0.056,0.00126
+AM,Why'd You Only Call Me When You're High?,65,161123,92.004,0.631,-6.478,0.0368,1.13e-05
+AM,Snap Out Of It,55,193030,130.014,0.638,-6.455,0.0336,0.0
+AM,Knee Socks,52,257563,97.975,0.542,-8.323,0.033,0.00291
+AM,I Wanna Be Yours,65,183956,67.528,0.417,-9.345,0.0256,0.022
+Tranquility Base Hotel & Casino,Star Treatment,59,354640,120.07,0.767,-5.026,0.0527,0.00131
+Tranquility Base Hotel & Casino,One Point Perspective,59,208640,77.104,0.585,-4.57,0.0419,0.00444
+Tranquility Base Hotel & Casino,American Sports,52,158040,176.689,0.865,-4.288,0.0513,0.00293
+Tranquility Base Hotel & Casino,Tranquility Base Hotel & Casino,59,212093,142.2,0.835,-4.326,0.0297,0.0147
+Tranquility Base Hotel & Casino,Golden Trunks,51,173626,92.544,0.564,-5.811,0.0278,1.73e-05
+Tranquility Base Hotel & Casino,Four Out Of Five,61,312346,130.189,0.863,-4.31,0.0685,0.0
+Tranquility Base Hotel & Casino,The World's First Ever Monster Truck Front Flip,50,180013,145.075,0.601,-5.742,0.0303,0.349
+Tranquility Base Hotel & Casino,Science Fiction,50,185906,88.062,0.766,-5.411,0.0282,0.0802
+Tranquility Base Hotel & Casino,She Looks Like Fun,51,182560,103.943,0.773,-3.754,0.0388,0.00326
+Tranquility Base Hotel & Casino,Batphone,51,271613,106.521,0.681,-5.728,0.0356,0.0
+Tranquility Base Hotel & Casino,The Ultracheese,54,217720,131.497,0.555,-6.551,0.0404,3.98e-05
