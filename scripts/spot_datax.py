@@ -34,4 +34,5 @@ final_index = pd.MultiIndex.from_frame(main_dataframe[["album","name"]])
 
 main_dataframe.drop(["album","name"], axis="columns", inplace=True)
 main_dataframe.set_index(final_index, inplace=True)
-print(main_dataframe)
+
+main_dataframe.to_csv("../results/spot_data.csv")
