@@ -13,10 +13,10 @@ with open("../data/lyrics.csv") as lyrics_file:
 
         spot_data.set_index(["album", "name"], inplace=True)
 
-        final_data = lyrics_data.join(spot_data).sort_index(axis="index")
-        (rows, columns) = final_data.shape
+        print(spot_data.loc["WHATEVER PEOPLE SAY I AM, THAT'S WHAT I'M NOT"])
+        print(lyrics_data.loc["WHATEVER PEOPLE SAY I AM, THAT'S WHAT I'M NOT"])
 
-        for row in range(rows):
-            print(final_data.iloc[row])
+        final_data = spot_data.join(lyrics_data).sort_index(axis="index")
 
-        final_data.to_csv(path_or_buf="../results/spo_lyr_data.csv")
+        final_data.to_csv("../results/spo_lyr_data.csv", na_rep="_IGNORE_EMPTY_IGNORE_")
+        final_data.to_html("spo_lyr_data.html", na_rep="_IGNORE_EMPTY_IGNORE_")

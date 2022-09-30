@@ -1,5 +1,6 @@
-album,name,lyrics,popularity,duration_ms,tempo,energy,loudness,speechiness,instrumentalness
-AM,ARABELLA,"[Verse 1]
+album,name,popularity,duration_ms,tempo,energy,loudness,speechiness,instrumentalness,lyrics
+505 (LIVE AT THE ROYAL ALBERT HALL),505 - LIVE,37,275733,139.451,0.724,-9.384,0.0753,3.89e-05,_IGNORE_EMPTY_IGNORE_
+AM,ARABELLA,55,207356,179.949,0.558,-6.986,0.0895,1.26e-06,"[Verse 1]
 Arabella's got some interstellar-gator skin boots
 An' a Helter Skelter 'round her little finger
 An' I ride it endlessly
@@ -52,8 +53,8 @@ You can't be sure
 
 [Outro]
 Just might’ve tapped into your mind and soul
-You can't be sure",55.0,207356.0,179.949,0.558,-6.986,0.0895,1.26e-06
-AM,DO I WANNA KNOW?,"[Verse 1]
+You can't be sure"
+AM,DO I WANNA KNOW?,65,272394,85.03,0.532,-7.596,0.0323,0.000263,"[Verse 1]
 Have you got colour in your cheeks?
 Do you ever get that fear that you can't shift the type
 That sticks around like summat in your teeth?
@@ -115,8 +116,8 @@ Crawlin' back to you
 For sayin' things that you can't say tomorrow day
 (Do I wanna know?) Too busy bein' yours to fall
 (Sad to see you go) Ever thought of callin', darlin'?
-(Do I wanna know?) Do you want me crawlin' back to you?",65.0,272394.0,85.03,0.532,-7.596,0.0323,0.000263
-AM,FIRESIDE,"[Verse 1]
+(Do I wanna know?) Do you want me crawlin' back to you?"
+AM,FIRESIDE,43,181049,100.033,0.953,-5.611,0.056,0.00126,"[Verse 1]
 I can't explain but I wanna try
 There's this image of you and I
 And it goes dancing by
@@ -156,8 +157,8 @@ Without thinking of you lately
 I'm not sure if I should show you what I've found
 Has it gone for good, or is it coming back around?
 Isn't it hard to make up your mind
-When you're losing and your fuse is fireside?",43.0,181049.0,100.033,0.953,-5.611,0.056,0.00126
-AM,I WANNA BE YOURS,"[Verse 1]
+When you're losing and your fuse is fireside?"
+AM,I WANNA BE YOURS,65,183956,67.528,0.417,-9.345,0.0256,0.022,"[Verse 1]
 I wanna be your vacuum cleaner
 Breathin' in your dust
 I wanna be your Ford Cortina
@@ -210,8 +211,8 @@ I will never rust (Wanna be yours)
 I just wanna be yours (Wanna be yours)
 I just wanna be yours (Wanna be yours)
 I just wanna be yours (Wanna be yours)
-I just wanna be yours (Wanna be yours)",65.0,183956.0,67.528,0.417,-9.345,0.0256,0.022
-AM,I WANT IT ALL,"[Verse 1]
+I just wanna be yours (Wanna be yours)"
+AM,I WANT IT ALL,43,185406,131.052,0.81,-5.579,0.0347,0.0748,"[Verse 1]
 Blind faith, heartache
 Mind games, mistakes
 My sweet fireball
@@ -249,8 +250,8 @@ I want it all
 I want it all
 I want it all
 I want it all
-I want it all",43.0,185406.0,131.052,0.81,-5.579,0.0347,0.0748
-AM,KNEE SOCKS,"[Verse 1]
+I want it all"
+AM,KNEE SOCKS,52,257563,97.975,0.542,-8.323,0.033,0.00291,"[Verse 1]
 You got the lights on in the afternoon
 An' the nights are drawn out long
 And you’re kissin' to cut through the gloom
@@ -341,8 +342,8 @@ And your knee socks
 
 [Outro]
 Knee socks
-Knee socks",52.0,257563.0,97.975,0.542,-8.323,0.033,0.00291
-AM,MAD SOUNDS,"[Verse 1]
+Knee socks"
+AM,MAD SOUNDS,41,215011,80.001,0.462,-10.71,0.03,0.196,"[Verse 1]
 Mad sounds, in your ears
 Make you feel alright
 They bring you back to life
@@ -387,8 +388,8 @@ Ooh la la la, ooh la la la, ooh la la la, ooh
 Ooh la la la, ooh la la la, ooh la la la, ooh
 Ooh la la la, ooh la la la, ooh la la la, ooh
 Ooh la la la, ooh la la la, ooh la la la, ooh
-Ooh la la la, ooh la la la, ooh la la la, ooh",41.0,215011.0,80.001,0.462,-10.71,0.03,0.196
-AM,NO. 1 PARTY ANTHEM,"[Verse 1]
+Ooh la la la, ooh la la la, ooh la la la, ooh"
+AM,NO. 1 PARTY ANTHEM,46,243131,115.013,0.698,-5.563,0.0297,0.0887,"[Verse 1]
 So you're on the prowl wondering whether
 She left already or not
 Leather jacket, collar popped like antenna
@@ -446,8 +447,8 @@ Before the moment's gone
 Number one party anthem
 Number one party anthem
 Number one party anthem
-Yeah, yeah",46.0,243131.0,115.013,0.698,-5.563,0.0297,0.0887
-AM,ONE FOR THE ROAD,"[Intro: Josh Homme]
+Yeah, yeah"
+AM,ONE FOR THE ROAD,47,206051,180.048,0.668,-6.849,0.036,0.0615,"[Intro: Josh Homme]
 One for the road, oooh oooh
 One for the road, oooh oooh
 
@@ -513,8 +514,8 @@ There's no need to show me 'round, baby
 I feel like I've been here before
 I've been wonderin' whether later
 When you tell everybody to go
-Will you pour me one for the road?",47.0,206051.0,180.048,0.668,-6.849,0.036,0.0615
-AM,R U MINE?,"[Verse 1]
+Will you pour me one for the road?"
+AM,R U MINE?,59,201726,97.094,0.758,-5.692,0.0371,0.0,"[Verse 1]
 I'm a puppet on a string
 Tracy Island, time-traveling
 Diamond cutter-shaped heartaches
@@ -565,8 +566,8 @@ Wanna hear her say is ""Are you mine?""
 Well, are you mine? (Are you mine tomorrow?)
 Are you mine? (Or just mine tonight?)
 Are you mine? (Are you mine tomorrow?)
-(Or just mine tonight?)",59.0,201726.0,97.094,0.758,-5.692,0.0371,0.0
-AM,SNAP OUT OF IT,"[Verse 1]
+(Or just mine tonight?)"
+AM,SNAP OUT OF IT,55,193030,130.014,0.638,-6.455,0.0336,0.0,"[Verse 1]
 What's been happenin' in your world?
 What have you been up to?
 I heard that you fell in love or near enough
@@ -612,8 +613,8 @@ Snap out of it (Snap out of it)
 If that watch don't continue to swing
 Or the fat lady fancies havin' a sing
 I'll be here, waitin' ever so patiently for you to
-Snap out of it",55.0,193030.0,130.014,0.638,-6.455,0.0336,0.0
-AM,WHY'D YOU ONLY CALL ME WHEN YOU'RE HIGH?,"[Verse 1]
+Snap out of it"
+AM,WHY'D YOU ONLY CALL ME WHEN YOU'RE HIGH?,65,161123,92.004,0.631,-6.478,0.0368,1.13e-05,"[Verse 1]
 The mirror's image tells me it's home time
 But I'm not finished, 'cause you're not by my side
 And as I arrived I thought I saw you leavin'
@@ -659,1212 +660,12 @@ An' you're startin' to bore me, baby
 ""Why'd you only ever phone me when you're high?""
 ""Why'd you only ever phone me when you're high?""
 ""Why'd you only ever phone me when you're high?""
-""Why'd you only ever phone me when you're (high)?""",65.0,161123.0,92.004,0.631,-6.478,0.0368,1.13e-05
-BBC RADIO 1'S LIVE LOUNGE 2013,"HOLD ON, WE'RE GOING HOME (COVER)","I got my eyes on you, you're everything that I see
-I want your hot love and emotion endlessly
-I can't get over you, you left your mark on me
-I want your hot love and emotion endlessly
-Because you're a good girl and you know it
-You act so different around me
-Because you're a good girl and you know it
-I know exactly who you could be
-Just hold on, we're going home
-Just hold on, we're going home
-It's hard to do these things alone
-Just hold on, we're going home
-I got my eyes on you, you're everything that I see
-I want your hot love and emotion endlessly
-I can't get over you, you left your mark on me
-I want your hot love and emotion endlessly
-Because you're a good girl and you know it
-You act so different around me
-Because you're a good girl and you know it
-I know exactly who you could be
-Just hold on, we're going home
-Just hold on, we're going home
-It's hard to do these things alone
-Just hold on, we're going home
-You're the girl, you're the one
-Gave you everything I love
-I think there's something, baby
-I think there's something, baby
-You're the girl, you're the one
-Gave you everything I love
-I think there's something, baby
-I think there's something, baby
-Because you're a good girl and you know it
-You act so different around me
-Because you're a good girl and you know it
-I know exactly who you could be
-Just hold on, we're going home
-Just hold on, we're going home
-It's hard to do these things alone
-Just hold on, we're going home",,,,,,,
-BENEATH THE BOARDWALK,A CERTAIN ROMANCE,"[Spoken Intro]
-""Shall I keep rolling?""
-
-[Verse 1]
-Well, oh, they might wear classic Reeboks
-Or knackered Converse, or tracky bottoms tucked in socks
-But all of that's what the point is not
-The point's that there in't no romance around there
-And there's the truth that they can't see
-They'd probably like to throw a punch at me
-And if you could only see 'em then you would agree
-Agree that there in't no romance around there
-
-[Chorus]
-You know? Oh, it's a funny thing, you know
-We'll tell 'em if you like, we'll tell 'em all tonight
-They'll never listen, because their minds are made up
-And course it's all okay to carry on that way
-
-[Verse 2]
-'Cause over there there's broken bones
-There's only music so that there's new ringtones
-And it dun't take no Sherlock Holmes
-To see it's a little different around here
-Don't get me wrong though, there's boys in bands
-And kids who like to scrap with pool cues in their hands
-And just 'cause he's had a couple of cans
-He thinks it's all right to act like a dickhead
-
-[Chorus]
-Don't you know? Oh, it's a funny thing, you know
-We'll tell 'em if you like, we'll tell 'em all tonight
-They'll never listen, because their minds are made up
-And course it's all okay to carry on that way
-
-[Bridge]
-But I said no, oh no
-Well, you won't get me to go
-Not anywhere, not anywhere
-No, I won't go
-Oh, no, no
-
-[Instrumental Break]
-
-[Verse 3]
-But over there, there's friends of mine
-What can I say? I've known 'em for a long long time
-And they might overstep the line
-But you just cannot get angry in the same way
-No, not in the same way
-Said, not in the same way
-Oh no, oh no, no",,,,,,,
-BENEATH THE BOARDWALK,BIGGER BOYS AND STOLEN SWEETHEARTS (DEMO),"[Verse 1]
-There's always somebody taller
-With more of a wit
-And he's equipped to enthrall her
-And her friends think he's fit
-And you just can't measure up no
-You don't have a prayer
-Wishing you had made the most of her
-When she was there
-
-[Pre-Chorus]
-They've got engaged
-No intention of a wedding
-He's pinched your bird
-And he'd probably kick your head in
-
-[Chorus]
-Bigger Boys and Stolen Sweethearts
-You're better off without her anyway
-You said you wasn't sad to see her go
-Oh no
-
-[Verse 2]
-He might be one of those boys
-That's all pretty and vain
-Likes to go in the sunbed
-And stays out of the rain
-So that he don't get his hair wet
-You wouldn't want that
-At least he hasn't got a Nova
-Or a Burberry hat
-
-[Pre-Chorus]
-They've got engaged
-No intention of a wedding
-He's pinched your bird
-And he'd probably kick your head in
-
-[Chorus]
-Bigger Boys and Stolen Sweethearts
-You're better off without her anyway
-You said you wasn't sad to see her go
-Of course you were
-
-[Verse 3]
-Have you heard what she's been doing?
-Never did it for me
-He picks her up at the school gates
-At twenty past three
-She's been with all the boys
-But never went very far
-She wagged English and Science
-Just to go in his car
-
-[Pre-Chorus]
-They've got engaged
-No intention of a wedding
-He's pinched my bird
-And he'd probably kick my head in, oh
-Now the girls have grown
-But I'm sure they still carry on in similar ways
-
-[Chorus]
-Bigger Boys and Stolen Sweethearts
-So I'm better off without her anyway
-I said I wasn't sad to see her go
-But I'm only pretending, you know
-Yeah, I'm only pretending, you know
-Yeah, I'm only pretending, you know
-Oh I'm only pretending, you know",,,,,,,
-BENEATH THE BOARDWALK,CHOO CHOO,"[Verse 1]
-My baby wants to drive the train
-But don't you let her, well, don't you let her touch the tracks
-I said, my baby wants to drive the train
-Well, all aboard, yeah, and don't forget to mind the gap
-
-[Pre-Chorus]
-Don't you let her, don't you know
-She's sick and tired of
-Being in the background, the passenger
-Let her drive the train, oh
-
-[Chorus]
-Choo-choo!
-Why don't you let her drive the train? Oh
-Choo-choo!
-Why don't you let her drive the train? Yeah
-
-[Verse 2]
-She's setting off from platform four
-Make your way down, we'll shut the door 'bout quart to five
-I said, she's setting off from platform four
-And they've decided that they're gonna let her drive
-
-[Pre-Chorus]
-Well, don't you let her, no, don't you know
-She's sick and tired of
-Being in the background, the passenger
-Let her drive the train, oh
-
-[Chorus]
-Choo-choo!
-Why don't you let her drive the train? Oh
-Choo-choo!
-Why don't you let her drive my train? Yeah, woah
-
-[Instrumental break]
-
-[Outro]
-Choo-choo!
-Choo-choo!
-Choo-choo!
-Choo-choo!",,,,,,,
-BENEATH THE BOARDWALK,CIGARETTE SMOKE,"Get out the way, mister
-With your short sharp tips
-No, I won't read your lips right now
-And baby, hey
-You send a shiver down my spine
-But do you read my mind
-Do you?
-And you're looking pretty suspicious
-And probably planning a heist
-He's wanting to go to the strippers
-It makes him feel all nice
-
-(Cigarette smoke yeah)
-The cigarette smoke in your eyes
-Watching a stripper and
-(Smacking a bloke yeah)
-Smacking a bloke here tonight
-
-Get out my way, mister
-With your short sharp tips
-No, I won't read your lips right now
-And baby, hey
-You send a shiver down my spine
-But do you read my mind
-Do you?
-He's probably got stopped by a panda
-For speeding on his way there
-Flashing of digital cameras
-From tourists in Trafalgar Square
-
-(Cigarette smoke yeah)
-The cigarette smoke in your eyes
-Watching a stripper and
-(Snortin' some coke yeah)
-Snortin' some coke off her thighs
-Blah-blah-blah-blah-blah-blah
-
-(Cigarette smoke yeah)
-The cigarette smoke in your eyes
-Watching a stripper and
-(Smacking a bloke yeah)
-Smacking a bloke here tonight
-And I just can't see for the
-(Cigarette smoke yeah)
-The cigarette smoke in your eyes
-Watching a stripper and
-(Snortin' some coke yeah)
-Snortin' some coke off her thighs
-Lalalalalala laaaaaaaoooo
-Owww",,,,,,,
-BENEATH THE BOARDWALK,CURTAINS CLOSED,"[Verse 1]
-I said I wanted it long but she cut it short
-And now I'm catching a cold
-I told you not but no crack in the doobie
-But it was already rolled
-
-[Chorus]
-Oh, I turned down my lights
-And my curtains weren't closed
-I turned down my lights
-And my curtains weren't closed
-Oh well, I turned down my lights
-And my curtains weren't closed last night
-Oh baby, I must be mad
-
-[Verse 2]
-Well, I don't care about your massage oils
-It's got my skin going red
-Cause I'm a mad mother-fucker
-With my curtains open
-Sitting tucked up in bed
-
-[Chorus]
-I turned down my lights
-And my curtains weren't closed
-I turned down my lights
-And my curtains weren't closed
-Oh well, I turned down my lights
-And my curtains weren't closed last night
-Oh baby, I must be mad",,,,,,,
-BENEATH THE BOARDWALK,DANCING SHOES (DEMO),"[Verse 1]
-Get on your dancing shoes
-There's one thing on your mind
-Hoping they’re looking for you
-Sure you'll be rummaging through
-Oh and the shit, shock, horror
-You've seen your future bride
-Yeah, but it's oh so absurd
-For you to say the first word so you're waiting and waiting and
-
-[Chorus]
-The only reason that you came
-So what you scared for?
-Well, don't you always do the same?
-It's what you there for, don't you know?
-
-[Verse 2]
-The lights are flashing
-Down in here tonight
-And some might exchange a glance
-But keep pretending to dance
-Don't act like it's not happening
-As if it's impolite
-To go and mention your name
-Instead you'll just do the same as they all do, and hope for the best
-
-[Chorus]
-The only reason that you came
-So what you scared for?
-Well, don't you always do the same?
-It's what you’re there for, but no
-
-[Instrumental Break]
-
-[Verse 3]
-Get on your dancing shoes
-You sexy little swine
-Hoping they’re looking for you
-Sure, you'll be rummaging through
-Oh and the shit, shock, horror
-You've seen your future bride, yeah
-Yeah, but it's oh so absurd
-For you to say the first word so you're waiting and whoa",,,,,,,
-BENEATH THE BOARDWALK,FAKE TALES OF SAN FRANCISCO,"[Verse 1]
-Fake tales of San Francisco
-Echo through the room
-More point to a wedding disco
-Without a bride or groom
-And there's a super cool band, yeah
-With their trilbies and their glasses of white wine
-And all the weekend rockstars are in the toilets
-Practicing their lines
-
-[Chorus]
-I don't want to hear you, kick me out, kick me out
-I don't want to hear you, no, kick me out, kick me out
-I don't want to hear you, kick me out, kick me out
-I don't want to hear you, I don't want to hear your
-
-[Verse 2]
-Fake tales of San Francisco
-Echo through the air
-And there's a few bored faces at the back, all
-Wishing they weren't there
-And as the microphone squeaks
-A young girl's telephone beeps
-Yeah, she's dashing for the exit
-Oh, she's running to the streets outside
-""Oh, you've saved me"" she screams down the line
-""The band were fucking wank and I'm not having a nice time""
-
-[Chorus]
-I don't want to hear you, kick me out, kick me out
-I don't want to hear you, no, kick me out, kick me out
-
-[Post-Chorus]
-Yeah, but his bird said it's amazing though so all that's left
-Is the proof that love's not only blind, but deaf
-
-[Bridge]
-He talks of San Francisco, he's from Hunter's Bar
-I don't quite know the distance, but I'm sure that's far
-Yeah, I'm sure it's pretty far
-And yeah, I'd love to tell you all my problem
-You're not from New York City, you're from Rotherham
-So get off the bandwagon, and put down the handbook
-Yeah, yeah, yeah, yeah, yeah
-
-[Outro]
-Get off the bandwagon and put down the handbook
-Get off the bandwagon and put down the handbook
-Get off the bandwagon and put down the handbook
-Get off the bandwagon and put down the handbook, yeah",,,,,,,
-BENEATH THE BOARDWALK,I BET YOU LOOK GOOD ON THE DANCEFLOOR,"[Verse 1]
-Stop making the eyes at me, I'll stop making the eyes at you
-What it is that surprises me is that I don't really want you to
-
-[Pre-Chorus]
-And your shoulders are frozen (Cold as the night)
-Oh, but you're an explosion (You're dynamite)
-Your name isn't Rio, but I don't care for sand
-And lighting the fuse might result in a bang, b-b-bang-oh
-
-[Chorus]
-I bet that you look good on the dancefloor
-I don't know if you're looking for romance or
-I don't know what you're looking for
-I said, I bet that you look good on the dancefloor
-Dancing to electro-pop like a robot from 1984
-Well, from 1984
-
-[Verse 2]
-I wish you'd stop ignoring me because it's sending me to despair
-Without a sound, yeah, you're calling me and I don't think it's very fair
-
-[Pre-Chorus]
-That your shoulders are frozen (Cold as the night)
-Oh, but you're an explosion (You're dynamite)
-Your name isn't Rio, but I don't care for sand
-And lighting the fuse might result in a bang, b-b-bang-oh
-
-[Chorus]
-I bet that you look good on the dancefloor
-I don't know if you're looking for romance or
-I don't know what you're looking for
-I said, I bet that you look good on the dancefloor
-Dancing to electro-pop like a robot from 1984
-Well, from 1984
-
-[Bridge]
-And no there in't no love, no Montagues or Capulets
-Just banging tunes and DJ sets and
-Dirty dancefloors and dreams of naughtiness
-
-[Chorus]
-Well I bet that you look good on the dancefloor
-I don't know if you're looking for romance or
-I don't know what you're looking for
-I said, I bet that you look good on the dancefloor
-Dancing to electro-pop like a robot from 1984
-Said, from 1984",,,,,,,
-BENEATH THE BOARDWALK,KNOCK A DOOR RUN,"[Verse 1]
-Watch me, watch me go
-Well I'm struttin' up ever so slow
-And now sting me, get in the groove
-Cause they're bangin' on the door
-Yes they're hard and they'll make a move
-
-[Bridge]
-We're wakin' up those sleepers
-You know we're so mischievous
-Just what you'll do to keep us entertained
-We're wakin' up those sleepers
-You know we're so mischievous
-Just what you'll do to keep us entertained
-
-[Hook]
-(Knock, run)
-She's got you up and she's run, run, runnin' away
-(Knock, run)
-You're knockin' first if you think that you're comin' to play
-
-And I don't mind
-Cause all the time you're talkin' at me
-No I don't mind at all
-
-[Verse 2]
-Oh well cap-guns and polystyrene planes
-Well I'm buyin' penny bubblies with my change
-Cause sting me, get in the groove
-Cause they're bangin' on the door
-Yes they're hard and they'll make a move
-
-[Bridge]
-We're wakin' up those sleepers
-You know we're so mischievous
-Just what you'll do to keep us entertained
-Well now she said she's going
-She's got the towel to throw in
-Was just about to blow him and ran away
-
-[Hook]",,,,,,,
-BENEATH THE BOARDWALK,MARDY BUM,"[Verse 1]
-Well, now then, mardy bum
-I've seen your frown and it's like looking down
-The barrel of a gun, and it goes off
-And out come all these words
-Oh, there's a very pleasant side to you
-A side I much prefer
-
-[Chorus]
-It's one that laughs and jokes around
-Remember cuddles in the kitchen, yeah
-To get things off the ground
-And it was; up, up, and away
-Ah, but it's right hard to remember that
-On a day like today
-When you're all argumentative
-And you've got the face on
-
-[Verse 2]
-Well, now then mardy bum
-Oh, I'm in trouble again, aren't I?
-I thought as much
-'Cause you turned over there
-Pulling that silent disappointment face
-The one that I can't bear
-
-[Chorus]
-Well, can't we just laugh and joke around?
-Remember cuddles in the kitchen, yeah
-To get things off the ground
-And it was; up, up, and away
-Ah, but it's right hard to remember that
-On a day like today
-When you're all argumentative
-And you've got the face on
-
-[Bridge]
-And yeah, I'm sorry I was late
-But I missed the train
-And then the traffic was a state
-And I can't be arsed to carry on in this debate
-That reoccurs, oh, when you say I don't care
-But, of course I do, yeah, I clearly do
-
-[Instrumental Break]
-
-[Chorus]
-So laugh and joke around
-Remember cuddles in the kitchen, yeah
-To get things off the ground
-And it was; up, up, and away
-Oh, but it's right hard to remember that
-On a day like today
-When you're all argumentative
-And you've got the face on",,,,,,,
-BENEATH THE BOARDWALK,ON THE RUN FROM THE MI5,"[Verse 1]
-Come and take a leaf out of my book
-I'm a crack dealing crook
-Selling lots of rock and roll to the masses
-And I know if you wanna take a trip to the city
-We can go (to Gibraltar)
-We can go (to Gibraltar)
-
-[Hook]
-Let's go, let's go, let's go, come on
-Come on, come on, come on, come on
-Let's go, let's go, let's go, come on
-
-Give me your switch card
-I'll book some flights
-
-[Verse 2]
-1996 and I'm stuck at the bottom of a truck
-On the run from the MI5, got detectives
-And I'll say if you catch me that I really wish
-That I had stayed (in Gibraltar)
-That I had stayed (in Gibraltar)
-
-[Hook]
-Let's go, let's go, let's go, come on
-Come on, come on, come on, come on
-Let's go, let's go, let's go, come on
-
-Give me your switch card
-I'll book some flights",,,,,,,
-BENEATH THE BOARDWALK,RAVEY RAVEY RAVEY CLUB,"[Verse 1]
-She's been thinking, well fuck it all, we're not going home today
-And she's been eating too much magic beans to walk home anyway
-And you can't fool me, come down to the dirty ground
-Put up your picture and the playful word will get around
-Yeah, word will get around, yeah
-Yeah, word will get around
-
-[Hook]
-Everyone's feeling alright
-I won't be sleeping today
-I won't be sleeping tonight
-
-[Verse 2]
-Feeling silly, feeling oh so sick
-And I can't see you through the smoke because the cloud's so thick
-And there's a fire as you're dancing to the disco sound
-Put up your picture baby and word will get around
-Yeah, word will get around, yeah
-Yeah, word will get around
-
-[Hook]
-Everyone's feeling alright
-I won't be sleeping today
-I won't be sleeping tonight",,,,,,,
-BENEATH THE BOARDWALK,RIOT VAN (DEMO),"We got thrown in a riot van
-And the coppers kicked him in
-And there was no way he could win
-Just had to take it on the chin
-
-Smoked a bong a last night
-And stole somebody's telephone
-He thinks it's all alright
-But they've left him on his own, on his own
-
-But baby stop calling
-Over and over, yeah
-And give me some funny cigarettes
-And do what they told you, yeah
-
-Pinched a car with one headlight
-And lost control, the passengers were screaming
-Made him shut his eyes right tight
-And think of you, and hope that he was dreaming
-
-Then up rolled the riot van
-And called the fire brigade
-But it was already too late
-And there was no arrests to make
-Ohhhhh!
-
-But baby stop calling
-Over and over yeah
-And give me some funny cigarettes
-And do what they told you, yeah",,,,,,,
-BENEATH THE BOARDWALK,SCUMMY,"[Intro]
-So who's that girl there?
-I wonder what went wrong so that she had to roam the streets
-She don't do major credit cards, I doubt she does receipts
-It's all not quite legitimate
-And what a scummy man
-Just give him half a chance, I bet he'll rob you if he can
-I can see it in his eyes, yeah that he's got a driving ban
-Amongst some other offences
-And I've seen him with girls of the night
-And he told Roxanne to put on her red light
-They're all infected but he'll be alright
-'Cause he's a scumbag, don't you know?
-I said he's a scumbag, don't you know?
-
-[Instrumental Bridge]
-
-[Verse 1]
-Although you're trying not to listen
-I bet your eyes are staring at the ground
-She makes a subtle proposition
-""I'm sorry love, I'll have to turn you down""
-And oh, he must be up to summat
-What are the chances? Sure it's more than likely
-I've got a feeling in my stomach
-And start to wonder what his story might be
-What his story might be, yeah
-
-[Chorus]
-They said it changes when the sun goes down
-They said it changes when the sun goes down
-They said it changes when the sun goes down
-Around here
-Around
-
-[Verse 2]
-And look, here comes a Ford Mondeo
-Isn't he Mr. Inconspicuous?
-And he don't have to say 'owt
-She's in the stance ready to get picked up
-And she's delighted when she sees him
-Pulling in and giving her the eye
-Because she must be fucking freezing
-Scantily clad beneath the clear night sky
-She don't stop in the winter, no and
-
-[Chorus]
-They said it changes when the sun goes down
-They said it changes when the sun goes down
-They said it changes when the sun goes down
-Around here
-Well they said it changes when the sun goes down
-Yeah they said it changes when the sun goes down
-They said it changes when the sun goes down
-Around here
-Around here
-
-[Outro]
-What a scummy man
-Just give him half a chance, I bet he'll rob you if he can
-Can see it in his eyes that he's got a nasty plan
-I hope you're not involved at all",,,,,,,
-BENEATH THE BOARDWALK,SPACE INVADERS,"[Verse 1]
-Space invaders flying home
-And they're going to hit the sack
-And they're probably going to die getting high
-Cause they're mixing crazy moments with the crack
-
-And she's kissing all the boys
-She's to clever to be slack
-But she's bound to go away for a day
-And she'll like it, so she won't be coming back
-
-[Hook]
-Baby, baby, baby
-Your good old days have died
-Baby, baby, baby
-Now won't you dry your pretty eyes
-Baby, baby, baby
-Your good old days are dead
-Come on
-
-[Verse 2]
-Spot big bell bottom cords
-And a matching with a hat
-And you're a rule breaker, baby
-Can't you see me standing only in your way to hit the sack
-
-And she's kissing all the boys
-She's too clever to be slack
-But she's bound to go away for a day
-And she'll like it, so she won't be coming back
-
-[Hook]
-Baby, baby, baby
-Your good old days have died
-Baby, baby, baby
-Won't you dry your pretty eyes
-Baby, baby, baby
-Your good old days are dead
-Come on",,,,,,,
-BENEATH THE BOARDWALK,STICKIN' TO THE FLOOR,"[Verse 1]
-Won't somebody let me out?
-Don't want to stick around no more
-I'm sick of lookin' at you strange
-I'm sick of stickin' to the floor
-
-[Chorus]
-Not one of you has got an ounce of style in ya
-Said, not one of you, no
-
-[Verse 2]
-Well, fuck it all and break your nose
-If they keep on pushin' you around
-If they keep on steppin' on your toes
-And pick you up when you fall down
-
-[Chorus]
-Not one of you has got an ounce of style in ya
-Said, not one of you, no
-
-[Instrumental Break]
-
-[Chorus]
-Not one of you has got an ounce of style in ya, no
-Said, not one of you, no",,,,,,,
-BENEATH THE BOARDWALK,STILL TAKE YOU HOME (DEMO),"[Intro]
-Ooooo
-
-[Verse 1]
-Oh spending all your money
-On trendy haircuts that you read were cool
-And you're probably alright
-But under these lights you look beautiful
-And I’m strugglin'
-I can't see through your fake tan
-Yeah, you know it for a fact
-That everybody’s eating out of your hands
-
-[Chorus]
-But what do you know?
-Oh you know nothing
-Yeah, but I'll still take you home
-Yeah, I'll still take you home
-Oh what do you know?
-Oh you don't know nothing
-
-[Instrumental Break]
-
-[Verse 2]
-Well, fancy seeing you in here
-You're all tarted up and you don't look the same
-Well I ain't seen you since last year
-Yeah, and surprisingly you have forgot my name
-But you know it, yeah, you knew it all along
-Oh you say you have forgotten but you're fibbing, go on, tell me I’m wrong
-
-[Chorus]
-What do you know?
-Oh, you know nothing
-Yeah, but I’ll still take you home
-Oh, I'll still take you home
-Yeah, what do you know?
-Oh, you don’t know nothing, no
-
-[Instrumental Break]
-
-[Bridge]
-Woah, woah, woah
-Woah, woah, woah
-Da-da-da-da, da-da, da-da-da
-Da-da-da, da-da, da da
-Woah, woah, woah
-Woah, woah-woah-woah
-
-[Chorus]
-Yeah, so what do you know?
-Oh, you don't know nothing, no
-Yeah, but I'll still take you home
-Yeah, I'll still take you home
-Yeah, so what do you know?
-Oh, you don’t know nothing
-
-[Verse 3]
-You sold your soul to the fashion
-Yeah, you're a Topshop princess, a rockstar too
-But, where's the love and the passion?
-Oh I suppose that's nothing to do with you
-But it's alright, oh I'll put it all on one side
-'Cause everybody's looking
-You've got control of everyone's eyes
-Including mine",,,,,,,
-BENEATH THE BOARDWALK,WAVIN' BYE TO THE TRAIN OR THE BUS,"Oh baby, I'm wanting to do you a swap
-I'll give you anything, yeah
-In return for the noises you've got
-And I can see you want to be attended to
-Just count to twenty-nine and I'll attend to you
-Oh for sure... well certainly, yeah yeah yeah
-Wavin' bye to the train or the bus
-I'm ever so worried because...
-I don't want to get all forgotten...
-
-So very comfortable..
-Don't really need to put up my feet
-And even in fat sam's grand slam
-Can't see it being easier to speak
-When you've karate-kicked your way to someone new
-And I'm a memory and don't know what to do
-All on his own...
-Collecting his dole n' stuff
-
-Wavin' bye to the train or the bus
-I'm ever so worried because...
-I don't want to get all forgotten...
-Cause we know
-Yeah, we know-oh-oh-oh
-Oh we know, a woah-oh-oh
-
-Don't know where we're going, baby
-I s'pose it depends
-But even if we're all far apart
-We can all come back and all be fine
-We'll be able to be together again
-
-Be together again
-Be together again
-Be together again
-Be together again
-Be together again
-Be together again
-
-Everybody will be together again!",,,,,,,
-BLACK TREACLE - SINGLE,YOU AND I,"[Verse 1: Richard Hawley]
-I like the way you look at me, baby
-Please don't try to turn out the lights
-I act as if I'm not going crazy
-But girl, I'm in a muddle tonight
-Would you tell me where you're gonna take it?
-If I had a heart, you're the one who should break it
-The engine's running
-Can't decide if I should ride away
-
-[Chorus: Richard Hawley & Alex Turner]
-You and I
-You and I
-
-[Bridge: Richard Hawley]
-I had a woman, she went away
-And now I'm lonely
-Fuck it
-
-[Chorus: Richard Hawley & Alex Turner]
-You and I
-You and I
-You and I
-You and I
-
-[Instrumental Break]
-
-[Verse 2: Richard Hawley]
-Would you tell me where you're gonna take it?
-If I had a heart, you're the one who should break it
-The engine's running
-Can't decide if I should ride away
-
-[Chorus: Richard Hawley & Alex Turner]
-You and I
-You and I
-You and I
-You and I
-You and I
-You and I
-
-[Verse 3: Richard Hawley]
-I like the way you look at me, baby
-Please don't try to turn out the lights
-I act as if I'm not going crazy
-But girl, I'm in a muddle tonight",,,,,,,
-BRIANSTORM - SINGLE,IF YOU FOUND THIS IT'S PROBABLY TOO LATE,"[Verse 1]
-Under constant correction, a fraud, a fraud
-Someone's perception, trying not to bore
-I'm a cold-hearted kidder, applaud, applaud
-If you're the highest bidder, I'm yours
-You think we have pathetic sets
-And we're not sure of the etiquette
-Although we know they're pathetic sets
-And we're not sure of the etiquette
-
-[Chorus]
-And if you found this, it's probably too late
-Clinically cynical, hereditary hate
-If you found this, it's probably too late
-Approaching the pinnacle, I'm running out of mates
-
-[Verse 2]
-If we concentrate on being off the cuff
-Not sure we're ready, but probably rough
-Frightened that honesty isn't enough
-And it's nothing on the early stuff",,,,,,,
-BRIANSTORM - SINGLE,TEMPTATION GREETS YOU LIKE YOUR NAUGHTY FRIEND,"[Chorus: Alex Turner]
-I don't ever want to hate you
-So don't show me your bed
-The only roads are cul-de-sacs
-The first thing that she said
-
-[Verse 1: Alex Turner]
-Temptation greets you like your naughty mate
-The one that used to get you in bother
-But one you could never bring yourself to hate
-And she said we've got that spark
-But only lights a fuse, helps you see in the dark
-But it's a sight you'll lose when
-The temptation greets you like your naughty friend
-
-[Chorus: Alex Turner]
-I don't ever want to hate you
-So don't show me your bed
-The only roads are cul-de-sacs
-The only ends are dead
-
-[Verse 2: Alex Turner]
-Temptation greets you like your naughty mate
-The one that made you steal and set things on fire
-The one you haven't seen of late
-And I said that kind of talk
-Only adds intrigue to the cauldron of thought
-It's already exceeding
-Temptation, the very thing that held her back
-
-[Chorus: Alex Turner]
-I don't ever want to hate you
-So don't show me your bed
-The only roads are cul-de-sacs
-The only ends are dead
-I don't ever want to hate you
-It's not part of the plan
-So keep your charm where I can't see it
-And your hands where I can
-
-[Verse 3: Dizzee Rascal]
-Yo, it's Rasc' gettin' dirtee stankin', yeah
-We used to be in tight, me and my naughty friends
-Caused pure madness in the end, I mean day and night
-We robbed, we stole, we loved to fight
-Smoking, drinking, drag riding
-Drugs, thugs, not law-abiding
-Reckless youngsters, no direction, no sign of correction
-But then I switched it off, changed my ways
-Run the area like, ""Oh, my days""
-But a lot of my naughty friends, they're not phased
-Can't believe that this music pays
-See no reason why we can't do
-All the things that we've always done
-Still in my heart I know that's just one
-But it's hard to fight the temptation, son
-
-[Pre-Chorus: Alex Turner]
-The panic will fall down around you
-If you don't do what I say
-
-[Chorus: Alex Turner]
-I don't ever want to hate you
-So don't show me your bed
-The only roads are cul-de-sacs
-The only ends are dead
-I don't ever want to hate you
-It's not part of the plan
-So keep your charm where I can't see it
-And your hands where I can",,,,,,,
-BRIANSTORM - SINGLE,WHAT IF YOU WERE RIGHT THE FIRST TIME?,"[Verse 1]
-Betwixt and between, the fantastic dream and the fear
-Do you wonder where she is this afternoon?
-And does it get on your nerves, make you slightly perturbed
-That there's things that you don't know about her?
-And even the places that she's never been with you
-Seem awful empty without her
-
-[Chorus]
-You can't look into those eyes
-Down no telephone line
-What if you were right first time?
-You can't look into those eyes
-Down no telephone line
-What if you were right first time?
-
-[Instrumental Break]
-
-[Verse 2]
-Betwixt and between, the fantastic dream and the fear
-Do you wonder where she is this afternoon?
-And with the needle in groove, is there owt to prove?
-And tell me, are your feet still tapping?
-I know there’s a first for a trip over the water
-What is the worst that could happen?
-
-[Chorus]
-You can't look into those eyes
-Down no telephone line
-What if you were right first time?",,,,,,,
-CORNERSTONE - SINGLE,CATAPULT,"[Verse 1]
-Both sides
-In softly came the growl from both sides
-And if his whisper splits the mist
-Just think of what he's capable of with his kiss
-Nice try
-You cannot turn away, but nice try
-Turned your legs to little building blocks
-And with his index finger flicks you on your socks
-
-[Verse 2]
-I go high-pitched
-He'll talk and make your voice sound high-pitched
-Dread to think if he got you on your own
-And whispered in your ear in that baritone
-It's the same stone
-His heart was cut out of the same stone
-That they used to carve his jaw
-It's impossible not to feel inferior
-
-[Chorus 1]
-And he could catapult you back to your daddy
-Or into any hissing misery
-And he will tell you how the day after a triumph
-Is as hollow as the day after a tragedy
-He'll extinguish any chance of escape
-When he slaps you on your arse or kisses your nape
-And he's leaving without saying bye
-
-[Instrumental Break]
-
-[Chorus 2]
-And you will queue up to listen to him pissing
-And hang around to watch some poor girl blub
-And then they chase him down the avenue
-Incessantly pestering him to let him join the club
-He knows how to put a cork in the fuss
-And just how to shut up the charming ones of us
-And I've seen him talking to your lady friend
-
-[Bridge]
-There's a dust track waiting for betrayal
-Where he'll teach you all the bits they missed
-
-[Outro]
-Nice try, you cannot turn away but nice try
-Nice try, you cannot turn away but nice try
-Nice try, you cannot turn away but nice try
-Nice try, you cannot turn away but nice try
-You cannot turn away",,,,,,,
-CORNERSTONE - SINGLE,FRIGHT LINED DINING ROOM,"[Verse 1]
-You thrive on dancing in our laps before the more familiar chaps
-Who know the curtain leads to fever
-We watched the womaniser cry, and in the last sip
-You and I declared we might require a breather
-I am the truth's true truant, I can feign excitement
-Fluently as solid as I can busk shock
-With well-presented merriment and I know all too well
-I shouldn't break the key off in the lock
-
-[Chorus]
-And the tumble splits the frame
-Revealing silk and fits
-In the fright lined dining room
-Throw a gaze towards them while they feast
-
-[Verse 2]
-The days drag their heels when you're not there to crack the whip
-And the weeks wait to burst like a sachet of brats
-The old pantomime villain follows my coat
-And he hides where it hangs and he spies through the slats
-And meanwhile in the desert's only costume shop
-The cowls hang and wait to rot away the identities of the willing
-
-[Verse 3]
-So I'm back to sugar in the night
-Rocketing shutter doors despite the shop not opening for hours
-You can itch, flap and whistle and try to avoid the tock
-As I scribbled over drivel, you were snoring; showing off
-
-[Chorus]
-The tumble splits the frame
-Revealing silk and fits
-In the fright lined dining room
-Throw a gaze towards them while they feast",,,,,,,
-CORNERSTONE - SINGLE,SKETCHEAD,"[Verse 1]
-Sketchead is coming to your party
-He's walking up your drive and he's swinging all his keys around
-Sketchead, he's seen you with your top off
-He already knows your boyfriend, retain your introductions
-Sketchead, that cumbersome protagonist
-The pips in your quince, the eye behind the spy hole
-The itch you can't itch in your ear
-And the knock that shattered your packet of peppermints
-
-[Verse 2]
-Sketchead, there's poison in his spit
-He'll compliment your tits and leave you to your wits
-Sketchead, convincingly insisting the tyres were bald
-When you gave him the car
-Sketchead, still coming to your party
-Still walking up your drive and still swinging all his keys around
-On his finger as a pendulum to unnerve
-
-[Verse 3]
-And then there's you, you've changed
-I approached you like you were the same
-But soon it was apparent a new name was required
-New lips went and fired accomplishments at me
-While I'm captivated by your magazine skin
-The tint on your lenses obscures to begin
-And you know full well
-That anyone who says that they don't prefer the sequel
-Will still be swinging on themselves tonight",,,,,,,
-DO I WANNA KNOW? - SINGLE,2013,"[Verse 1]
-Well, the times are slowly changing, baby, even when it's live
-You can press pause and rewind
-You knew it'd go amazing, but is this what you had in mind?
-Oh, there's nothing you can't find
-
-[Chorus]
-It's two thousand and thirteen, all across the galaxy
-It's two thousand and thirteen
-
-[Verse 2]
-On the back of a transmitter, there's a little shiny fruit
-And it's coming after you
-As for Instagram and Twitter, she got caught in both lassoes
-And neither one will cut her loose
-
-[Chorus]
-It's two thousand and thirteen, all across the galaxy
-It's two thousand and thirteen
-
-[Bridge]
-So, baby, take a walk with me
-Past flying cars and time machines
-There's magic like you won't believe
-
-[Chorus]
-It's two thousand and thirteen, all across the galaxy
-It's two thousand and thirteen",,,,,,,
-DON'T SIT DOWN 'CAUSE I'VE MOVED YOUR CHAIR - SINGLE,I.D.S.T.,"[Verse 1]
-I wrote, ""I was here,"" I.D.S.T
-On the bathroom mirror, I.D.S.T
-
-[Chorus]
-I.D.S.T., I.D.S.T., I.D.S.T
-I.D.S.T., I.D.S.T., I.D.S... T
-
-[Verse 2]
-I wrote, ""Mark for Jenny,"" I.D.S.T
-With a drawing compass on the backseat
-
-[Chorus]
-I.D.S.T., I.D.S.T., I.D.S.T
-I.D.S.T., I.D.S.T., I.D.S... T
-
-[Instrumental break]
-
-[Chorus]
-I.D.S.T., I.D.S.T
-I.D.S.T., I.D.S... T",,,,,,,
-DON'T SIT DOWN 'CAUSE I'VE MOVED YOUR CHAIR - SINGLE,THE BLOND-O-SONIC SHIMMER TRAP,"[Verse 1]
-Black as a beacon in a river of shimmering fog
-Yes, she was
-If you were heatseeking, she was hard to ignore
-Yes, she was
-
-[Chorus]
-And she snapped wing mirrors off of Cadillacs
-The particular pretty ones
-And that meant she never had to strain her back
-When she was putting her lippy on
-
-[Verse 2]
-Well, time tastes bland when she's not around
-And you'd sit and you'd sink and approach the brink
-Before she showed you how to shake love's steady hand
-Tha knows
-
-[Chorus]
-And she snapped wing mirrors off of Cadillacs
-The particular pretty ones
-And that meant she never had to strain her back
-When she was putting her lippy on
-
-[Bridge]
-Shake love's steady hand
-Shake love's steady
-She floats like a niccy rush and stings like a B-flat
-The blond-o-sonic shimmer trap
-
-[Chorus]
-And she snapped wing mirrors off of Cadillacs
-The particular pretty ones
-And that meant she never had to strain her back
-When she was putting her lippy on",,,,,,,
-FAVOURITE WORST NIGHTMARE,505,"[Chorus]
+""Why'd you only ever phone me when you're (high)?"""
+ARABELLA (LIVE AT THE ROYAL ALBERT HALL),505 - LIVE,33,275733,139.62,0.769,-8.013,0.0812,3.3e-05,_IGNORE_EMPTY_IGNORE_
+ARABELLA (LIVE AT THE ROYAL ALBERT HALL),ARABELLA - LIVE,35,246973,91.247,0.86,-6.814,0.256,0.0,_IGNORE_EMPTY_IGNORE_
+BODY PAINT,BODY PAINT,0,290584,144.745,0.313,-11.653,0.0627,0.0,_IGNORE_EMPTY_IGNORE_
+BODY PAINT,THERE’D BETTER BE A MIRRORBALL,0,265798,71.998,0.367,-10.896,0.0309,0.0118,_IGNORE_EMPTY_IGNORE_
+FAVOURITE WORST NIGHTMARE,505,88,253586,140.266,0.866,-5.822,0.0568,7.78e-05,"[Chorus]
 I'm going back to 505
 If it's a seven-hour flight or a forty-five-minute drive
 In my imagination, you're waiting lying on your side
@@ -1898,8 +699,8 @@ Take my hands off of your eyes too soon
 I'm going back to 505
 If it's a seven-hour flight or a forty-five minute drive
 In my imagination, you're waiting lying on your side
-With your hands between your thighs and a smile",88.0,253586.0,140.266,0.866,-5.822,0.0568,7.78e-05
-FAVOURITE WORST NIGHTMARE,BALACLAVA,"[Verse 1]
+With your hands between your thighs and a smile"
+FAVOURITE WORST NIGHTMARE,BALACLAVA,62,171226,137.617,0.811,-4.4,0.0919,0.000129,"[Verse 1]
 Running off over next door's garden before the hour is done
 It's more a question of feeling than it is a question of fun
 The confidence is the balaclava, I'm sure you'll baffle 'em good
@@ -1936,8 +737,8 @@ Of the day of the most flawless heist of all time
 You knew that it'd be trouble right before the very first kiss
 Quiet and unassuming but you heard that they were the naughtiest
 She pleaded with you to take it off but you resisted and fought
-But sorry, sweetheart, I'd much rather keep on the balaclava",62.0,171226.0,137.617,0.811,-4.4,0.0919,0.000129
-FAVOURITE WORST NIGHTMARE,BRIANSTORM,"[Verse 1]
+But sorry, sweetheart, I'd much rather keep on the balaclava"
+FAVOURITE WORST NIGHTMARE,BRIANSTORM,71,172866,165.182,0.974,-4.706,0.191,0.00155,"[Verse 1]
 Brian, top marks for not trying
 So kind of you to bless us with your effortlessness
 We're grateful and so strangely comforted
@@ -1964,8 +765,8 @@ With your renditions and jokes, bet there's hundreds of blokes
 That have wept 'cause you've stolen their thunder
 Are you putting us under?
 'Cause we can't take our eyes off the t-shirt and ties combination
-Well, see you later, innovator",71.0,172866.0,165.182,0.974,-4.706,0.191,0.00155
-FAVOURITE WORST NIGHTMARE,D IS FOR DANGEROUS,"[Verse 1]
+Well, see you later, innovator"
+FAVOURITE WORST NIGHTMARE,D IS FOR DANGEROUS,62,138106,145.061,0.925,-4.689,0.0362,0.000161,"[Verse 1]
 He knew what he wanted to say
 But he didn't know how to word it
 The dirty little Herbert was seeking an escape
@@ -1999,8 +800,8 @@ A parallel—I think you should know you're his favourite worst nightmare
 [Chorus]
 D is for delightful
 And try and keep your trousers on
-You should know you're his favourite worst nightmare",62.0,138106.0,145.061,0.925,-4.689,0.0362,0.000161
-FAVOURITE WORST NIGHTMARE,DO ME A FAVOUR,"[Verse 1]
+You should know you're his favourite worst nightmare"
+FAVOURITE WORST NIGHTMARE,DO ME A FAVOUR,69,209253,180.15,0.738,-6.638,0.0619,0.0577,"[Verse 1]
 Well, the mourning was complete
 When there was tears on the steering wheel dripping on the seat
 Several hours or several weeks
@@ -2032,8 +833,8 @@ Do me a favour and ask if you need some help
 She said, ""Do me a favour and stop flattering yourself""
 And to tear apart the ties that bind
 Perhaps ""Fuck off"" might be too kind
-Perhaps ""Fuck off"" might be too kind",69.0,209253.0,180.15,0.738,-6.638,0.0619,0.0577
-FAVOURITE WORST NIGHTMARE,FLUORESCENT ADOLESCENT,"[Verse 1]
+Perhaps ""Fuck off"" might be too kind"
+FAVOURITE WORST NIGHTMARE,FLUORESCENT ADOLESCENT,79,183893,112.056,0.828,-5.377,0.0281,0.000144,"[Verse 1]
 You used to get it in your fishnets
 Now you only get it in your night dress
 Discarded all the naughty nights for niceness
@@ -2090,8 +891,8 @@ Is anything as pretty in the past though?
 That Bloody Mary's lacking in Tabasco
 (You're not coming back again)
 Remember when you used to be a rascal?
-(Oh...)",79.0,183893.0,112.056,0.828,-5.377,0.0281,0.000144
-FAVOURITE WORST NIGHTMARE,"IF YOU WERE THERE, BEWARE","[Verse 1]
+(Oh...)"
+FAVOURITE WORST NIGHTMARE,"IF YOU WERE THERE, BEWARE",59,276200,135.546,0.805,-6.74,0.0383,0.048,"[Verse 1]
 If you were there, beware the serpent soul pinchers
 Three-hundred and fifty ""No, thank you""s and nobody flinches
 Go on, girl, go on, give us something gruesome
@@ -2123,8 +924,8 @@ Our attempts to remind them of reason won't get us that far
 But I don't know what it is that they want
 I don't know what it is that they want
 But I haven't got it to give
-And she hasn't got it to give",59.0,276200.0,135.546,0.805,-6.74,0.0383,0.048
-FAVOURITE WORST NIGHTMARE,OLD YELLOW BRICKS,"[Verse 1]
+And she hasn't got it to give"
+FAVOURITE WORST NIGHTMARE,OLD YELLOW BRICKS,69,193226,135.158,0.837,-4.315,0.0682,6.62e-06,"[Verse 1]
 Old yellow bricks, love's a risk
 Quite the little escapologist
 Looked so miffed when you wished
@@ -2160,8 +961,8 @@ But you don't know what you're running away from
 She said, ""I want to sleep in the city that never wakes up
 And revel in nostalgia""
 I know I said, ""Who wants to sleep in a city that never wakes up?""
-But Dorothy was right though",69.0,193226.0,135.158,0.837,-4.315,0.0682,6.62e-06
-FAVOURITE WORST NIGHTMARE,ONLY ONES WHO KNOW,"[Verse 1]
+But Dorothy was right though"
+FAVOURITE WORST NIGHTMARE,ONLY ONES WHO KNOW,66,184760,128.37,0.399,-10.696,0.0338,0.0019,"[Verse 1]
 In a foreign place, the saving grace was the feeling
 That it was a heart that he was stealing
 Oh, he was ready to impress and the fierce excitement
@@ -2188,8 +989,8 @@ And even if somehow they could have
 Shown you the place you wanted
 Well, I'm sure you could have
 Made it that bit better on your own
-You are the only ones who know",66.0,184760.0,128.37,0.399,-10.696,0.0338,0.0019
-FAVOURITE WORST NIGHTMARE,TEDDY PICKER,"[Verse 1]
+You are the only ones who know"
+FAVOURITE WORST NIGHTMARE,TEDDY PICKER,72,165000,150.1,0.963,-5.116,0.0882,0.000889,"[Verse 1]
 They've sped up to the point where they provoke
 The punchline before they have told the joke
 Plenty of desperation to be seen
@@ -2238,8 +1039,8 @@ Already thick and you're getting thicker
 [Outro]
 Presuming that all things are equal
 Who'd want to be men of the people
-When there's people like you?",72.0,165000.0,150.1,0.963,-5.116,0.0882,0.000889
-FAVOURITE WORST NIGHTMARE,THE BAD THING,"[Chorus]
+When there's people like you?"
+FAVOURITE WORST NIGHTMARE,THE BAD THING,59,145213,111.066,0.952,-3.638,0.075,0.0,"[Chorus]
 Do the bad thing
 Take off your wedding ring
 But it won't make it that much easier
@@ -2280,8 +1081,8 @@ I said, ""Really, love, it's fine""
 And then the first time it occurred that there was something to destroy
 I knew before the invitation that there was this ploy
 Oh, but she carried on suggesting, a struggle to refuse
-She said, ""It's the red wine this time,"" but that is no excuse",59.0,145213.0,111.066,0.952,-3.638,0.075,0.0
-FAVOURITE WORST NIGHTMARE,THIS HOUSE IS A CIRCUS,"[Verse 1]
+She said, ""It's the red wine this time,"" but that is no excuse"
+FAVOURITE WORST NIGHTMARE,THIS HOUSE IS A CIRCUS,60,191680,155.322,0.844,-5.253,0.0431,0.00196,"[Verse 1]
 This house is a circus, berserk as fuck
 We tend to see that as a perk, though
 Look what it's done to your friends
@@ -2320,124 +1121,8 @@ This house is a circus, berserk as fuck (We're forever unfulfilled)
 We tend to see that as a perk, though (Can't think why)
 Look what it's done to your friends
 Their memories are pretend (Like a search for murder clues)
-And the last thing that they want is for the feeling to end",60.0,191680.0,155.322,0.844,-5.253,0.0431,0.00196
-FLUORESCENT ADOLESCENT - SINGLE,PLASTIC TRAMP,"[Verse 1]
-He looks as if he hasn't slept
-His hair is purposely unkept
-In many doorways, people wept
-When you crafted your plan
-Shadows underneath the eyes
-And everywhere the bastard lies
-My lack of proof is your disguise
-You won't remember me
-
-[Pre-Chorus]
-There's nothing really I can say
-But ""Sorry, mate"" and walk away
-I could be wrong on this, you play your game
-This world is full of most unkind
-And horrible is redefined
-I can't imagine that you'd mind at all
-
-[Chorus]
-You're lying again, your conscience isn't your friend
-And the only thing you're sobbing at is your imagination
-Lying again, your conscience isn't your friend
-And the only thing you're sobbing at is your imagination
-
-[Verse 3]
-Is he really on the street?
-Desperation or deceit?
-And what he's wearing on his feet
-Won't solve our mystery
-And I am baffled by how you stand there, soaking it in
-And do you hide your identity where you hide your grin?
-You'd better hide your grin
-
-[Verse 4]
-Shadows underneath the eyes
-And everywhere the bastard lies
-My lack of proof is your disguise
-You won't remember me
-
-[Pre-Chorus]
-There's nothing really I can say
-But ""sorry, mate"" and walk away
-I could be wrong unless you play your game
-This world is full of most unkind
-And horrible is redefined
-I can't imagine that you'd mind at all
-
-[Chorus]
-You're lying again, your conscience isn't your friend
-And the only thing you're sobbing at is your imagination
-Lying again, your conscience isn't your friend
-And the only thing you're sobbing at is your imagination",,,,,,,
-FLUORESCENT ADOLESCENT - SINGLE,THE BAKERY,"[Verse 1]
-I wish you would have smiled in the bakery
-Or sat on a tatty settee
-At a mutual friend's gathering
-And the more you keep on looking, the more it's hard to take
-Love, we're in stalemate
-To never meet is surely where we're bound
-There's one in every town
-Just there to grind you down
-
-[Verse 2]
-I wish I would have seen you in the post office
-Well, maybe I did and I missed it
-Too busy with the mind on clever lines
-Why not the rounders pitch or the canteen?
-You're slacking, love, where have you been?
-Just had to go and wait until tonight
-
-[Bridge]
-To give me the invite
-Don't worry, it's alright
-
-[Verse 3]
-I wish I would have seen you down in the arcade
-Sipping on a lemonade
-In the paper cup and chewing on the straw
-And I wish I'd seen you in the bakery
-But if I'd seen you in the bakery
-You probably wouldn't have seen me",,,,,,,
-FLUORESCENT ADOLESCENT - SINGLE,TOO MUCH TO ASK,"[Verse 1]
-The smiles as she walked in the room
-Have all turned into frowns
-Am I too quick to assume that the love is no longer in bloom?
-The tantrums and the tears play a very different tune
-To what they did before, her head's red raw
-And the ending doesn't sound like the happiest around
-When you sobbed before
-It felt much more like the product of a squabble
-Now there's reason for it to be something more
-
-[Chorus 1]
-And there would be, oh, it's uncertain
-Whether the curtain has shut for good
-She said, ""See if it's still raining, I'm not dressed for it""
-And, ""If you loved me–""
-And I interrupted, received a scowl and stare
-But still decided to stop her there
-
-[Verse 2]
-Would it be outrageous to say
-We're either shouting or we're shagging?
-Docked in tempestuous bays
-Or at least that's how it felt yesterday
-The eyes are getting heavier
-And whether you're asleep or awake
-
-[Chorus 2]
-Is a mystery
-Would a kiss be too much to ask?
-When you fit me
-As Sunday's frozen pitch fits the thermos flask
-It's a pity
-It just hit me, we can't go back
-To the chest touching on the back",,,,,,,
-HUMBUG,CORNERSTONE,"[Verse 1]
+And the last thing that they want is for the feeling to end"
+HUMBUG,CORNERSTONE,68,197973,169.252,0.721,-5.81,0.0387,0.0,"[Verse 1]
 I thought I saw you in the Battleship
 But it was only a look-a-like
 She was nothing but a vision trick
@@ -2489,8 +1174,8 @@ When I saw that she was on her own
 I thought she might understand
 She was close, well, you couldn't get much closer
 She said, ""I'm really not supposed to, but yes
-You can call me anything you want""",68.0,197973.0,169.252,0.721,-5.81,0.0387,0.0
-HUMBUG,CRYING LIGHTNING,"[Verse 1]
+You can call me anything you want"""
+HUMBUG,CRYING LIGHTNING,71,224826,106.719,0.885,-4.423,0.0461,0.00041,"[Verse 1]
 Outside the cafe by the cracker factory
 You were practicing a magic trick
 And my thoughts got rude as you talked and chewed
@@ -2538,8 +1223,8 @@ Crying Lightning, Crying Lightning
 Crying Lightning, Crying Lightning
 Your pastimes consisted of the strange
 And twisted and deranged
-And I hate that little game you had called Crying",71.0,224826.0,106.719,0.885,-4.423,0.0461,0.00041
-HUMBUG,DANCE LITTLE LIAR,"[Verse 1]
+And I hate that little game you had called Crying"
+HUMBUG,DANCE LITTLE LIAR,61,283493,100.158,0.607,-9.133,0.0352,0.769,"[Verse 1]
 I heard the truth was built to bend
 A mechanism to suspend
 The guilt is what you will require
@@ -2581,8 +1266,8 @@ With the wrong memories?
 [Chorus]
 And the clean coming will hurt
 And you can never get it spotless
-When there's dirt between the dirt",61.0,283493.0,100.158,0.607,-9.133,0.0352,0.769
-HUMBUG,DANGEROUS ANIMALS,"[Intro]
+When there's dirt between the dirt"
+HUMBUG,DANGEROUS ANIMALS,55,210666,125.363,0.922,-5.189,0.18,2.39e-06,"[Intro]
 I'm pinned down by the dark
 
 [Verse 1]
@@ -2625,8 +1310,8 @@ I'm pinned down by the dark, oh-oh-oh
 D-A-N-G-E-R-O-U-S
 A-N-I-M-A-L
 D-A-N-G-E-R-O-U-S
-A-N-I-M-A-L",55.0,210666.0,125.363,0.922,-5.189,0.18,2.39e-06
-HUMBUG,FIRE AND THE THUD,"[Verse 1]
+A-N-I-M-A-L"
+HUMBUG,FIRE AND THE THUD,53,237533,114.904,0.61,-11.228,0.0388,0.006,"[Verse 1]
 You showed me my tomorrow beside a box of matches
 A welcome threatening stir
 My hopes of being stolen might just ring true
@@ -2659,36 +1344,8 @@ And the photo booth's a liar
 And there's a sharpened explanation
 But there's no screaming reason to inquire
 I'd like to poke them in their prying eyes with things
-They'd never see if it smacks them in their temples",53.0,237533.0,114.904,0.61,-11.228,0.0388,0.006
-HUMBUG,I HAVEN'T GOT MY STRANGE,"[Verse 1]
-When I got back from fixing my hair
-You were directing the traffic
-Letting your story slip on the snow
-As if the transmission was automatic
-It's arguable that I shouldn't've been there
-It was fortunate timing
-I had a hole in the pocket of my favourite coat
-And my love dropped into the lining
-
-[Chorus]
-(Have you got your strange?) Not on me
-I haven't got my strange
-(Have you got your strange?) Not on me
-
-[Verse 2]
-You can't sleep until you've sat on the steps to weep
-'Til you feel like you've wept, yeah
-(As long as you don't forget your strange)
-
-[Chorus]
-(Have you got your strange?) No, not on me
-I haven't got my strange
-(Have you got your strange?) Not on me
-I haven't got my strange
-I've better fetch my strange
-I haven't got my strange
-I haven't got my strange",,,,,,,
-HUMBUG,MY PROPELLER,"[Verse 1]
+They'd never see if it smacks them in their temples"
+HUMBUG,MY PROPELLER,63,205746,115.752,0.657,-6.758,0.0295,0.0552,"[Verse 1]
 If you can summon the strength, tow me
 I can't hold down the urgency
 You've got to make your descent slowly
@@ -2720,8 +1377,8 @@ When are you arriving?
 Oh, my propeller won't spin
 And I can't get it started on my own
 When are you arriving?
-Oh, my propeller",63.0,205746.0,115.752,0.657,-6.758,0.0295,0.0552
-HUMBUG,POTION APPROACHING,"[Verse 1]
+Oh, my propeller"
+HUMBUG,POTION APPROACHING,55,212133,103.659,0.758,-8.945,0.0429,0.0673,"[Verse 1]
 I was biting the time zone
 And we embellished the banks of our bloodstreams
 And threw caution to the colourful
@@ -2764,8 +1421,8 @@ Potion approaching, shield your eyes
 [Outro]
 Oh, but if we're gonna escape though
 We really ought to think it through
-Would you like me to build you a go-kart?",55.0,212133.0,103.659,0.758,-8.945,0.0429,0.0673
-HUMBUG,PRETTY VISITORS,"[Verse 1]
+Would you like me to build you a go-kart?"
+HUMBUG,PRETTY VISITORS,62,220506,83.354,0.896,-5.576,0.464,2.83e-05,"[Verse 1]
 Trudging through the morning
 The tramp with the trampoline under his arm
 Shifts past your whiskers, so stark is the charm
@@ -2812,54 +1469,8 @@ Trailing wrapped in a gasp
 All the pretty visitors came and waved their arms
 And cast the shadow of a snake pit on the wall
 All the pretty visitors came and waved their arms
-And cast the shadow of a snake pit on the wall",62.0,220506.0,83.354,0.896,-5.576,0.464,2.83e-05
-HUMBUG,RED RIGHT HAND,"[Verse 1]
-Take a little walk to the edge of town and go across the tracks
-Where the viaduct looms like a bird of doom as it shifts and cracks
-Where secrets lie in the border fires and the humming wires
-Well, you know you're never coming back
-Past the square, past the bridge, past the mills, past the stacks
-
-[Chorus]
-On a gathering storm comes a tall handsome man
-In a dusty black coat with a red right hand
-
-[Verse 2]
-He'll wrap you in his arms and tell ya that you've been a good boy
-He'll rekindle all of those dreams it took you a lifetime to destroy
-He'll reach deep into the hole, heal your shrinking soul
-And there won't be a single thing that you can do
-He's a god, he's a man, he's a ghost, he's a guru
-
-[Chorus]
-They're whispering his name 'cross this disappearing land
-But hidden in his coat is a red right hand
-
-[Verse 3]
-You don't have no money? He'll get you some
-If you haven't got no car, he'll get you one
-You've got no self-respect, you feel like an insect
-Well, don't you worry, buddy, 'cause here he comes
-Through the ghetto and the barrows
-And the Bowery and the slums
-
-[Chorus]
-A shadow is cast wherever he stands
-Stacks of green paper in his red right hand
-
-[Instrumental Break]
-
-[Verse 4]
-You'll see him in your nightmares, you'll see him in your dreams
-He'll appear out of nowhere, but he's not what he seems
-You'll see him in your head and on the TV screen
-Hey, buddy, I'm warning you to turn it off
-He's a ghost, he's a god, he's a man, he's a guru
-
-[Chorus]
-You're one microscopic cog in his catastrophic plan
-Designed and directed by his red right hand",,,,,,,
-HUMBUG,SECRET DOOR,"[Chorus]
+And cast the shadow of a snake pit on the wall"
+HUMBUG,SECRET DOOR,64,223066,124.615,0.806,-6.554,0.0769,1.11e-05,"[Chorus]
 Fools on parade cavort and carry on for waiting eyes
 That you would rather be beside than in front of
 But she's never been the kind to be hollowed by the stares
@@ -2904,8 +1515,8 @@ But you're daft to think she'd care
 Fools on parade
 Fools on parade
 Fools on parade
-Conduct a sing-along",64.0,223066.0,124.615,0.806,-6.554,0.0769,1.11e-05
-HUMBUG,THE JEWELLER'S HANDS,"[Verse 1]
+Conduct a sing-along"
+HUMBUG,THE JEWELLER'S HANDS,53,344053,96.935,0.8,-8.116,0.0488,0.0834,"[Verse 1]
 Fiendish wonder in a carnival's wake
 Dull caresses once again irritate
 Tread softly, stranger
@@ -2969,717 +1580,8 @@ I'm sinking in until the return
 If you've a lesson to teach
 Please don't deviate, don't be afraid
 Without the last corner piece, I can't calibrate
-Let's get it ingrained",53.0,344053.0,96.935,0.8,-8.116,0.0488,0.0834
-I BET YOU LOOK GOOD ON THE DANCEFLOOR - SINGLE,BIGGER BOYS AND STOLEN SWEETHEARTS,"[Verse 1]
-There's always somebody taller with more of a wit
-And he's equipped to enthrall her and her friends think he’s fit
-And you just can't measure up though, you don't have a prayer
-Wishing that you'd made the most of her when she was there
-
-[Pre-Chorus]
-They've got engaged, there's no intention of a wedding
-He's pinched your bird and he'd probably kick your head in
-
-[Chorus]
-Bigger boys and stolen sweethearts
-Oh, you’re better off without her anyway
-You said you wasn't sad to see her go
-Yeah, but I know you were though
-
-[Verse 2]
-Now you don't know what she's up to, you can only assume
-If she's not in the front of the shops then they've gone to his room
-Bet she's gone 'round in her school stuff, bet that’s what he likes
-I know you thought she were different and you thought she were nice
-
-[Pre-Chorus]
-But she's not nice, she's pretty fucking far from nice
-She’s looking at you funny, rarely looking at you twice
-
-[Chorus]
-Bigger boys and stolen sweethearts
-Oh, you’re better off without her anyway
-You said you wasn't sad to see her go
-Yeah, but it's clear you were though
-
-[Verse 3]
-Have you heard what she has been doing? Never did it for me
-He picks her up at the school gate at twenty past three
-She’s been with all of the boys but never went very far
-And she wagged English and Science just to go in his car
-
-[Pre-Chorus]
-They've got engaged, there's no intention of a wedding
-He's pinched me bird and he'd probably kick my head in
-Oh, now the girls have grown
-Yeah, but I'm sure that they still carry on in similar ways
-
-[Chorus]
-Bigger boys and stolen sweethearts
-Oh, I'm better off without her anyway
-I said I wasn’t sad to see her go
-Yeah, but I’m only pretending, you know
-Yeah, I’m only pretending, you know
-I was only pretending, you know
-I was only pretending, you know",,,,,,,
-I BET YOU LOOK GOOD ON THE DANCEFLOOR - SINGLE,CHUN-LI'S SPINNING BIRD KICK,Show us your special move (Laughing in the background),,,,,,,
-LEAVE BEFORE THE LIGHTS COME ON - SINGLE,BABY I'M YOURS,"[Verse 1: Alex Turner]
-Baby, I'm yours (Baby, I'm yours)
-And I'll be yours until the stars fall from the sky
-Yours until the rivers all run dry
-In other words, until I die
-
-[Verse 2: Oisin Leech]
-Baby, I'm yours (Baby, I'm yours)
-And I'll be yours until the sun no longer shines
-Yours until the poets run out of rhyme
-In other words, until the end of time
-
-[Bridge: Alex Turner]
-I'm gonna stay right here by your side
-And do my best to keep you satisfied
-Nothing in the world could drive me away
-Every day, you'll hear me say
-
-[Verse 3: Alex Turner]
-Baby, I'm yours (Baby, I'm yours)
-And I'll be yours until two and two is three
-Yours until the mountains crumble to the sea
-In other words, until eternity
-
-[Outro: Alex Turner & Oisin Leech]
-Baby, I'm yours, 'til the stars fall from the sky
-Baby, I'm yours, 'til the rivers all run dry
-Baby, I'm yours, until the sun no longer shines
-Baby, I'm yours, 'til the poets run out of rhyme
-Baby, I'm yours",,,,,,,
-LEAVE BEFORE THE LIGHTS COME ON - SINGLE,LEAVE BEFORE THE LIGHTS COME ON,"[Verse 1]
-Well, this is a good idea
-He wouldn't do it if it wasn't
-He wouldn't do it if it wasn't one
-Well, my friend fancies you
-Oh, what a way to begin it all
-You said, ""They're always exciting words to hear""
-
-[Chorus]
-And they woke up together not quite realising how
-Awkwardly stretching and yawning
-It's always hard in the morning
-And I suppose that's the price you pay
-Well, oh, it isn't what it was
-She's thinking he looks different today
-And now there's nothing left to guess now
-
-[Verse 2]
-They left before the lights came on
-Because they didn't want to ruin what it was that was brewing
-Before they absolutely had to
-And how can you wake up with someone you don't love
-And not feel slightly fazed by it?
-Oh, he had a struggle
-
-[Chorus]
-And they woke up together not quite realising how
-Awkwardly stretching and yawning
-It's always hard in the morning
-And I suppose that's the price you pay
-Well, oh, it isn't what it was
-She's thinking he looks different today
-And now there's nothing left to guess now
-
-[Bridge]
-Well, quick, let's leave before the lights come on
-'Cause then you don't have to see
-'Cause then you don't have to see what you've done
-Well, quick, let's leave before the lights come on
-'Cause then you don't have to see
-'Cause then you don't have to see what you've done
-
-[Instrumental break]
-
-[Outro]
-I'll walk you up, what time's the bus come?
-I'll walk you up, what time's the bus come?
-I'll walk you up, what time's the bus come?
-I'll walk you up",,,,,,,
-LEAVE BEFORE THE LIGHTS COME ON - SINGLE,PUT YOUR DUKES UP JOHN,"[Verse 1]
-Just put your dukes up, John
-Yeah, put your dukes up, John
-You were preened and sanitised
-Struck dumb by good advice
-Your integrity was bruised
-Your celebrity a ruse
-They pulled the rug from under
-Made way for new pretenders
-
-[Chorus]
-(Change your tune and change your hair)
-Put your dukes up, John
-(Or you're not going anywhere)
-Put your dukes up, John
-(Change your tune and change your hair)
-Put your dukes up, John
-(Or you're not going anywhere)
-Put your dukes up, John
-
-[Post-Chorus]
-And be a C-Y-N-I-C
-Be a C-Y-N-I-C
-
-[Verse 2]
-The profit margin blinds them
-They groomed and ostracised him
-His calm makes my blood boil
-His calm makes my blood boil
-
-[Chorus]
-(Change your tune and change your hair)
-Put your dukes up, John
-(Or you're not going anywhere)
-Put your dukes up, John
-(Change your tune and change your hair)
-Put your dukes up, John
-(Or you're not going anywhere)
-Put your dukes up, John
-
-[Post-Chorus]
-And be a C-Y-N-I-C
-Be a C-Y-N-I-C
-
-[Bridge]
-(Change your tune and change your hair
-Or you're not going anywhere
-Change your tune and change your hair
-Or you're not going anywhere)
-Change your tune and change your hair
-Or you're not going anywhere
-Change your tune and change your hair
-Or you're not going anywhere
-
-[Chorus]
-(Change your tune and change your hair)
-Put your dukes up, John
-(Or you're not going anywhere)
-Put your dukes up, John
-(Change your tune and change your hair)
-Put your dukes up, John
-(Or you're not going anywhere)
-Put your dukes up, John
-
-[Outro]
-(Change your tune and change your hair)
-And be a C-Y-N-I-C
-(Or you're not going anywhere)
-And be a C-Y-N-I-C
-(Change your tune and change your hair)
-And be a C-Y-N-I-C
-(Or you're not going anywhere)
-And be a C-Y-N-I-C",,,,,,,
-MATADOR/DA FRAME 2R - SINGLE,DA FRAME 2R,"[Verse 1]
-007 and Brucey Wayne
-Are shitting them sens because there's another name
-Coming to claim what is his to claim
-Ten percent faster with a sturdier frame
-He's certainly come into his own
-There's one on his arm in every land that he roams
-And two consecutive nights alone
-Are a thing of the past as he has recently shown
-
-[Chorus]
-They said he looks so handsome, stood not dancing
-Drawing you in like it's boring to him
-It's a war you can't win and the first and the last
-Are two things you'll never be, my darling
-
-[Verse 2]
-Another roll around and another push and shove
-Further away from the idea of love
-And his conclusion, it must be good
-Or when the penny has dropped with an incredible thud
-Forgot to kick the tin
-He knows where she's going, but don't know where she's been
-And as opposed to the other thing
-He'll worry about it when it's trouble he's in
-
-[Chorus]
-They said he looks so handsome, stood not dancing
-Drawing you in like it's boring to him
-It's a war you can't win and the first and the last
-Are two things you'll never be, my darling
-(Two things you'll never be, my darling)
-Two things you will never be, my darling
-(Two things you'll never be, my darling)
-
-[Outro]
-Well, he sneered and sniffed and spat at my chat up-lines
-Not to feel like a twat at times, it's hard
-But not for this kid, not when they come to you",,,,,,,
-MATADOR/DA FRAME 2R - SINGLE,MATADOR,"[Instrumental Intro]
-
-She was marrying a matador and he was with the weather girl
-A very clever girl who stood out amongst several ones
-A terrible dilemma and forever he'll regret the day
-He didn't make the rescue from the bullring
-Sulking won't get you nowhere, son
-There's blood on your chin where you've bitten your tongue
-Smitten, but might not be smitten for long
-If you're still sitting, she'll soon be smitten and gone",,,,,,,
-MY PROPELLER - SINGLE,DON'T FORGET WHOSE LEGS YOU'RE ON,"[Verse 1]
-The painted faces congregate in the mating season
-To second homes, they go alone in no rush to leave them
-
-[Refrain]
-And there's a fountain and a scimitar-shaped yellow light
-And it picks you up and cuts you down to size
-
-[Verse 2]
-When the people there and the furniture start to seem important
-When a moment more, when you catch the floor
-With a vivid and absorbent sharpened arc
-
-[Refrain]
-Like the scimitar-shaped yellow light
-That picks you up and cuts you down to size
-
-[Bridge]
-Well, I had questions for the tap dancer sat on my lap
-And she had child-proof caps on her answers
-Stone blower, blow me a stone
-And show me that handsome enhancer
-She had a rock on her throttle
-And a brown glass bottle full of shavings from the sun
-Although those shoes affect your step
-Don't forget whose legs you're on
-
-[Refrain]
-And there's a fountain and a scimitar-shaped yellow light
-And it picks you up and it cuts you down to size",,,,,,,
-MY PROPELLER - SINGLE,JOINING THE DOTS,"[Verse 1]
-Been trying to think of something colourful for the season
-Pull the wool over the gullible for no reason
-You are all I have these days, shake it up and run away
-With the night squabbling behind you
-
-[Chorus]
-From the smoke in your hair
-To the blood in your bruise
-And the bows on the shoes you kicked off
-I'm joining the dots
-I'm joining the dots
-
-[Verse 2]
-I thought I heard them talking in their sleep yesterday
-And I tried but I just can't believe a word they say
-Hurry up, they'll be here soon, sleeping in the afternoon
-While the rain is trying to prove a point outside
-
-[Chorus]
-From the smoke in your hair
-To the blood in your bruise
-And the bows on the shoes you kicked off
-I'm joining the dots
-I'm joining the dots
-I'm joining the dots
-
-[Bridge]
-Those people make me cough
-Can't the flame come up to the moth for a change?
-And darling, if it's all the same to you
-I'll have you to myself
-
-[Outro]
-I'm joining the dots
-I'm joining the dots
-
-[Spoken]
-Have a listen to it, I don't know...",,,,,,,
-MY PROPELLER - SINGLE,THE AFTERNOON'S HAT,"[Verse 1]
-Made me kiss ya with a whisper
-And violently you swung through unfamiliar tongue
-Couldn't listen to tradition
-Grab me by the wrist to silently insist
-
-[Chorus]
-And when I'm in the confines of crawling walls
-You hold me in place
-The ripples on the ceiling, the avenues
-Unsugared taste
-We'll waste away the evening
-The afternoon and the afternoon's hat
-Together we'll find something to direct some laughter at
-
-[Verse 2]
-You stood shirtless and confident
-Listening to the fools, tickling the rules
-Their obsessions followed patterns
-Sat upon their stools with their attitudes
-
-[Chorus]
-And when I'm in the confines of crawling walls
-You hold me in place
-The ripples on the ceiling, the avenues
-Unsugared taste
-We'll waste away the evening
-The afternoon and the afternoon's hat
-Together we'll find something to direct some laughter at
-
-[Instrumental Break]
-
-[Chorus]
-And when I'm in the confines of crawling walls
-You hold me in place
-The ripples on the ceiling, the avenues
-Unsugared taste
-We'll waste away the evening
-The afternoon and the afternoon's hat
-Together we'll find something to direct some laughter at",,,,,,,
-ONE FOR THE ROAD - SINGLE,YOU'RE SO DARK,"[Verse 1]
-You got your H.P. Lovecraft
-Your Edgar Allan Poe
-You got your unkind of ravens
-And your murder of crows
-Catty eyelashes
-And your Dracula cape
-Been flashing triple-A passes
-At the cemetery gates
-
-[Chorus]
-'Cause you're so dark, babe
-But I want you hard
-You're so dark, baby
-
-[Refrain]
-You're so dark
-You're so dark
-You're so dark
-You're so dark
-
-[Verse 2]
-And you're so mysterious
-Got that obsession with death
-I saw you driving your Prius
-And even that was Munster Koach-esque
-You watch Italian horror
-And you listen to the scores
-Leather-cladded, spike collared
-I want you down on all fours
-
-[Chorus]
-'Cause you're so dark, babe
-But I want you hard
-You're so dark, baby
-
-[Bridge]
-I know you're nothing like mine
-'Cause she's walking on sunshine
-And your love would tear us apart
-And I know I'm not your type
-'Cause I don't shun the daylight
-But, baby, I'm willing to start
-
-[Refrain]
-You're so dark
-
-[Verse 3]
-Got your H.P. Lovecraft
-Your Edgar Allen Poe
-Got your unkind of ravens
-Got your murder of crows
-
-[Chorus]
-You're so dark, babe
-But I want you hard
-You're so dark, baby
-But I want you hard
-You're so dark, oh
-But I want you hard
-You're so dark, baby",,,,,,,
-R U MINE? - SINGLE,ELECTRICITY,"[Verse 1]
-Darlin’, tell me something I don’t know
-Be my baby, be my GTO
-Call me something no one else calls me
-I forget how I want it, that electricity
-
-[Chorus]
-Well, my heart was breaking and got left unlocked
-Didn’t see you sneak in, but I’m glad you stopped
-Tell me something I don’t already know
-Like how'd you get your kisses to fill me with electricity?
-
-[Verse 2]
-Love like locked horns, love like dominos
-Be my midnight, be my ebb and flow
-I forget how I want it, how it crept up on me
-It takes over, electricity
-
-[Chorus]
-And my heart was breaking and got left unlocked
-Didn’t see you sneak in, but I’m glad you stopped
-Tell me something I don’t already know
-Like how'd you get your kisses to fill me with electricity?
-
-[Bridge]
-Separated, there I face it
-Love like thunder, love like falling snow
-
-[Chorus]
-Tell me something I don’t already know
-Like how'd you get your kisses to fill me with electricity?",,,,,,,
-RADIO 1'S LIVE LOUNGE – VOLUME 2,YOU KNOW I'M NO GOOD (BBC 1 RADIO LIVE LOUNGE),"Meet you downstairs in the bar and heard
-Your rolled up sleeves and your skull t-shirt
-You say why did you do it with him today?
-And sniff me out like I was tanqueray
-Cause you're my fella, my guy
-Hand me your stella and fly
-By the time I'm out the door
-You tear me down like Roger Moore
-
-[Estribillo:]
-I cheated myself
-Like I knew I would
-I told ya, I was troubled
-You know that I'm no good
-Upstairs in bed, with my ex boy
-He's in the place, but I can't get joy
-Thinking of you in the final throws
-This is when my buzzer goes
-Run out to meet your chicks and bitter
-You say when we're married cause you're not bitter
-There'll be none of him no more
-I cried for you on the kitchen floor
-
-[Repetir estribillo]
-I cheated myself
-Like I knew I would
-I told ya, I was troubled
-You know that I'm no good
-Sweet reunion, Jamaica and Spain
-We're like how we were again
-I'm in the tub you're on the seat
-Lick your lips as I soak my feet
-Then you notice lickle carpet burn
-My stomach drops and my guts churn
-You shrug and it's the worst
-To truly stuck the knife in first
-
-[Chorus x2]
-I cheated myself
-Like I knew I would
-I told ya, I was troubled
-You know that I'm no good",,,,,,,
-SPOTIFY SINGLES,-,"[Intro]
-I saw you dancin'
-You moved like Sinatra
-On speed
-
-[Verse]
-The lights were a-flashin'
-And tongues were a-waggin'
-Over you
-It's too late for tryin'
-It's too late for denyin'
-All those little things
-You and me have done
-I'm sorry, hon'
-I was hopin' for a recall
-A mix of you high from the sun
-Oh, but nothin'
-Only lone magpies come
-
-[Outro]
-I saw you dancin'
-You moved like Sinatra
-On speed",,,,,,,
-STRAIGHTEN THE RUDDER,CRYING LIGHTNING (ACOUSTIC VERSION),"[Verse 1]
-Outside the cafe by the cracker factory
-You were practicing a magic trick
-And my thoughts got rude
-As you talked and chewed
-On the last of your pick and mix
-
-Said ""You're mistaken if your thinking that I haven't been called 'cold' before""
-As you bit into your strawberry lace
-And then offered me your attention in the form of a gobstopper
-Is all you have left and it was going to waste
-
-[Bridge]
-[Your pastimes consisted of the strange
-And twisted and deranged
-And I love that little game you had called
-
-[Chorus]
-Crying Lightning
-And how you like to aggravate the ice-cream man on rainy afternoons
-
-[Verse 2]
-The next time that I caught my own reflection
-It was on it's way to meet you
-Thinking of excuses to postpone
-You never looked like yourself from the side
-But your profile could not hide
-The fact you knew I was approaching your throne
-
-With folded arms you occupy the bench like toothache
-Stood and puffed your chest out like you never lost a war
-And though I try so not to suffer the indignity of reaction
-There was no cracks to grasp or gaps to claw
-
-[Bridge 2]
-Your pastimes consisted of the strange
-And twisted and deranged
-And I hate that little game you had called
-
-[Chorus]
-Crying Lightning
-And how you like to aggravate the icky man on rainy afternoons
-
-[Outro]
-Uninviting
-But not half as impossible as everyone assumes you are
-Crying Lightning
-
-[Verse 3]
-Oh you were reading a book about some idiot and telling me about another
-I was so severely underwhelmed I thought I might never recover
-
-Straighten the rudder girl and sail me up stairs
-And go and find somebody who cares
-Well we might not be the perfect partners but tonight we make a pair
-
-[Bridge 2]
-
-Crying Lightning
-Crying Lightning
-Crying Lightning
-Crying Lightning
-
-[Bridge 2]
-
-Crying",,,,,,,
-STRAIGHTEN THE RUDDER,ONLY YOU KNOW,"I want to see something that used to be in your eyes again
-I'm waiting to see it
-You know it's only a question of when
-And I know how much I'm missing heaven
-You know that its missing
-
-And only you know
-Where you have been to
-Only you know
-What you have been through
-There's better things
-You're gonna get into
-And I wanna be there too
-
-I know it's not easy for you to start to believe again
-And when the day comes, don't let yourself be deceived again
-Cause I know, how you've been waiting
-Such a long time, that you've been waiting
-
-And only you know
-Where you have been to
-Only you know
-What you have been through
-There's better things
-You're gonna get into
-And I wanna be there too
-
-And I know how you've been waiting
-Such a long time that you've been waiting
-
-And only you know
-Where you have been to
-Only you know
-What you have been through
-There's better things
-You're gonna get into
-And I wanna be there too",,,,,,,
-STRAIGHTEN THE RUDDER,STRANGE,"Strange, how you stopped loving me
-How you stopped needing me
-When he came along
-Oh, how strange
-
-Strange, you changed like night and day
-Just up and walked away
-When he came along
-Oh, how strange
-
-Well, I guess that I was just your puppet
-You held on a string
-To think I thought you really loved me
-But look what thoughts can bring
-
-Strange, you're still in all my dreams
-Oh such a funny thing
-I still care for you
-Oh, how strange
-
-Well, I guess that I was just your puppet
-You held on a string
-To think I thought you really loved me
-But look what thoughts can bring
-
-Strange, how you stopped loving me
-How you stopped needing me
-When he came along
-Oh, how strange",,,,,,,
-STRAIGHTEN THE RUDDER,THE LOVERS,"Up from the pastures of boredom
-Out from the sea of discontent
-They come in packs like hungry hounds
-Up seekers of the dark enchantment
-
-They haunt the boulevards and bars
-They pray to wishing wells and stars
-They ride the hurricane of hope
-Not looking back, but on they go
-Toward the distance and deceiving
-And all the while they keep believing
-They are special and apart
-The lovers, the lovers of the heart... the lovers
-
-And when they pair off two by two
-They feel they are the chosen few
-And though their beds are made of straw
-They feel like velvet in the night
-And so the night is never ending
-Its made of distance and pretending
-Coz they're special and apart
-The lovers, the lovers of the heart... the lovers
-
-And when love goes away
-And when love goes...
-Goodbye...
-Catches in their throats like cotton
-Rises in their hearts like rain
-The good times suddenly are all forgotten
-The hunt begins again
-
-They search the subways and the streets
-Their faces tired, like their feet
-Their bodies aching to be warm
-And so they hide behind the moon
-Their loneliness inside them growing
-But they take comfort in just knowing
-That they are special and apart
-The lovers, the lovers of the heart... the lovers
-
-And when love comes again
-And when love comes
-Hello...
-Rises from their throats like singing
-Catches in their hearts like wind
-The good things
-Strangers in their arms are bringing
-Makes life all right again
-
-They turn their faces to the light
-No longer hiding in the night
-So unashamed and unafraid
-That they can face each others faults
-And though the waltz will have its ending
-There is no harm in just pretending
-That they are special and apart
-The lovers, the lovers of the heart... the lovers",,,,,,,
-SUCK IT AND SEE,ALL MY OWN STUNTS,"[Verse 1]
+Let's get it ingrained"
+SUCK IT AND SEE,ALL MY OWN STUNTS,51,232280,127.283,0.943,-4.934,0.0537,0.0181,"[Verse 1]
 Caricatures of your wrecking ball gown
 In my mind all the time
 I wanna be in that damsel patterned alley
@@ -3709,8 +1611,8 @@ I know you've got the moves
 
 [Outro: ""I'm From High Green"" snippet]
 I'm from High Green
-I'm from High Green",51.0,232280.0,127.283,0.943,-4.934,0.0537,0.0181
-SUCK IT AND SEE,BLACK TREACLE,"[Verse 1]
+I'm from High Green"
+SUCK IT AND SEE,BLACK TREACLE,60,217440,100.061,0.89,-5.759,0.0655,0.0,"[Verse 1]
 Lately I've been seeing things, belly button piercings
 In the sky at night when we're side by side
 And I don't mean to rain on anybody's cabriolet
@@ -3749,8 +1651,8 @@ But it never seems to be there when you want it
 [Outro]
 Black treacle
 Black treacle
-Black treacle",60.0,217440.0,100.061,0.89,-5.759,0.0655,0.0
-SUCK IT AND SEE,BRICK BY BRICK,"[Verse 1]
+Black treacle"
+SUCK IT AND SEE,BRICK BY BRICK,53,179906,132.206,0.807,-4.741,0.0528,0.00368,"[Verse 1]
 I wanna build you up
 Brick by brick
 I wanna break you down
@@ -3787,8 +1689,8 @@ I wanna brick by brick by brick by...
 
 [Chorus]
 Brick by brick, aaaaah
-Brick by brick, aaaaah",53.0,179906.0,132.206,0.807,-4.741,0.0528,0.00368
-SUCK IT AND SEE,DON'T SIT DOWN 'CAUSE I'VE MOVED YOUR CHAIR,"[Verse 1]
+Brick by brick, aaaaah"
+SUCK IT AND SEE,DON'T SIT DOWN 'CAUSE I'VE MOVED YOUR CHAIR,62,183506,119.729,0.912,-5.148,0.0451,0.278,"[Verse 1]
 Break a mirror, roll the dice
 Run with scissors through a chip-pan firefight
 Go into business with a grizzly bear
@@ -3814,8 +1716,8 @@ But just don't sit down 'cause I've moved your chair
 Oooh, yeah, yeah, yeah
 Oooh, yeah, yeah, yeah
 Oooh, yeah, yeah, yeah
-Oooh, yeah, yeah, yeah",62.0,183506.0,119.729,0.912,-5.148,0.0451,0.278
-SUCK IT AND SEE,LIBRARY PICTURES,"[Intro]
+Oooh, yeah, yeah, yeah"
+SUCK IT AND SEE,LIBRARY PICTURES,54,142173,96.954,0.939,-5.836,0.0549,0.00601,"[Intro]
 I'm in a vest
 
 [Verse 1]
@@ -3834,8 +1736,8 @@ Ten, nine, eight, seven, six, five, four, three, two, one
 Library pictures of the quickening canoe
 The first of its kind to get to the moon
 Give me an eeny, meeny, miny, moe
-Or an ip, dip, dog shit rock and roll",54.0,142173.0,96.954,0.939,-5.836,0.0549,0.00601
-SUCK IT AND SEE,LOVE IS A LASERQUEST,"[Verse 1]
+Or an ip, dip, dog shit rock and roll"
+SUCK IT AND SEE,LOVE IS A LASERQUEST,65,191426,169.926,0.662,-6.873,0.0402,0.908,"[Verse 1]
 Do you still feel younger than you thought you would by now
 Or darling, have you started feeling old yet?
 Don't worry, I'm sure that you're still breaking hearts
@@ -3871,8 +1773,8 @@ Singing dreadful songs about summer
 Will I have found a better method of
 Pretending you were just some lover?
 Will I have found a better method of
-Pretending you were just some lover?",65.0,191426.0,169.926,0.662,-6.873,0.0402,0.908
-SUCK IT AND SEE,PILEDRIVER WALTZ,"[Verse 1]
+Pretending you were just some lover?"
+SUCK IT AND SEE,PILEDRIVER WALTZ,63,203880,110.008,0.865,-4.547,0.0391,0.000116,"[Verse 1]
 I etched the face of a stopwatch on the back of a raindrop
 And did a swap for the sand in an hourglass
 I heard an unhappy ending, it sort of sounds like you leaving
@@ -3903,8 +1805,8 @@ Make sure you wear your comfortable shoes
 
 [Outro]
 Oh-oh, oh-oh
-Piledriver",63.0,203880.0,110.008,0.865,-4.547,0.0391,0.000116
-SUCK IT AND SEE,RECKLESS SERENADE,"[Verse 1]
+Piledriver"
+SUCK IT AND SEE,RECKLESS SERENADE,54,162746,127.966,0.694,-6.632,0.0392,0.0144,"[Verse 1]
 Topless models doing Semaphore
 Wave their flags as she walks by and get ignored
 Illuminations on a rainy day
@@ -3934,8 +1836,8 @@ And now I'm stuck still wondering how it's meant to be
 Singing a reckless serenade, reckless serenade
 Reckless serenade, reckless serenade
 Reckless serenade, reckless serenade
-Reckless serenade",54.0,162746.0,127.966,0.694,-6.632,0.0392,0.0144
-SUCK IT AND SEE,SHE'S THUNDERSTORMS,"[Chorus]
+Reckless serenade"
+SUCK IT AND SEE,SHE'S THUNDERSTORMS,61,234920,118.929,0.898,-4.906,0.0329,0.00236,"[Chorus]
 She's thunderstorms
 Lying on her front, up against the wall
 She's thunderstorms
@@ -3972,8 +1874,8 @@ She does what the night does to the day
 [Chorus]
 She's thunderstorms
 Lying on her front, up against the wall
-She's thunderstorms, thunderstorms, thunderstorms",61.0,234920.0,118.929,0.898,-4.906,0.0329,0.00236
-SUCK IT AND SEE,SUCK IT AND SEE,"[Verse 1]
+She's thunderstorms, thunderstorms, thunderstorms"
+SUCK IT AND SEE,SUCK IT AND SEE,64,225986,128.291,0.932,-5.017,0.057,0.114,"[Verse 1]
 Your love is like a studded leather headlock
 Your kiss, it could put creases in the rain
 You're rarer than a can of dandelion and burdock
@@ -4007,8 +1909,8 @@ You have got that face that just says
 Suck it and see, you never know
 Sit next to me before I go, go, go, go
 Jigsaw women with horror movie shoes
-Be cruel to me 'cause I am a fool for you",64.0,225986.0,128.291,0.932,-5.017,0.057,0.114
-SUCK IT AND SEE,THAT'S WHERE YOU'RE WRONG,"[Verse 1]
+Be cruel to me 'cause I am a fool for you"
+SUCK IT AND SEE,THAT'S WHERE YOU'RE WRONG,55,256800,135.937,0.883,-5.554,0.0638,0.558,"[Verse 1]
 A pussyfooting setting sun
 Make a wish that weighs a tonne
 There are no handles for you to hold
@@ -4050,8 +1952,8 @@ That's where you're wrong
 That's where you're wrong
 That's where you're wrong
 Oh, oh-oh, oh-oh, oh
-Oh, oh-oh, oh-oh, oh-oh, oh-oh",55.0,256800.0,135.937,0.883,-5.554,0.0638,0.558
-SUCK IT AND SEE,THE HELLCAT SPANGLED SHALALALA,"[Verse 1]
+Oh, oh-oh, oh-oh, oh-oh, oh-oh"
+SUCK IT AND SEE,THE HELLCAT SPANGLED SHALALALA,54,180373,130.22,0.872,-4.992,0.0507,0.00062,"[Verse 1]
 Just when things are getting complicated in the eye of the storm
 She flicks a red-hot revelation off the tip of her tongue
 It does a dozen somersaults and leaves you supercharged
@@ -4086,150 +1988,9 @@ What you waiting for? Sing another fucking shalalala
 
 [Outro]
 Shalalala, shalalala
-Shalalala",54.0,180373.0,130.22,0.872,-4.992,0.0507,0.00062
-SUCK IT AND SEE - SINGLE,EVIL TWIN,"[Verse 1]
-You've never met before
-But still she greets you like a long lost rock 'n' roll
-She's definitely one of those
-Where you'll go wherever she goes
-And with my body on my mind
-Both stop talking at the exact same time
-Trying to think of ways to make her mine
-But they're difficult to find
-
-[Chorus]
-It's not what I need
-No, your love's not what I need
-So don't give it to me
-
-[Verse 2]
-And she said
-""Oh, well, I know this will sound cold, but I really have to go
-No, it's not that I'm not free, there's nowhere I need to be
-It's just your love's not what I need, so don't give it to me""
-
-[Chorus]
-It's not what I need
-No, your love's not what I need
-So don't give it to me
-
-[Bridge]
-And she said, ""Baby, how can I believe you?
-How can I believe you when you can't believe your luck?
-No point sticking to the plan when it's come unstuck""
-
-[Verse 3]
-It's more a hunger than a thirst
-She'll break your heart the second time
-Before you know about the first
-Looks well equipped to leave you in the lurch
-But you'd let her do her worst
-And it's not hard to tell
-It's obvious the other angels faces fell
-When she told him that she had to go
-Swapped her wings and overcoat for something colourful
-Tha knows
-
-[Chorus]
-It's not what I need
-No, your love's not what I need
-So don't give it to me
-No, your love's not what I need
-So don't give it to me
-No, your love's not what I need
-So don't give it to me
-No, your love's not what I need
-So don't give it to me
-Your love's not what I need",,,,,,,
-TEDDY PICKER - SINGLE,BAD WOMAN,"[Verse 1: Richard Hawley]
-When you left the house this evening
-You said you'd be back in a little while
-But I've been waiting for such a long time
-And this waiting is driving me wild
-
-[Verse 2: Richard Hawley]
-And while I wait, I think about you
-Do you need me and I'm not there?
-Are you planning to be without me?
-Do you have a new affair?
-
-[Chorus: Richard Hawley]
-You're a bad, bad woman
-You're a bad, bad woman
-
-[Verse 3: Richard Hawley]
-Pictures of you keep flashing through my mind
-If you would only call, if you would be so kind
-Imagine things, I see another man
-And it's this waiting I just can't stand
-
-[Chorus: Richard Hawley]
-You're a bad, bad woman
-You're a bad, bad woman
-You're a bad, bad woman
-You're a bad, bad woman",,,,,,,
-TEDDY PICKER - SINGLE,NETTLES,"[Verse 1]
-Sank into their calculations and snorted on a stench
-Of their arithmetic
-Look for the boy who was hanging his head low
-More trophies and ideas to follow their pretend
-
-[Chorus]
-With a scowl in his pocket and a smile on his face
-He followed with obedience and fell in the nettles
-
-[Verse 2]
-Afterwards those spiky whispers said he brought his own rope
-And skipped the bits they loathed
-Didn’t scramble to find a dock leaf and capture back our hope
-To advice, his mind had closed
-He lost all of his foot holes
-
-[Chorus]
-And with a scowl in his pocket and a smile on his face
-He followed with obedience and fell in the nettles
-Fell in the nettles, fell in the nettles
-
-[Verse 3]
-He was a toothpick and the garlic and the cinder upon the path
-Had failed to blunt or hinder the slow collapse
-And clinging to the door frame, he was trapped
-Off to a reminder of where he had been
-
-[Chorus]
-With a smile in his pocket and a scowl on his face
-There was nowhere to flee, so sat content in the nettles",,,,,,,
-TEDDY PICKER - SINGLE,THE DEATH RAMPS,[Instrumental],,,,,,,
-THE HELLCAT SPANGLED SHALALALA - SINGLE,LITTLE ILLUSION MACHINE (WIRRAL RIDDLER),"[Verse 1: Miles Kane]
-Swinging room to room
-Planting something new
-I've ridden the riddle, I'll do it again
-Back to the Wirral where it all began
-Wirral riddler
-
-[Chorus: Miles Kane]
-Send a letter to me, baby, I'm on the edge of my seat
-Send a letter to me, baby, little illusion machine
-
-[Verse 2: Alex Turner & Miles Kane]
-Riding through the gloom
-Something beautiful
-He's ridden the riddle, he'll do it again
-He's going back to the Wirral where it all began
-Wirral riddler
-
-[Chorus: Miles Kane]
-Send a letter to me, baby, I'm on the edge of my seat
-Send a letter to me, baby, little illusion machine
-I tried it and I liked it, but it just never gets close enough
-Send a letter to me, baby
-
-[Outro: Miles Kane]
-(Wirral) So tell me where have you been?
-(Wirral) Little illusion machine
-(Wirral) Hoping tonight is gonna send me back to you
-Wow!",,,,,,,
-TRANQUILITY BASE HOTEL & CASINO,AMERICAN SPORTS,"[Verse 1]
+Shalalala"
+THERE’D BETTER BE A MIRRORBALL,THERE’D BETTER BE A MIRRORBALL,56,265798,72.062,0.369,-10.899,0.0307,0.0139,_IGNORE_EMPTY_IGNORE_
+TRANQUILITY BASE HOTEL & CASINO,AMERICAN SPORTS,52,158040,176.689,0.865,-4.288,0.0513,0.00293,"[Verse 1]
 So when you gaze at planet Earth from outer space
 Does it wipe that stupid look off of your face?
 I saw this aura over the battleground states
@@ -4261,8 +2022,8 @@ Hoo
 
 [Chorus]
 And I never thought, not in a million year
-That I'd meet so many Lola's",52.0,158040.0,176.689,0.865,-4.288,0.0513,0.00293
-TRANQUILITY BASE HOTEL & CASINO,BATPHONE,"[Verse 1]
+That I'd meet so many Lola's"
+TRANQUILITY BASE HOTEL & CASINO,BATPHONE,51,271613,106.521,0.681,-5.728,0.0356,0.0,"[Verse 1]
 I want an interesting synonym
 To describe this thing
 That you say we're all grandfathered in
@@ -4303,8 +2064,8 @@ Right behind your closed eyes like a memory from your youth
 I'll be by the Batphone if you need to get a hold
 Making a selection, opening credits roll
 Killer Pink Flamingos, computer controlled
-Panoramic windows looking out across your soul",51.0,271613.0,106.521,0.681,-5.728,0.0356,0.0
-TRANQUILITY BASE HOTEL & CASINO,FOUR OUT OF FIVE,"[Verse 1]
+Panoramic windows looking out across your soul"
+TRANQUILITY BASE HOTEL & CASINO,FOUR OUT OF FIVE,61,312346,130.189,0.863,-4.31,0.0685,0.0,"[Verse 1]
 Advertise in imaginative ways, start your free trial today
 Come on in, the water's lovely
 Look, you could meet someone you like
@@ -4370,8 +2131,8 @@ Come and stay with us, four stars out of five
 Take it easy for a little while (Take it easy for a little while)
 Come and stay with us, four stars out of five
 (Take it easy for a little while)
-Four stars out of five",61.0,312346.0,130.189,0.863,-4.31,0.0685,0.0
-TRANQUILITY BASE HOTEL & CASINO,GOLDEN TRUNKS,"[Verse 1]
+Four stars out of five"
+TRANQUILITY BASE HOTEL & CASINO,GOLDEN TRUNKS,51,173626,92.544,0.564,-5.811,0.0278,1.73e-05,"[Verse 1]
 Last night when my psyche's
 Subcommittee sang to me in its scary voice
 You slowly dropped your eyelids
@@ -4399,8 +2160,8 @@ I'm sure you've heard about enough
 
 [Chorus]
 So in response to what you whispered in my ear
-I'll be upfront, sometimes I fantasise about you too",51.0,173626.0,92.544,0.564,-5.811,0.0278,1.73e-05
-TRANQUILITY BASE HOTEL & CASINO,ONE POINT PERSPECTIVE,"[Verse 1]
+I'll be upfront, sometimes I fantasise about you too"
+TRANQUILITY BASE HOTEL & CASINO,ONE POINT PERSPECTIVE,59,208640,77.104,0.585,-4.57,0.0419,0.00444,"[Verse 1]
 Dancing in my underpants
 I'm gonna run for government
 I'm gonna form a covers band anorl (stop)
@@ -4428,8 +2189,8 @@ Such beautiful photography, it's worth it for the opening scene
 I've been driving 'round listening to the score
 Or maybe I just imagined it all
 I've played to quiet rooms like this before
-Bear with me, man, I lost my train of thought",59.0,208640.0,77.104,0.585,-4.57,0.0419,0.00444
-TRANQUILITY BASE HOTEL & CASINO,SCIENCE FICTION,"[Verse 1]
+Bear with me, man, I lost my train of thought"
+TRANQUILITY BASE HOTEL & CASINO,SCIENCE FICTION,50,185906,88.062,0.766,-5.411,0.0282,0.0802,"[Verse 1]
 Religious iconography giving you the creeps?
 I feel rougher than a disco lizard tongue along your cheek
 The rise of the machines
@@ -4466,8 +2227,8 @@ In the pocket of my raincoat
 So I tried to write a song to make you blush
 But I've a feeling that the whole thing
 May well just end up too clever for its own good
-The way some science fiction does",50.0,185906.0,88.062,0.766,-5.411,0.0282,0.0802
-TRANQUILITY BASE HOTEL & CASINO,SHE LOOKS LIKE FUN,"[Intro]
+The way some science fiction does"
+TRANQUILITY BASE HOTEL & CASINO,SHE LOOKS LIKE FUN,51,182560,103.943,0.773,-3.754,0.0388,0.00326,"[Intro]
 One, two, three, four
 
 [Chorus]
@@ -4515,8 +2276,8 @@ And how much I respect them
 (She looks like fun) Key changes
 (She looks like fun) Re-thinking
 (She looks like fun) New order
-(She looks like fun)",51.0,182560.0,103.943,0.773,-3.754,0.0388,0.00326
-TRANQUILITY BASE HOTEL & CASINO,STAR TREATMENT,"[Verse 1]
+(She looks like fun)"
+TRANQUILITY BASE HOTEL & CASINO,STAR TREATMENT,59,354640,120.07,0.767,-5.026,0.0527,0.00131,"[Verse 1]
 I just wanted to be one of The Strokes
 Now look at the mess you made me make
 Hitchhiking with a monogrammed suitcase
@@ -4580,8 +2341,8 @@ It's the star treatment
 Yeah, and as we gaze skyward, ain't it dark early?
 It's the star treatment
 It's the star treatment
-The star treatment",59.0,354640.0,120.07,0.767,-5.026,0.0527,0.00131
-TRANQUILITY BASE HOTEL & CASINO,THE ULTRACHEESE,"[Verse 1]
+The star treatment"
+TRANQUILITY BASE HOTEL & CASINO,THE ULTRACHEESE,54,217720,131.497,0.555,-6.551,0.0404,3.98e-05,"[Verse 1]
 Still got pictures of friends on the wall
 I suppose we aren't really friends anymore
 Maybe I shouldn't ever have called that thing friendly at all
@@ -4614,8 +2375,8 @@ If I ever was
 [Outro]
 Oh, the dawn won't stop weighing a tonne
 I've done some things that I shouldn't have done
-But I haven't stopped loving you once",54.0,217720.0,131.497,0.555,-6.551,0.0404,3.98e-05
-TRANQUILITY BASE HOTEL & CASINO,THE WORLD'S FIRST EVER MONSTER TRUCK FRONT FLIP,"[Verse 1]
+But I haven't stopped loving you once"
+TRANQUILITY BASE HOTEL & CASINO,THE WORLD'S FIRST EVER MONSTER TRUCK FRONT FLIP,50,180013,145.075,0.601,-5.742,0.0303,0.349,"[Verse 1]
 You push the button and we'll do the rest
 The exotic sound of data storage
 Nothing like it, first thing in the morning
@@ -4651,8 +2412,8 @@ I've got a laser guiding my love that I cannot adjust
 [Verse 3]
 Forward-thinking model villages
 More brain shrinking moving images
-You push the button and we'll do the rest",50.0,180013.0,145.075,0.601,-5.742,0.0303,0.349
-TRANQUILITY BASE HOTEL & CASINO,TRANQUILITY BASE HOTEL & CASINO,"[Verse 1]
+You push the button and we'll do the rest"
+TRANQUILITY BASE HOTEL & CASINO,TRANQUILITY BASE HOTEL & CASINO,59,212093,142.2,0.835,-4.326,0.0297,0.0147,"[Verse 1]
 Jesus in the day spa, filling out the information form
 Mama got her hair done, just popping out to sing a protest song
 I've been on a bender back to that prophetic esplanade
@@ -4689,42 +2450,9 @@ Hoo
 Good afternoon
 Tranquility Base Hotel and Casino
 Mark speaking
-Please, tell me, how may I direct your call?",59.0,212093.0,142.2,0.835,-4.326,0.0297,0.0147
-TRANQUILITY BASE HOTEL & CASINO - SINGLE,ANYWAYS,"[Verse 1]
-Just another microcosm somewhere in the ether
-Putting the world to rights with Bing Crosby eyes
-Oversharing and its bitter aftertaste
-Exactly the wrong time in exactly the wrong place
-Save it for a rainy day
-Baby, you go hard in the paint
-It's just another race to anyways
-
-[Verse 2]
-Philanthropic toga party
-What a place for both the opposite sides of my double life to finally collide
-Sharing secrets I was taking to the grave
-Nosebleeds from epiphanies I took full in the face
-Oh, come all by the fire, babe, let’s all participate
-In yet another race to anyways
-Oh, how's your Mum and Dad been doing with the generation gap?
-
-[Bridge]
-Yeah, I'm behind my movie camera
-I’ve got my megaphone
-You can call me Alexander
-It's nice to meet you all
-
-[Verse 3]
-Listening to the Shipping Forecast
-Driving to the airport
-Me and the guys
-Metropolis ablaze in the rear view
-Devising methods to both have and eat your cake
-Mmm, just like the ones that Mother Nature used to bake
-You look as if you know exactly what I'm gonna say
-It's just another race to
-Anyways",,,,,,,
-"WHATEVER PEOPLE SAY I AM, THAT'S WHAT I'M NOT",DANCING SHOES,"[Verse 1]
+Please, tell me, how may I direct your call?"
+"WHATEVER PEOPLE SAY I AM, THAT'S WHAT I'M NOT",A CERTAIN ROMANCE,67,331200,137.949,0.881,-5.587,0.0401,6.06e-05,_IGNORE_EMPTY_IGNORE_
+"WHATEVER PEOPLE SAY I AM, THAT'S WHAT I'M NOT",DANCING SHOES,62,141133,144.499,0.889,-4.137,0.0461,0.0,"[Verse 1]
 Get on your dancing shoes
 There's one thing on your mind
 Hoping they’re looking for you
@@ -4766,8 +2494,9 @@ Sure you'll be rummaging through
 I said, the shit, shock, horror
 You've seen your future bride, yeah
 Yeah, but it's oh so absurd
-For you to say the first word so you're waiting and waiting",62.0,141133.0,144.499,0.889,-4.137,0.0461,0.0
-"WHATEVER PEOPLE SAY I AM, THAT'S WHAT I'M NOT",FROM THE RITZ TO THE RUBBLE,"[Verse 1]
+For you to say the first word so you're waiting and waiting"
+"WHATEVER PEOPLE SAY I AM, THAT'S WHAT I'M NOT",FAKE TALES OF SAN FRANCISCO,66,177946,127.158,0.778,-4.225,0.0449,0.0,_IGNORE_EMPTY_IGNORE_
+"WHATEVER PEOPLE SAY I AM, THAT'S WHAT I'M NOT",FROM THE RITZ TO THE RUBBLE,69,193426,189.286,0.882,-5.176,0.0439,0.0,"[Verse 1]
 Well, last night these two bouncers
 And one of 'em's alright
 The other one's a scary'un
@@ -4829,8 +2558,10 @@ It don't make no sense anymore, oh
 [Outro]
 Da-da, da-da-da
 Da-da, da-da-da, da-da-da-da
-Da-da, da-da-da, da-da-da-da-da",69.0,193426.0,189.286,0.882,-5.176,0.0439,0.0
-"WHATEVER PEOPLE SAY I AM, THAT'S WHAT I'M NOT",PERHAPS VAMPIRES IS A BIT STRONG BUT...,"[Verse 1]
+Da-da, da-da-da, da-da-da-da-da"
+"WHATEVER PEOPLE SAY I AM, THAT'S WHAT I'M NOT",I BET YOU LOOK GOOD ON THE DANCEFLOOR,75,173680,103.183,0.948,-4.19,0.0356,0.0,_IGNORE_EMPTY_IGNORE_
+"WHATEVER PEOPLE SAY I AM, THAT'S WHAT I'M NOT",MARDY BUM,73,175440,112.215,0.599,-5.447,0.0365,0.0,_IGNORE_EMPTY_IGNORE_
+"WHATEVER PEOPLE SAY I AM, THAT'S WHAT I'M NOT",PERHAPS VAMPIRES IS A BIT STRONG BUT...,57,268626,134.982,0.914,-4.917,0.081,8.75e-05,"[Verse 1]
 I've seen your eyes as they fix on me
 What is he doing? What on earth's the plan, has he got one?
 You better give me some pointers
@@ -4869,8 +2600,8 @@ I know you're certain we'll fail
 [Instrumental break]
 
 [Shouted]
-All you people are vampires!",,,,,,,
-"WHATEVER PEOPLE SAY I AM, THAT'S WHAT I'M NOT",RED LIGHT INDICATES DOORS ARE SECURED,"[Verse 1]
+All you people are vampires!"
+"WHATEVER PEOPLE SAY I AM, THAT'S WHAT I'M NOT",RED LIGHT INDICATES DOORS ARE SECURED,58,143626,110.683,0.846,-4.831,0.0311,0.0,"[Verse 1]
 We'll ask if we can have six in
 If not we'll have to have two
 Well, you're coming up at our end aren't you?
@@ -4923,8 +2654,8 @@ Via Hillsborough, please!""
 Drunken plots hatched to jump it
 Ask around, ""Are you sure?""
 Went for it but the red light was showing
-And red light indicates doors are secure",58.0,143626.0,110.683,0.846,-4.831,0.0311,0.0
-"WHATEVER PEOPLE SAY I AM, THAT'S WHAT I'M NOT",RIOT VAN,"[Intro]
+And red light indicates doors are secure"
+"WHATEVER PEOPLE SAY I AM, THAT'S WHAT I'M NOT",RIOT VAN,60,134933,103.537,0.333,-14.342,0.046,0.0,"[Intro]
 So up rolls a riot van
 And sparks excitement in the boys
 But the policemen look annoyed
@@ -4957,8 +2688,8 @@ But they couldn't care less
 Thrown in the riot van
 And all the coppers kicked him in
 And there was no way he could win
-Just had to take it on the chin",60.0,134933.0,103.537,0.333,-14.342,0.046,0.0
-"WHATEVER PEOPLE SAY I AM, THAT'S WHAT I'M NOT",STILL TAKE YOU HOME,"[Spoken Intro]
+Just had to take it on the chin"
+"WHATEVER PEOPLE SAY I AM, THAT'S WHAT I'M NOT",STILL TAKE YOU HOME,59,173666,108.934,0.946,-4.192,0.0378,0.0,"[Spoken Intro]
 
 [Verse 1]
 Well, it's ever so funny
@@ -5013,8 +2744,8 @@ Oh, you're a Topshop princess, a rockstar too
 But you're a fad and you're a fashion
 And I'm having a job trying to talk to you
 But it's alright, yeah, I'll put it on one side
-Oh, 'cause everybody's looking, you've got control of everyone's eyes including mine",59.0,173666.0,108.934,0.946,-4.192,0.0378,0.0
-"WHATEVER PEOPLE SAY I AM, THAT'S WHAT I'M NOT",THE VIEW FROM THE AFTERNOON,"[Verse 1]
+Oh, 'cause everybody's looking, you've got control of everyone's eyes including mine"
+"WHATEVER PEOPLE SAY I AM, THAT'S WHAT I'M NOT",THE VIEW FROM THE AFTERNOON,62,222946,146.478,0.922,-5.192,0.0674,0.0,"[Verse 1]
 Anticipation has the habit to set you up
 For disappointment in evening entertainment, but
 Tonight there'll be some love, tonight there'll be a ruckus
@@ -5065,8 +2796,8 @@ Bear that in mind
 
 [Post-Chorus]
 And you can pour your heart out around three o' clock
-When the two-for-one's undone the writer's block",62.0,222946.0,146.478,0.922,-5.192,0.0674,0.0
-"WHATEVER PEOPLE SAY I AM, THAT'S WHAT I'M NOT",WHEN THE SUN GOES DOWN,"[Intro]
+When the two-for-one's undone the writer's block"
+"WHATEVER PEOPLE SAY I AM, THAT'S WHAT I'M NOT",WHEN THE SUN GOES DOWN,76,202133,169.152,0.875,-4.758,0.199,0.0,"[Intro]
 I said, who's that girl there?
 I wonder what went wrong so that she had to roam the streets
 She don't do major credit cards, I doubt she does receipts
@@ -5125,8 +2856,8 @@ Around here, around here, oh
 And what a scummy man
 Just give him half a chance, I bet he'll rob you if he can
 Can see it in his eyes, yeah, that he's got a nasty plan
-I hope you're not involved at all",76.0,202133.0,169.152,0.875,-4.758,0.199,0.0
-"WHATEVER PEOPLE SAY I AM, THAT'S WHAT I'M NOT",YOU PROBABLY COULDN'T SEE FOR THE LIGHTS BUT YOU WERE STARING STRAIGHT AT ME,"[Verse 1]
+I hope you're not involved at all"
+"WHATEVER PEOPLE SAY I AM, THAT'S WHAT I'M NOT",YOU PROBABLY COULDN'T SEE FOR THE LIGHTS BUT YOU WERE STARING STRAIGHT AT ME,57,130813,105.492,0.972,-4.274,0.0589,0.0,"[Verse 1]
 One look sends it coursing through the veins
 Oh, how the feeling races
 Back up to their brains to form expressions on their stupid faces
@@ -5152,740 +2883,4 @@ Never again, well, never again, no
 Will there be another one quite as desirable as you
 One look sends it coursing through the veins
 Oh, how the feeling races
-Back up to their brains to form expressions on their stupid faces",57.0,130813.0,105.492,0.972,-4.274,0.0589,0.0
-WHEN THE SUN GOES DOWN - SINGLE,7,"[Intro]
-One, two, three, four, five, six, seven!
-
-[Verse 1]
-Well, I wrote my number down
-I never wrote it down before
-Were gonna bring it over like something from a film
-But I didn't have the bottle at all
-Well, I were looking and you kept staring
-Your thoughts pairing up with mine
-And when you're so pretty and I'm so shy
-You probably did give me the eye, though, I'm sure you did
-
-[Verse 2]
-Well, I went outside
-Couldn't say I tried and I felt regret
-Because you haven't bashed me and dashed back in
-'Cause the ship hasn't sailed yet
-But when I did I couldn't see your face
-I could see your mates but that wouldn't do
-Well, I dashed around, tried to find you
-But you were nowhere to be seen, oh no, no
-
-[Bridge]
-La-la-la, la-la-la, la, la-la-la-la
-La-la-la, la-la-la, la, la-la-la-la
-La-la-la, la-la-la, la, la-la-la-la
-La-la-la, la-la-la, la, la-la-la-la
-
-[Verse 3]
-Well, she moved in ways that kept her there
-In our minds for days and weeks and months
-I was that amazed and there she stayed
-Surrounded by the ""What if?""s and the ""Maybe""s",,,,,,,
-WHEN THE SUN GOES DOWN - SINGLE,SETTLE FOR A DRAW,"[Spoken Intro]
-One, two, three, four! (Roll that faster, man)
-One, two, three, four!
-(Oh, we gotta time that
-The whole point of a count is that it's in time, innit?)
-One, two, three, four!
-
-[Verse 1]
-Well, I watch you tangle every weekend
-It might start different but it ends up the same
-One minute, you're casually speaking
-The next it all goes up and you pour fuel on the flame
-With your jerrycan of words and tones
-
-[Pre-Chorus]
-And no one's gonna start a revolution
-So we best leave it well alone
-And there's something that Frankie used to say
-Apparently
-
-[Chorus]
-Oh, he said, settle for the draw
-Well, you're not gonna get no more
-So you should settle for a draw
-I told you once I'm sure, I told you once I'm sure
-You should settle for a draw
-Why don't you settle for a draw?
-
-[Verse 2]
-Well, you're right, it is one set of rules for her
-And then another set for you
-But that's just the way it is, I suppose
-And there's nowt you can do
-And let's not fall in the trap of answering back
-I am just a beginner but she'll be the only winner
-That's for sure, so take the draw, if it's available
-And if it sets on fire
-Don't get out your jerrycan of words and... tones
-
-[Instrumental Break]
-
-[Pre-Chorus]
-And no one's gonna start a revolution
-So we best leave it well alone
-And there's something that Frankie used to say
-Apparently
-
-[Chorus]
-Oh, he said, settle for the draw
-Well, you're not gonna get no more
-So you should settle for the draw
-I told you once I'm sure, I told you once I'm sure
-You should settle for the draw
-Why don't you settle for the draw?",,,,,,,
-WHO THE FUCK ARE ARCTIC MONKEYS? - EP,CIGARETTE SMOKER FIONA,"[Verse 1]
-Sat at the side of the pool at one of your houses
-With wet white trousers on
-And worlds collide as the evening continues
-The dignity fucks off
-Her brother's gone off to the strippers
-To make up for all the lost time
-She could have been one of the bitches
-But she's actually alright
-
-[Chorus]
-Cigarette smoker
-I'm sorry, but we're all unsure how much you've had
-But we think that you ought to
-Maybe not have any more
-
-[Verse 2]
-A country home, even if we really tried
-Wouldn't cease to surprise us now
-And I bet your dad would like to give us all a slap
-When are your parents back? D'you know?
-Well, I never came from no ghetto
-But it wasn't nowhere near here
-Well-spoken girls in stilettos
-Aren't something to fear
-
-[Chorus]
-Cigarette smoker
-I'm sorry, but we're all unsure how much you've had
-But we think that you ought to
-Maybe not have any more
-
-[Instrumental break]
-
-[Chorus]
-Cigarette smoker
-I'm sorry, but we're all unsure how much you've had
-But we think that you ought to
-Maybe not have any more
-
-[Chorus]
-Cigarette smoker
-Cigarette smoke doesn't hide as well as you think
-And you'd think that it ought to
-Act as the perfect disguise",,,,,,,
-WHO THE FUCK ARE ARCTIC MONKEYS? - EP,DESPAIR IN THE DEPARTURE LOUNGE,"[Verse 1]
-He's pining for her in a people carrier
-There might be buildings and pretty things to see like that but architecture won't do
-Although it might say a lot about the city or town
-I don't care what they've got, keep on turning 'em down
-It don't say the funny things she does
-Don't even try and cheer him up because it just won't happen
-
-[Verse 2]
-He's got the feeling again, this time on the aeroplane
-There might be tellies in the back of the seats in front, but Rodney and Del won't do
-Although it might take your mind off the aches and the pains
-Laugh when he falls through the bar but you're feeling the same
-'Cause she isn't there to hold your hand
-She won't be waiting for you when you land
-
-[Chorus]
-And it feels like she's just nowhere near
-You could well be out on your ear
-This thought comes closely followed by the fear
-And the thought of it makes you feel a bit ill
-
-[Verse 3]
-Yesterday, I saw a girl who looked like someone you might knock about with
-And almost shouted
-And then reality kicked in within us, it seems as we become the winners
-You lose a bit of summat, and half wonder if you won it at all
-
-[Chorus]
-And don't say owt 'cause you've got no idea
-And she's still nowhere near
-And the thought comes closely followed by the fear
-And the thought of it makes you feel a bit ill
-
-[Outro]
-Despair in the departure lounge
-It's one and they'll still be around at three
-No signal and low battery
-What's happened to me?",,,,,,,
-WHO THE FUCK ARE ARCTIC MONKEYS? - EP,NO BUSES,"[Verse 1]
-Lady, where has your love gone?
-I was looking but can't find it anywhere
-They always offer when there's loads of love around
-But when you're short of some, it's nowhere to be found
-Well, I know your game, you told him yesterday
-""No chance, you'll get nothing from me""
-But now she's there, you're there and everybody's there
-He's in turmoil, as puzzled as can be, just like me
-
-[Chorus]
-Let's go down, down, low down
-Where I know I should not go
-Oh, and she, you think she's the one
-But she's just one in twenty-four
-And just 'cause everybody's doing it
-Does that mean that I can too?
-
-[Verse 2]
-Lady, where has your love gone?
-It was the antiseptic to the sore
-To hold you by the hand
-Must you first be in demand?
-How he longs for you to long for him once more
-Just once more
-
-[Chorus]
-Let's go down, down, low down
-Where I know I should not go
-Oh, and she, you think she's the one
-But she's just one in twenty-four
-And just 'cause everybody's doing it
-Does that mean that I can too?
-
-[Bridge]
-Oh, her eyes went down and cut you up
-And there's nothing like a dirty look from
-The one you want or the one you've lost
-
-[Verse 3]
-An ache in your soul, it's everybody's goal
-To get what they can't have
-That's why you're after her and that's why she's after him
-But saying it won't change a thing
-
-[Outro]
-And they'll realise that it won't change a thing
-Realise that it won't change a thing",,,,,,,
-WHO THE FUCK ARE ARCTIC MONKEYS? - EP,WHO THE FUCK ARE ARCTIC MONKEYS?,"[Verse 1]
-We all want someone to shout for
-Yeah, everyone wants somebody to adore
-But your heroes aren't what they seem
-When you've been where we've been
-Have I done something to trigger
-The funny looks and the sniggers?
-Are they there at all
-Or is it just paranoia?
-
-[Chorus]
-'Cause everybody's got their box, doing what they're told
-You push my faith near being lost but we'll stick to the guns
-Don't care if it's marketing suicide, we won't crack or compromise
-Your derisory divides will never unhinge us
-
-[Verse 2]
-And there's a couple of hundred
-Think they're Christopher Columbus
-But the settlers had already settled
-Here long before you
-Just cos we're having a say so
-Not lining up to be Play-Doh
-Oh, in five years time will it be
-""Who the fuck's Arctic Monkeys?""
-
-[Chorus]
-'Cause everybody's got their box, doing what they're told
-You push my faith near being lost but we'll stick to the guns
-Don't care if it's marketing suicide, we won't crack or compromise
-Your derisory divides will never unhinge us
-
-[Verse 3]
-All the thoughts that I just said
-Linger round and multiply in the head
-Not that bad to start with
-I'm not angry, I'm just disappointed
-
-[Verse 4]
-It's not you, it's them that are wrong
-Tell 'em to take out their tongues
-Tell 'em to take out their tongues
-It's not you, it's them that are wrong
-Tell 'em to take out their tongues
-Tell 'em to take out their tongues
-And bring on the backlash
-
-[Verse 5]
-It's not you, it's them that are wrong
-Tell him to take out his tongue
-Tell him to take out his tongue
-It's not you, it's them that's the fake
-I won't mess with your escape
-Is this really your escape? Yeah",,,,,,,
-WHY'D YOU ONLY CALL ME WHEN YOU'RE HIGH? - SINGLE,STOP THE WORLD I WANNA GET OFF WITH YOU,"[Verse 1]
-Open Sesame (We've places to go)
-We've people to see (Let's put 'em on hold)
-There's all sorts of shapes that I bet you can make
-When you want to escape, say the word
-
-[Pre-Chorus]
-Well, I know that getting you alone isn't easy to do
-With the exception of you, I dislike everyone in the room
-And I don't wanna lie, but I don't wanna tell you the truth
-Get the sense that you're on the move
-And you'll probably be leaving soon, so I'm telling you
-
-[Chorus]
-Stop the world 'cause I wanna
-Get off with you
-Stop the world 'cause I wanna
-Get off with you
-
-[Verse 2]
-Eyes the colour of (Water left in mud)
-Icing sugar dust (Crazy green flashes)
-It's a funny thing that I cannot explain
-Don't you know the train keeps a-rolling?
-
-[Chorus]
-Stop the world 'cause I wanna
-Get off with you
-Stop the world 'cause I wanna
-Get off with you
-
-[Instrumental Break]
-
-[Pre-Chorus]
-Well, I know that getting you alone isn't easy to do
-And I don't wanna lie, and I don't wanna tell you the truth
-And I know we got places to go, we got people to see
-Think we both oughta put 'em on hold and I know you agree
-
-[Chorus]
-Stop the world 'cause I wanna
-Get off with you
-Stop the world 'cause I wanna
-Get off with you",,,,,,,
-,COME TOGETHER,"Here come old flat top, he come
-Groovin' up slowly, he got
-Ju-ju eyeballs, he want
-Holy rollers, he got
-Hair down to his knees
-Got to be a joker, he just do what he please
-He wear no shoeshine, he got
-Toe jam football, he got
-Monkey finger, he shoot
-Coca-Cola, he say
-I know you, you know me
-One thing I can tell you is: you got to be free
-Come together
-Right now
-Over me
-He bag production, he got
-Walrus gumboot, he got
-Ono sideboard, he one
-Spinal cracker, he got
-Feet down below his knees
-Hold you in his armchair, you can feel his disease
-Come together
-Right now
-Over me
-Owaaa
-Come together, yeah
-Come together, yeah
-Come together
-Come together, yeahhhhh
-Come together, yeahhhhh
-Come together",,,,,,,
-,DIAMONDS ARE FOREVER,"Diamonds are forever
-They are all I need to please me
-They can stimulate and tease me
-They won't leave in the night
-I've no fear that they might desert me
-Diamonds are forever
-Hold one up and then caress it
-Touch it, stroke it and undress it
-I can see every part
-Nothing hides in the heart to hurt me
-
-I don't need love
-For what good will love do me?
-Diamonds never lie to me
-For when love's gone
-They'll luster on
-
-Diamonds are forever
-Sparkling round my little finger
-Unlike men, the diamonds linger
-Men are mere mortals who are not worth going to your grave for
-
-I don't need love
-For what good will love do me?
-Diamonds never lie to me
-For when love's gone
-They'll lustre on
-
-Diamonds are forever, forever, forever
-Diamonds are forever, forever, forever
-Forever and ever",,,,,,,
-,FOUR OUT OF FIVE (ITALIAN TRANSLATION),"[Strofa 1]
-Pubblicizza in modi fantasiosi, comincia il tuo periodo di prova ora
-Dai, l'acqua è fantastica
-Senti, puoi incontrare qualcuno che ti piace
-Durante la caduta di un meteorite, è così facile
-Superficie lunare durante un sabato sera, vestita in bianco e argento
-Con luci colorate di Old Grey Whistle Test
-
-[Ritornello]
-Prenditela comoda per un po’
-Vieni a stare con noi, è un volo così tranquillo
-Nuovi posti carini continuano a saltar fuori
-Da quando è cominciato l'esodo, sta diventando tutto così borghese
-Ho messo una taqueria sul tetto, è stata ben recensita
-Quattro stelle su cinque
-Ed è una cosa inaudita
-
-[Strofa 2]
-Signori di periferia sul Starlight Express
-Il capo degli effetti speciali secondo il mio occhio interiore
-Hokey pokey con il sesso opposto
-Le cose che provi a dimenticare, quanto vola via il tempo?
-Non sono nella posizione di poter dare consigli, non voglio essere gentile
-E lo sai
-
-[Ritornello]
-Prenditela comoda per un po'
-Vieni a stare con noi, è un volo così tranquillo
-Nuovi posti carini continuano a saltar fuori
-Attorno a Clavius, sta diventando tutto così borghese
-L’Information-Action Ratio è il posto giusto dove andare
-E non riconoscerai il vecchio quartier generale
-
-[Bridge]
-Tutte le notti che non sono accadute e tutti quei giorni che non esistono
-All'Information-Action Ratio
-L'unico momento in cui ci smettiamo di ridere è per respirare e rubare un bacio
-Posso inserirti nelle liste di tutti i club
-Posso alzarti di un altro semitono
-
-[Ritornello]
-Prenditela comoda per un po' (Prenditela comoda per un po')
-Vieni a stare con noi, è un volo così tranquillo
-Nuovi posti carini continuano a saltar fuori
-(Nuovi posti carini continuano a saltar fuori)
-Da quando è cominciato l'esodo, sta diventando tutto così borghese
-L'Information-Action Ratio (L'Information-Action Ratio)
-È il posto giusto dove andare, quattro stelle su cinque
-Prenditela comoda per un po’ (Prenditela comoda per un po’)
-Vieni a stare con noi, è un volo così tranquillo
-Nuovi posti carini continuano a saltar fuori
-(Nuovi posti carini continuano a saltar fuori)
-Attorno a Clavius, sta diventando tutto così borghese
-Ho messo una taqueria sul tetto (L'Information-Action Ratio)
-Ho avuto recensioni entusiaste, quattro stelle su cinque
-
-[Outro / Musica di uscita]
-Prenditela comoda per un po’ (Prenditela comoda per un po')
-Vieni a stare con noi, quattro stelle su cinque
-Prenditela comoda per un po' (Prenditela comoda per un po')
-Vieni a stare con noi, quattro stelle su cinque
-Prenditela comoda per un po’ (Prenditela comoda per un po')
-Vieni a stare con noi, quattro stelle su cinque
-(Prenditela comoda per un po')
-Quattro stelle su cinque",,,,,,,
-,KATY ON A MISSION,"In this room of darkness, I ain't undercover
-But that won't stop my prowess rubbing off onto another
-Elevating higher as my body's moving lower
-Now I'll reach my element, you better move over
-
-But he doesn't, he blocks my way
-I try to push past, but he wants to play
-So I sip his drink as I hold his gaze
-
-As we erupt into the room
-And feel the sub go boom
-A feeling easy to resume
-This right here, I swear, will end too soon
-Sink in to the tune
-As I inhale the fumes
-A feeling easy to resume
-This right here, I swear, will end too soon
-
-My limbs seem to move what the beats dictate to me
-I push into the middle, the sound becomes a part of me
-Taking me back to that sweet familiarity
-Watching my adrenaline rise, I feel the eyes on me
-
-Sip the bottle now, don't be slow
-Keep up with me as we lose control
-Keep up with me as we lose control
-
-As we erupt into the room
-I feel the sub go boom
-A feeling easy to resume
-This right here, I swear, will end too soon
-Sink in to the tune
-As I inhale the fumes
-A feeling easy to resume",,,,,,,
-,LOVE MACHINE,"Ladies, you're damn right, you can't read a man's mind
-We're living in two tribes and heading for war
-Well, nobody's perfect, we've all gotta work it
-But fellas, we're worth it so don't break the law
-Your call's late, big mistake
-You gotta hang about in limbo for as long as I take
-Next time, read my mind and I'll be good to you
-We're gift-wrapped kitty cats
-We're only turning into tigers when we gotta fight back
-Let's go, Eskimo, out into the blue
-Come take my hand, understand that you can
-You're my man and I need you tonight
-Come make my dreams, honey, hard as it seems
-Loving me is as easy as pie
-(Ai)
-I'm just a love machine, feeding my fantasy
-Give me a kiss or three and I'm fine
-I need a squeeze a day 'stead of this negligee
-What will the neighbors say this time?
-I've been going crazy while you sleep
-Thinking of a language that the two of us can speak
-So Mr. Prehistoric, make your wheel
-And I'll breathe underwater 'cause I like the way it feels
-I said your call's late, big mistake
-You gotta hang about in limbo for as long as I take
-Next time, read my mind and I'll be good to you
-We're gift-wrapped kitty cats
-We're only turning into tigers when we gotta fight back
-Let's go, Eskimo, out into the blue
-Come take my hand, understand that you can
-You're my man and I need you tonight
-Come make my dreams, honey, hard as it seems
-Loving me is as easy as pie
-I'm just a love machine, feeding my fantasy
-Give me a kiss or three and I'm fine
-I need a squeeze a day 'stead of this negligee
-What will the neighbors say this time?
-Oh, it's very new
-Can anybody tell me what to do?
-Oh, this feeling's very strange
-Can anybody tell me what's your game?
-(Oh)
-A little education
-(Oh)
-To give you motivation
-(Oh)
-We'll turn the situation round
-(Oh, Oh)
-(Oh)
-Making you a stranger
-(Oh)
-I'll only re-arrange ya for now
-(Oh)
-I'm just a love machine
-(Oh)
-To give you motivation
-(Oh)
-I'm just a love machine
-(Oh)
-I'm just a love machine
-(Oh)
-To give you motivation
-(Oh)
-I'm just a love machine",,,,,,,
-,PUT ME IN A TERROR POCKET,"He spoke a script
-Dipped in the sort of talk to make you keep the gaze
-It's all a trick
-The slicked back slimy arms have got a war to wage
-
-He's got a laugh like a crackling wire
-And he wants to put the bite marks on you
-He wants to put the bite marks on you
-And he twists my guts
-
-As the only thing that's repelling as his invitations
-Are his excuses
-And he said ""I am the conductor
-Put me in a terror pocket""
-
-He did a stint
-Master in a craft
-He'd squint through his spectacle
-He'd drop a dirty hint if he thinks that he could impress you with the unacceptable
-
-And he has turned through all the pages with his fingers
-And covered them with goo
-And he wants to put the bite marks on you
-He wants to put them on you and it hurts my back
-
-Because the only thing that's as heavy as the adoration
-Is the days of hanging out on his lawn
-And he spilled without a sounding alarm
-And he frightened me to death
-When he said ""I am the conductor",,,,,,,
-,RECKLESS SERENADE (ACOUSTIC),"[Verse 1]
-Topless models doing Semaphore
-Wave their flags as she walks by and get ignored
-Illuminations on a rainy day
-When she walks, her footsteps sing a reckless serenade
-
-[Chorus]
-I've been trying to figure out exactly what it is I need
-Called up to listen to the voice of reason
-And got the answering machine
-
-[Verse 2]
-The type of kisses where teeth collide
-When she laughs, the heavens hum a stun gun lullaby
-Those twinkling vixens with the shining spiral eyes
-Their hypnosis goes unnoticed when she's walking by
-
-[Chorus]
-I've been trying to figure out exactly what it is I need
-Called up to listen to the voice of reason
-And got his answering machine
-
-[Bridge]
-I left my message but did he fuck get back to me?
-And now I'm stuck still wondering how it's meant to be
-
-[Outro]
-Singing a reckless serenade, reckless serenade
-Reckless serenade, reckless serenade",,,,,,,
-,SANDTRAP,"When you leave us through the patient doors
-That rattle in your ear will be the sound of our applause
-Rapturous, considered and due
-Oh the nasty laughter and desperate smirks
-Are tangled in the boredom where out brittle kisses lurk
-Well how can I believe you, when you can't believe your luck
-
-And the shards of past attraction lie visible
-But shy and blunt and weak and worn
-Away by whining in the emery paper voice you use to speak
-
-Oh the shards of past attraction lie visible
-But shy and blunt and weak and worn
-Away by whining in the emery paper voice you use to speak
-
-In the trap
-You only want to be the first to laugh
-You only want to be the first in the sandtrap
-You only want to be the first to laugh
-
-And your climbing holes and cinder claws
-Ring out like the calenture that you sent us all towards
-
-Farewell, farewell, farewell",,,,,,,
-,THE BAD THING_2,"Do the bad thing
-Take off your wedding ring
-Oh it won’t make it that much easier
-It might make it worse
-
-Oh the nights like a whirlwind somebodies girlfriend
-Talking to me, but it’s alright she’s saying that he’s not gonna
-Slap me or try to attack me, he’s not the jealous type
-And I only need to get half an excuse and I’m away
-But when there’s no excuses that’s much easier to say:
-
-I’ve been before
-And all these capers make us too good for her to ignore
-See she’s talking but i’m not entirely sure, ah
-
-Do the bad thing
-Aka off your wedding ring
-Oh it won’t make it that much easier
-It might make it worse
-
-Oh a sudden disheartener somebodies partner’s talking to me
-But i don’t know that is what she is
-Then she murmurs things to confirm that the tragedy is true
-And I knew how could she not, she could have anyone she wants
-And I’m struggling to think of an immediate response
-Like “I don’t min, it’d be a big mistake, for you to wait
-And have me waste your time, really love it’s fine”
-I said “really love it’s fine”
-
-And then the first time it occurred that there was something to destroy
-I knew before the invitation that there was this boy
-Oh but she carried on suggesting, I struggled to refuse
-She said its the red wine this time but that is no excuse",,,,,,,
-,THE BAKERY (ACOUSTIC),"[Verse 1]
-I wish you would have smiled in the bakery
-Or sat on a tatty settee
-At a mutual friend's gathering
-And the more you keep on looking, the more it's hard to take
-Love, we're in stalemate
-To never meet is surely where we're bound
-There's one in every town
-Just there to grind you down
-
-[Verse 2]
-I wish I would have seen you in the post office
-Well, maybe I did and I missed it
-Too busy with the mind on clever lines
-Why not the rounders pitch or the canteen?
-You're slacking, love, where have you been?
-Just had to go and wait until tonight
-
-[Bridge]
-To give me the invite
-Don't worry, it's alright
-
-[Verse 3]
-I wish I would have seen you down in the arcade
-Sipping on a lemonade
-In the paper cup and chewing on the straw
-And I wish I'd seen you in the bakery
-But if I'd seen you in the bakery
-You probably wouldn't have seen me",,,,,,,
-,THE JAM OF BOSTON,[Instrumental],,,,,,,
-,WAGON ON THE WAY TO THE STRIPEY TENT,( Instrumental version of Sandtrap.),,,,,,,
-,WHY'D YOU ONLY CALL ME WHEN YOU'RE HIGH? (FRENCH TRANSLATION),"[Couplet 1]
-Le reflet du miroir me dit qu'il est temps de rentrer
-Mais j'en ai pas fini, parce que t'es pas près de moi
-Et en arrivant j'ai cru te voir partir
-Tes chaussures à la main
-Mais j'ai décidé qu'une fois encore je ne faisais que rêver
-De tomber sur toi
-
-[Refrain]
-Maintenant il est trois heures du matin
-Et j'essaie de te faire changer d'avis
-J't'ai laissé plusieurs appels manqués
-Et à mon message, tu réponds
-""Pourquoi tu m'appelles que quand t'es défoncé?""
-""Hey, pourquoi tu m'appelles que quand t'es défoncé?""
-
-[Couplet 2]
-Dans un endroit plus sombre, j'dis les mêmes conneries
-J'ai besoin d'un partenaire, donc est-ce que tu sors ce soir?
-C'est de plus en plus dur de te tenir à m'écouter
-Je prends les choses en main
-Incapable de prendre des décisions correctes
-Et avoir de mauvaises idées
-
-[Refrain]
-Maintenant il est trois heures du matin
-Et j'essaie de te faire changer d'avis
-J't'ai laissé plusieurs appels manqués
-Et à mon message, tu réponds
-""Pourquoi tu m'appelles que quand t'es défoncé?""
-""Hey, pourquoi tu m'appelles que quand t'es défoncé?""
-
-[Bridge]
-Et si j'te vois pas ici, j'me demande où tu pourrais être
-J'ai un peu l'impression d'être à cours de temps
-J'ai pas trouvé tout ce que j'espérais trouver
-T'as dit que tu devais te lever demain matin
-Tu vas te coucher tôt ce soir
-Et tu commences à m'ennuyer bébé
-""Pourquoi tu m'appelles que quand t'es défoncé?""
-
-[Outro]
-""Pourquoi tu m'téléphones que quand t'es défoncé?""
-""Pourquoi tu m'téléphones que quand t'es défoncé?""
-""Pourquoi tu m'téléphones que quand t'es défoncé?""
-""Pourquoi tu m'téléphones que quand t'es défoncé?""",,,,,,,
+Back up to their brains to form expressions on their stupid faces"

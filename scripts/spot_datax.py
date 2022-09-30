@@ -5,7 +5,7 @@ import pandas as pd
 arctic_uri = 'spotify:artist:7Ln80lUS6He07XvHI8qqHH'
 spotify = spotipy.Spotify(client_credentials_manager=SpotifyClientCredentials())
 
-album_uris = pd.DataFrame(spotify.artist_albums(arctic_uri, album_type='album')["items"])
+album_uris = pd.DataFrame(spotify.artist_albums(arctic_uri)["items"])
 album_uris.sort_values(by='release_date', axis='index', inplace=True)
 album_uris.drop_duplicates(subset="name", inplace=True)
 album_uris.set_index("name", inplace=True)
@@ -32,7 +32,7 @@ for alb_uri in album_uris:
 
         main_dataframe = pd.concat(objs=[main_dataframe, track_data], axis="index")
 
-main_dataframe[["album", "name"]] = main_dataframe[["album", "name"]].applymap(lambda string: string.upper())
+main_dataframe[["album", "name"]] = main_dataframe[["album", "name"]].applymap(lambda string: string.upper().replace("…", "..."))
 main_dataframe.set_index(["album", "name"], inplace=True)
 
 main_dataframe.to_csv("../results/spot_data.csv")
