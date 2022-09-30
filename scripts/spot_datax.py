@@ -32,9 +32,7 @@ for alb_uri in album_uris:
 
         main_dataframe = pd.concat(objs=[main_dataframe, track_data], axis="index")
 
-final_index = pd.MultiIndex.from_frame(main_dataframe[["album","name"]])
-
-main_dataframe.drop(["album","name"], axis="columns", inplace=True)
-main_dataframe.set_index(final_index, inplace=True)
+main_dataframe[["album", "name"]] = main_dataframe[["album", "name"]].applymap(lambda string: string.upper())
+main_dataframe.set_index(["album", "name"], inplace=True)
 
 main_dataframe.to_csv("../results/spot_data.csv")
