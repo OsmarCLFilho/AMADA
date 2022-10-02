@@ -38,8 +38,14 @@ for row in rows[2:-1]:
             gold += count
 
 
-    data[album_name] = {"gold": gold, "platinum": platinum}
+    data[album_name] = (gold, platinum)
 
-df_to_export = pd.DataFrame(data).T
+certs_df = pd.DataFrame(data, index=["Gold", "Platinum"]).T
 
-df_to_export.to_csv("../results/good_band_certs.csv")
+with open("../results/spo_lyr_data.csv") as lpf:
+    lypo_df = pd.read_csv(lpf)
+    lypo_df.set_index(["album", "name"], inplace=True)
+
+    final_dataset = lypo_df.join(certs_df, on="album")
+    final_dataset.to_csv("../results/final_dataset.csv")
+    final_dataset.to_html("../results/final_dataset.html")
