@@ -1,7 +1,7 @@
 import func_etapa2_g2 as fe
 import pandas as pd
 
-df = pd.read_csv("spo_lyr_data.csv")
+df = pd.read_csv("..\results\final_dataset.csv")
 
 print("######  QUESTÃO 1  ######\n")
 
