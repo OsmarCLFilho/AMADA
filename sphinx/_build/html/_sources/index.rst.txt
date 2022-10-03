@@ -10,6 +10,13 @@ Welcome to AMADA's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+* :ref:`Data Sources`
+* :ref:`Extraction Scripts`
+* :ref:`Analysis Scripts`
+* :ref:`Results`
+
+.. _Data Sources:
+
 Data Sources
 ------------
 
@@ -18,11 +25,19 @@ The data sources used in the project are located under the *data* folder. They a
 lyrics.csv
 **********
 
+`lyrics.csv`, obtained from https://www.kaggle.com/datasets/ggapp1/arctic-monkeys-lyrics, is a dataset with the names, repective album and lyrics of most Arctic Monkeys' tracks.
+
 to_scrape.txt
 *************
 
-tvappear.txt
+`to_scrape.txt` is a list of useful links from web_scraping data. However, in the end, only https://en.wikipedia.org/wiki/Arctic_Monkeys_discography was used.
+
+TVappear.txt
 ************
+
+`TVappear.txt` is a list of tv series and the Arctic Monkeys' tracks that are used in them.
+
+.. _Extraction Scripts:
 
 Extraction Scripts
 ------------------
@@ -32,38 +47,146 @@ The extraction scripts are located under the *scripts* folder. They are responsi
 spot_datax.py
 *************
 
-`spot_datax.py` is responsible for data about tracks through the Spotify API. Such task is done with the Spotipy library and yields the `spot_data.csv` file under *results*.
+`spot_datax.py` (spotify data extraction) is responsible for data about tracks through the Spotify API. Such task is done with the Spotipy library and yields the `spot_data.csv` file under *results*.
 
 lyrics_enjoyer.py
 *****************
 
+`lyrics_enjoyer.py` (lyrics joiner) is responsible for adding the `lyrics.csv` data into the `spot_data.csv`, creating the `spo_lyr_data.csv` file.
+
 wikipedist.py
 *************
+
+`wikipedist.py` is responsible for web_scraping https://en.wikipedia.org/wiki/Arctic_Monkeys_discography for the album certifications table. It then adds the collected information into `spo_lyr_data` to generate `final_dataset.csv`.
+
+.. _Analysis Scripts:
 
 Analysis Scripts
 ----------------
 
 The analysis scripts are located under the *scripts* folder. They are responsible for analysing the refined data from the extraction scripts and producing useful information and statistics.
 
-e2g1-v2.py
-**********
+etap2_g1.py
+***********
+
+`etap2_g1.py` is responsible for answering the first group of questions. It does so through the following functions:
+
+.. function:: views(album)
+
+   Prints the most and the less listened track in an album
+
+   :param str album: The album in which to search the tracks
+   :rtype: None
+
+
+.. function:: durations(album)
+
+   Prints the longest and the shortest track in an album
+
+   :param str album: The album in which to search the tracks
+   :rtype: None
+
+
+.. function:: allview()
+
+   Prints the most and the less listened track in all the albums
+
+   :rtype: None
+
+
+.. function:: allduration
+
+   Prtins the longest and the shortest track in all the albums
+
+   :rtype: None
+
+
+etap2_g2.py
+***********
+
+`etap2_g2.py` is responsible for answering the first group of questions. It does it through functions contained in `func_etapa2_g2.py`.
 
 func_etapa2_g2.py
-*****************
+^^^^^^^^^^^^^^^^^
+
+.. function:: concatenar_elementos_coluna(DataFrame, coluna, condicao=None)
+
+   Concatenates all the strings in the *coluna* column and return it as a dictionary with a single key *Todas* and the concatenated strings; if *condicao* is None. Else, returns a dictionary with keys correponding to the values of the column *condicao*, each followed by its respective value from *coluna*. 
+
+   :param pandas.DataFrame DataFrame: The dataframe that the function will operate over.
+   :param str coluna: Column whose values will be concatenated or put into the returning dictionary.
+   :param str condicao: Column whose values will act as keys for the returning dictionary. If None, then returns a single key dictionary with the concatenated values of *coluna*.
+
+   :return: Either a single key dictionary with the concatenated values or an extensive dictionary with *condicao* elements as keys and *coluna* elements as values.
+
+
+.. function:: remove_contracoes(dicionario)
+
+   Removes most common contractions from *dicionario*, i.e.: *'M*, *'S*, *'RE*, *N'T*, *'LL*, *'VE*, *'D*.
+
+   :param dict dicionario: Dictionary filled with string values.
+
+   :return: Dictionary without the contractions.
+
+
+.. function:: remove_caracteres(dicionario)
+
+   Removes special characters from *dicionario*, i.e.: *( ) ? ! [ ] , . / & \ ' - : ; "*
+
+   :param dict dicionario: Dictionary filled with string values.
+
+   :return: Dictionary without the special characters
+
+
+.. function:: remove_irrelevantes(dicionario)
+
+   Removes undesirable words, such as articles, prepositions and the verb to be, from *dicionario*.
+
+   :param dict dicionario: Dictionary filled with string values.
+
+   :return: Dictionary of same size and keys, but with the original strings stripped of the undesirable words and turned into lists of words.
+
+
+.. function:: freq_elementos(dicionario)
+
+   Counts how many times each word showed up in each of the lists of words of *dicionario*. It then return a dictionary of same size and keys, but with Panda series with the words as index and each corresponding word count as value.
+
+   :param dict dicionario: Dictionary filled with lists of words.
+
+   :return: Dictionary of same size and key, but filled with Panda series with the words as index and the respective word counts as values.
+
+
+.. function:: relevancia(dicionario)
+
+   Counts how many times each key of *dicionario* shows up in its corresponding value.
+
+   :param dict dicionario: Dictionary filled with string values
+
+   :return: Dictionary of same size and keys, but with the values replaced by the count of how many times the key showed up in the value.
+
+.. _Results:
 
 Results
 -------
 
-The results, located in the *resutls* folder, are csv files generated by the analysis scripts. They contain the important findings of the project and are used to answer a set of questions 
+The results, located in the *resutls* folder, are datasets created by the extraction scripts, csv files generated by the analysis scripts and a final report. The csv files contain the important findings of the project and are used to answer a set of questions in the final report.
 
 spot_data.csv
 *************
 
+`spot_data.csv` is the file generated by `spot_datax.py`. It contains data pulled from the `Spotify API`, e.g.: popularity, duration, tempo, etc..
+
 spo_lyr_data.csv
 ****************
+
+`spo_lyr_data.csv` is the file fenerated by `lyrics_enjoyer.py`. It contains data from `spot_data.csv` plus data from `lyrics.csv`.
 
 good_band_certs.csv
 *******************
 
+`good_band_certs.csv` is an file previously generated by `wikipedist.py`. It contains data about the albums certifications. It is now deprecated as its data is directly merged with `spo_lyr_data.csv` by `wikipedist.py` 
+
 final_dataset.csv
 *****************
+
+`final_dataset.csv` is the merging of `spo_lyr_data.csv` with the certifications data from `wikipedist.py`. Other than the TV series tracks, it contains all the important data for the analysis scripts.
