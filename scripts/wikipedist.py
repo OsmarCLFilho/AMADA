@@ -1,8 +1,14 @@
 from bs4 import BeautifulSoup
 import requests as rq
 import pandas as pd
+import sys
 
-wiki_html = rq.get("https://en.wikipedia.org/wiki/Arctic_Monkeys_discography").text
+try:
+    wiki_html = rq.get("https://en.wikipedia.org/wiki/Arctic_Monkeys_discography").text
+
+except (rq.exceptions.ConnectionError, rq.exceptions.ReadTimeout):
+    print("Internet connection failed!")
+    sys.exit(1)
 
 stew = BeautifulSoup(wiki_html, "html.parser")
 
@@ -42,10 +48,15 @@ for row in rows[2:-1]:
 
 certs_df = pd.DataFrame(data, index=["Gold", "Platinum"]).T
 
-with open("../results/spo_lyr_data.csv") as lpf:
-    lypo_df = pd.read_csv(lpf)
-    lypo_df.set_index(["album", "name"], inplace=True)
+try:
+    with open("../results/spo_lyr_data.csv") as lpf:
+        lypo_df = pd.read_csv(lpf)
+        lypo_df.set_index(["album", "name"], inplace=True)
 
-    final_dataset = lypo_df.join(certs_df, on="album")
-    final_dataset.to_csv("../results/final_dataset.csv")
-    final_dataset.to_html("../results/final_dataset.html")
+        final_dataset = lypo_df.join(certs_df, on="album")
+        final_dataset.to_csv("../results/final_dataset.csv")
+        final_dataset.to_html("../results/final_dataset.html")
+
+except FileNotFoundError:
+    print("spo_lyr_data.csv was not found in /results/. The file struture of the project is altered!")
+    sys.exit(1)
