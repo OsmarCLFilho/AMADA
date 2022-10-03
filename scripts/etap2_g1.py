@@ -13,27 +13,21 @@ tbhc_df = AM.loc[AM['Álbum'] == 'Tranquility Base Hotel & Casino']
 
 wpsiatwin_views = wpsiatwin_df["Views"]
 wpsiatwin_duration = wpsiatwin_df["Duração"]
-#wpsiatwin_prizes = wpsiatwin_df["Prêmios"]
 
 fwn_views = fwn_df["Views"]
 fwn_duration = fwn_df["Duração"]
-#fwn_prizes = fwn_df["Prêmios"]
 
 humbug_views = humbug_df["Views"]
 humbug_duration = humbug_df["Duração"]
-#humbug_prizes = humbug_df["Prêmios"]
 
 sias_views = sias_df["Views"]
 sias_duration = sias_df["Duração"]
-#sias_prizes = sias_df["Prêmios"]
 
 am_views = am_df["Views"]
 am_duration = am_df["Duração"]
-#am_prizes = am_df["Prêmios"]
 
 tbhc_views = tbhc_df["Views"]
 tbhc_duration = tbhc_df["Duração"]
-#tbhc_prizes = tbhc_df["Prêmios"]
 
 AM_views = AM["Views"]
 AM_duration = AM["Duração"]
@@ -142,6 +136,10 @@ def allduration():
     print("Música mais longa no geral:", maxsong)
     print("Música mais curta no geral:", minsong)
 
+def premios():
+    print("Maior número de Gold Certifications: Whatever People Say I Am, That's What I'm Not (5)")
+    print("Maior número de Platinum Certifications: AM (12)")
+
 def correlation():
     col1, col2 = "Duração", "Views"
     corr = AM[col1].corr(AM[col2])
@@ -151,4 +149,5 @@ views("Suck It and See")
 durations("Tranquility Base Hotel & Casino")
 allduration()
 allviews()
+premios()
 correlation()
