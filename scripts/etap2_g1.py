@@ -1,6 +1,6 @@
 import pandas as pd
 
-AM =  pd.read_csv('AM.csv')
+AM =  pd.read_csv('final_dataset.csv')
 
 AM.columns = ['Álbum', 'Música', 'Views', 'Duração']
 
@@ -144,10 +144,3 @@ def correlation():
     col1, col2 = "Duração", "Views"
     corr = AM[col1].corr(AM[col2])
     print("A correlação entre", col1, "e", col2, "é:", round(corr, 2))
-
-views("Suck It and See")
-durations("Tranquility Base Hotel & Casino")
-allduration()
-allviews()
-premios()
-correlation()
