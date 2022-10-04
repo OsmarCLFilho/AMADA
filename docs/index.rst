@@ -13,7 +13,7 @@ Welcome to AMADA's documentation!
 * :ref:`Data Sources`
 * :ref:`Extraction Scripts`
 * :ref:`Analysis Scripts`
-* :ref:`Basis`
+* :ref:`Results`
 
 .. _Data Sources:
 
