@@ -1,7 +1,0 @@
-build:
-  os: Manjaro Linux x86_64
-  tools:
-    python: "3.10"
-
-sphinx:
-  configuration: docs/conf.py
