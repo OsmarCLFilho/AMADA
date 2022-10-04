@@ -2,123 +2,123 @@ import pandas as pd
 import copy
 
 
-def concatenar_elementos_coluna(DataFrame: pd.DataFrame, coluna: str, condicao: str = None) -> dict:
-    dicionario = {}
-    if condicao == None:
-        indice = 'Todas'
-        dicionario['Todas'] = ""
+def concat_elements_column(df: pd.DataFrame, coluna: str, key: str = None) -> dict:
+    dictionary = {}
+    if key == None:
+        index = 'all'
+        dictionary['all'] = ""
         anterior = None
-        for line in range(len(DataFrame)):
-            dado = DataFrame.loc[line, coluna].upper()
-            #se o dado for igual ao adicionado anteriormente, ele não será colocado
-            if dado == anterior:
+        for line in range(len(df)):
+            data = df.loc[line, coluna].upper()
+            #se o data for igual ao adicionado anteriormente, ele não será colocado
+            if data == anterior:
                 continue
             else:
-                dicionario[indice] = dicionario[indice] + " " + dado
-            anterior = dado
+                dictionary[index] = dictionary[index] + " " + data
+            anterior = data
     else:
         anterior = None
-        for line in range(len(DataFrame)):
-            indice = DataFrame.loc[line, condicao]
-            dado = DataFrame.loc[line, coluna].upper()
-            #se o dado for igual ao adicionado anteriormente, ele não será colocado
-            if dado == anterior:
+        for line in range(len(df)):
+            index = df.loc[line, key]
+            data = df.loc[line, coluna].upper()
+            #se o data for igual ao adicionado anteriormente, ele não será colocado
+            if data == anterior:
                 continue
             else: 
-                #se já houver o indice, apenas soma o novo dado ao anterior   
-                if dicionario.get(indice):
-                    dicionario[indice] = dicionario[indice] + " " + dado
+                #se já houver o index, apenas soma o novo data ao anterior   
+                if dictionary.get(index):
+                    dictionary[index] = dictionary[index] + " " + data
                 else:
-                    #senão, cria um novo indice com o dado
-                    dicionario[indice] = dado
+                    #senão, cria um novo index com o data
+                    dictionary[index] = data
 
-    #faz a limpeza dos dados, referente a quebra de linha e informações entre os colchetes
-    for key in dicionario.keys():
-        dicionario[key] = dicionario[key].replace('\r\n', ' ').replace('_IGNORE_EMPTY_IGNORE_', ' ')
-        profundidade = 0
-        novo_texto = ""
-        #retira os dados que estão entre colchetes e os colchetes
-        for c in dicionario[key]:
+    #faz a limpeza dos datas, referente a quebra de linha e informações entre os colchetes
+    for key in dictionary.keys():
+        dictionary[key] = dictionary[key].replace('\r\n', ' ').replace('_IGNORE_EMPTY_IGNORE_', ' ')
+        depth = 0
+        new_string = ""
+        #retira os datas que estão entre colchetes e os colchetes
+        for c in dictionary[key]:
             if c == "[":
-                profundidade += 1
+                depth += 1
             elif c == "]":
-                profundidade -= 1
-            elif profundidade == 0:
-                novo_texto += c
+                depth -= 1
+            elif depth == 0:
+                new_string += c
         
-        dicionario[key] = novo_texto
+        dictionary[key] = new_string
             
-    return dicionario
+    return dictionary
 
 
-def remove_contracoes(dicionario: dict) -> dict:
+def remove_contractions(dictionary: dict) -> dict:
     #contrações comuns no inglês
     chars = ["'M","'S","'RE","N'T","'LL","'VE","'D","’M","’S","’RE","N’T","’LL","’VE","’D"]
 
     #faz um loop com as contrações para retirar suas ocorrências
-    for key in dicionario.keys():    
-        for str in chars:
-            dicionario[key] = dicionario[key].replace(str, "")
+    for key in dictionary.keys():    
+        for string in chars:
+            dictionary[key] = dictionary[key].replace(string, "")
         #devido a contração de "cannot" ser "can't" e não "cann't", ao retirar as contrações, "can't" ficará "ca"
-        dicionario[key] = dicionario[key].replace(' ca ', " can ")
+        dictionary[key] = dictionary[key].replace(' ca ', " can ")
 
-    return dicionario
+    return dictionary
 
 
-def remove_caracteres(dicionario: dict) -> dict:
+def remove_characters(dictionary: dict) -> dict:
     #caracteres especiais que aparecem nos álbuns, nomes e letras das músicas
     chars = ["(",")","?","!","[","]",",",".","/","&","\"","'","-",":",";","“","”","‘","’","–","—"]
 
-    for key in dicionario.keys():    
+    for key in dictionary.keys():    
         #faz um loop com os caracteres para retirar suas ocorrências
-        for str in chars:
-            dicionario[key] = dicionario[key].replace(str, "")
+        for string in chars:
+            dictionary[key] = dictionary[key].replace(string, "")
 
-    return dicionario
+    return dictionary
 
 
-def remove_irrelevantes(dicionario: dict) -> dict:
+def remove_undesirables(dictionary: dict) -> dict:
     with open("stopwords.txt") as file:
         #transforma o arquivo de texto em uma lista e põe todas as palavras em letras maiúsculas
         stopwords = file.read().upper().split()
     
-    for key in dicionario.keys():
-        #transforma os valores do dicionario em listas
-        dicionario[key] = dicionario[key].split()
+    for key in dictionary.keys():
+        #transforma os valores do dictionary em listas
+        dictionary[key] = dictionary[key].split()
  
-    dicionario_aux = copy.deepcopy(dicionario)
+    dictionary_aux = copy.deepcopy(dictionary)
 
-    for key in dicionario.keys():    
+    for key in dictionary.keys():    
         #retira as palavras que estão na lista stopword 
-        for str in dicionario_aux[key]:
-            if str in stopwords:
-                dicionario[key].remove(str) 
+        for string in dictionary_aux[key]:
+            if string in stopwords:
+                dictionary[key].remove(string) 
     
-    return dicionario
+    return dictionary
 
 
-def freq_elementos(dicionario: dict) -> dict:
-    for key in dicionario.keys():  
-        #define a lista de índices como as palavras que cada valor do dicionario possui
-        indice = list(set(dicionario[key]))
-        dados = []
+def elements_freq(dictionary: dict) -> dict:
+    for key in dictionary.keys():  
+        #define a lista de índices como as palavras que cada valor do dictionary possui
+        index = list(set(dictionary[key]))
+        datas = []
 
-        for ind in indice:
-            #adiciona quantas vezes cada palavra aparece no valor do dicionario na ordem da lista índice
-            dados.append(dicionario[key].count(ind))
+        for ind in index:
+            #adiciona quantas vezes cada palavra aparece no valor do dictionary na ordem da lista índice
+            datas.append(dictionary[key].count(ind))
 
-        #cria a série com os índices e os dados, e coloca ela em ordem decrecescente
-        serie = pd.Series(data=dados, index=indice, dtype='int64')
+        #cria a série com os índices e os datas, e coloca ela em ordem decrecescente
+        serie = pd.Series(data=datas, index=index, dtype='int64')
         serie = serie.sort_values(ascending=False)
 
-        dicionario[key] = serie
+        dictionary[key] = serie
 
-    return dicionario
+    return dictionary
 
 
-def relevancia(dicionario: dict) -> dict:
-    for key in dicionario.keys():
+def relevancy(dictionary: dict) -> dict:
+    for key in dictionary.keys():
         #coloca em cada valor do dicionário a quantidade que o key repete no valor anterior
-        dicionario[key] = dicionario[key].count(key)
+        dictionary[key] = dictionary[key].count(key)
     
-    return dicionario
+    return dictionary
