@@ -45,8 +45,11 @@ def concat_elements_column(df: pd.DataFrame, coluna: str, key: str = None) -> di
                 depth -= 1
             elif depth == 0:
                 new_string += c
-        
-        dictionary[key] = new_string
+        #se não houver nenhuma informação após retirar os dados desnecessários, guarda um aviso                
+        if new_string.replace(' ', '') == '':
+            dictionary[key] = '[Não possui nenhuma informação]'
+        else:
+            dictionary[key] = new_string
             
     return dictionary
 
@@ -57,10 +60,13 @@ def remove_contractions(dictionary: dict) -> dict:
 
     #faz um loop com as contrações para retirar suas ocorrências
     for key in dictionary.keys():    
-        for string in chars:
-            dictionary[key] = dictionary[key].replace(string, "")
-        #devido a contração de "cannot" ser "can't" e não "cann't", ao retirar as contrações, "can't" ficará "ca"
-        dictionary[key] = dictionary[key].replace(' ca ', " can ")
+        if dictionary[key] == '[Não possui nenhuma informação]':
+            continue
+        else:    
+            for string in chars:
+                dictionary[key] = dictionary[key].replace(string, '')
+            #devido a contração de "cannot" ser "can't" e não "cann't", ao retirar as contrações, "can't" ficará "ca"
+            dictionary[key] = dictionary[key].replace(' ca ', ' can ')
 
     return dictionary
 
@@ -70,9 +76,12 @@ def remove_characters(dictionary: dict) -> dict:
     chars = ["(",")","?","!","[","]",",",".","/","&","\"","'","-",":",";","“","”","‘","’","–","—"]
 
     for key in dictionary.keys():    
-        #faz um loop com os caracteres para retirar suas ocorrências
-        for string in chars:
-            dictionary[key] = dictionary[key].replace(string, "")
+        if dictionary[key] == '[Não possui nenhuma informação]':
+            continue
+        else: 
+            #faz um loop com os caracteres para retirar suas ocorrências
+            for string in chars:
+                dictionary[key] = dictionary[key].replace(string, "")
 
     return dictionary
 
@@ -83,42 +92,56 @@ def remove_undesirables(dictionary: dict) -> dict:
         stopwords = file.read().upper().split()
     
     for key in dictionary.keys():
-        #transforma os valores do dictionary em listas
-        dictionary[key] = dictionary[key].split()
+        if dictionary[key] == '[Não possui nenhuma informação]':
+            continue
+        else:
+            #transforma os valores do dictionary em listas
+            dictionary[key] = dictionary[key].split()
  
     dictionary_aux = copy.deepcopy(dictionary)
 
     for key in dictionary.keys():    
-        #retira as palavras que estão na lista stopword 
-        for string in dictionary_aux[key]:
-            if string in stopwords:
-                dictionary[key].remove(string) 
+        if dictionary[key] == '[Não possui nenhuma informação]':
+            continue
+        else: 
+            #retira as palavras que estão na lista stopword 
+            for string in dictionary_aux[key]:
+                if string in stopwords:
+                    dictionary[key].remove(string) 
     
     return dictionary
 
 
 def elements_freq(dictionary: dict) -> dict:
     for key in dictionary.keys():  
-        #define a lista de índices como as palavras que cada valor do dictionary possui
-        index = list(set(dictionary[key]))
-        datas = []
+        if dictionary[key] == '[Não possui nenhuma informação]':
+            continue
+        else:    
+            if not isinstance(dictionary[key], list):
+                dictionary[key] = dictionary[key].split()
+            #define a lista de índices como as palavras que cada valor do dictionary possui
+            index = list(set(dictionary[key]))
+            datas = []
 
-        for ind in index:
-            #adiciona quantas vezes cada palavra aparece no valor do dictionary na ordem da lista índice
-            datas.append(dictionary[key].count(ind))
+            for ind in index:
+                #adiciona quantas vezes cada palavra aparece no valor do dictionary na ordem da lista índice
+                datas.append(dictionary[key].count(ind))
 
-        #cria a série com os índices e os datas, e coloca ela em ordem decrecescente
-        serie = pd.Series(data=datas, index=index, dtype='int64')
-        serie = serie.sort_values(ascending=False)
+            #cria a série com os índices e os datas, e coloca ela em ordem decrecescente
+            serie = pd.Series(data=datas, index=index, dtype='int64')
+            serie = serie.sort_values(ascending=False)
 
-        dictionary[key] = serie
+            dictionary[key] = serie
 
     return dictionary
 
 
 def relevancy(dictionary: dict) -> dict:
     for key in dictionary.keys():
-        #coloca em cada valor do dicionário a quantidade que o key repete no valor anterior
-        dictionary[key] = dictionary[key].count(key)
+        if dictionary[key] == '[Não possui nenhuma informação]':
+            continue
+        else:
+            #coloca em cada valor do dicionário a quantidade que o key repete no valor anterior
+            dictionary[key] = dictionary[key].count(key)
     
     return dictionary
