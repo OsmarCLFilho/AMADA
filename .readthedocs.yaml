@@ -1,0 +1,6 @@
+build:
+  tools:
+    python: "3.10"
+
+sphinx:
+  configuration: docs/conf.py
