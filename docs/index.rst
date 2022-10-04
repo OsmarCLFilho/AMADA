@@ -212,12 +212,12 @@ visualizacao_e2_g2.py
 
 `visualizacao_e2_g2.py` is responsible for generating word clouds for questions 1, 2 and 4 of the second question group. Output is placed into `visualizacao_e2_g2_out.py/`.
 
-.. _Basis:
+.. _Results:
 
-Basis
+Results
 -------
 
-The basis, located in the *basis* folder, are datasets and csv created by the extraction scripts. These files contain the data over which the analysis scripts draw answers from.
+The results, located in the *results* folder, are datasets and csv created by the extraction scripts. These files contain the data over which the analysis scripts draw answers from.
 
 spot_data.csv
 *************

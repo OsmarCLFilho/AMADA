@@ -1,8 +1,14 @@
 import func_etapa2_g2 as fe
 import pandas as pd
 import copy
+import sys
 
-df = pd.read_csv("../results/final_dataset.csv")
+try:
+    df = pd.read_csv("../results/final_dataset.csv")
+
+except FileNotFoundError:
+    print("final_dataset.csv was not found in /results/. The file structure of the project is altered!")
+    sys.exit(1)
 
 print("######  QUESTION 1  ######\n")
 
@@ -69,7 +75,7 @@ dictionary = fe.concat_elements_column(df, 'lyrics', 'album')
 dictionary = fe.relevancy(dictionary)
 
 print("Amount of times that the albums titles show up in the lyrics\n")
-print(" (os albuns que as letras não foram encontradas, foram retirados):\n")
+print("(albums whose lyrics were not found were removed):\n")
 
 for key in copy.deepcopy(dictionary).keys():
     if isinstance(dictionary[key], str):
@@ -86,8 +92,8 @@ print("######  QUESTION 6  ######\n")
 dictionary = fe.concat_elements_column(df, 'lyrics', 'name')
 dictionary = fe.relevancy(dictionary)
 
-print("Quantidade de vezes que o nome das músicas aparecem nas suas letras\n")
-print(" (as músicas que as letras não foram encontradas, foram retiradas):")
+print("Amount of times that the tracks titles show up in the lyrics\n")
+print("(tracks whose lyrics were not found were removed):")
 
 for key in copy.deepcopy(dictionary).keys():
     if isinstance(dictionary[key], str):
