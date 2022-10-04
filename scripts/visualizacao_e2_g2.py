@@ -2,17 +2,22 @@ import func_etapa2_g2 as fe
 import pandas as pd
 import matplotlib.pyplot as plt
 from wordcloud import WordCloud
+import sys
 
+try:
+    df = pd.read_csv("../results/spo_lyr_data.csv")
 
-df = pd.read_csv("spo_lyr_data.csv")
+except FileNotFoundError:
+    print("spo_lyr_data.csv not found in /results/. The file structure of the project is altered!")
+    sys.exit(1)
 
 ############################################################################################################
 
-dicionario = fe.concatenar_elementos_coluna(df, 'album')
-dicionario = fe.remove_contracoes(dicionario)
-dicionario = fe.remove_caracteres(dicionario)
+dictionary = fe.concat_elements_column(df, 'album')
+dictionary = fe.remove_contractions(dictionary)
+dictionary = fe.remove_characters(dictionary)
 
-string = dicionario['Todas']
+string = dictionary['all']
 
 wordcloud = WordCloud(background_color="black", width=1600, height=800).generate(string)
 
@@ -24,11 +29,11 @@ wordcloud.to_file("questao1.png")
 
 ############################################################################################################
 
-dicionario = fe.concatenar_elementos_coluna(df, 'name')
-dicionario = fe.remove_contracoes(dicionario)
-dicionario = fe.remove_caracteres(dicionario)
+dictionary = fe.concat_elements_column(df, 'name')
+dictionary = fe.remove_contractions(dictionary)
+dictionary = fe.remove_characters(dictionary)
 
-string = dicionario['Todas']
+string = dictionary['all']
 
 wordcloud = WordCloud(background_color="black", width=1600, height=800).generate(string)
 
@@ -40,11 +45,11 @@ wordcloud.to_file("questao2.png")
 
 ############################################################################################################
 
-dicionario = fe.concatenar_elementos_coluna(df, 'lyrics')
-dicionario = fe.remove_contracoes(dicionario)
-dicionario = fe.remove_caracteres(dicionario)
-dicionario = fe.remove_irrelevantes(dicionario)
-string = " ".join(dicionario['Todas'])
+dictionary = fe.concat_elements_column(df, 'lyrics')
+dictionary = fe.remove_contractions(dictionary)
+dictionary = fe.remove_characters(dictionary)
+dictionary = fe.remove_undesirables(dictionary)
+string = " ".join(dictionary['all'])
 
 wordcloud = WordCloud(background_color="black", width=1600, height=800).generate(string)
 
