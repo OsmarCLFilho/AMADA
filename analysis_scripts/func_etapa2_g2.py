@@ -116,7 +116,8 @@ def elements_freq(dictionary: dict) -> dict:
     for key in dictionary.keys():  
         if dictionary[key] == '[Não possui nenhuma informação]':
             continue
-        else:    
+        else: 
+            #se caso receber um dicionário em que os valores são strings, irá transformá-los em listas
             if not isinstance(dictionary[key], list):
                 dictionary[key] = dictionary[key].split()
             #define a lista de índices como as palavras que cada valor do dictionary possui
