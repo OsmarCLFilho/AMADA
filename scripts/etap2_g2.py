@@ -1,86 +1,86 @@
 import func_etapa2_g2 as fe
 import pandas as pd
 
-df = pd.read_csv("..\results\final_dataset.csv")
+df = pd.read_csv("../results/final_dataset.csv")
 
-print("######  QUESTÃO 1  ######\n")
+print("######  QUESTION 1  ######\n")
 
-dicionario = fe.concatenar_elementos_coluna(df, 'album')
-dicionario = fe.remove_contracoes(dicionario)
-dicionario = fe.remove_caracteres(dicionario)
-dicionario = fe.remove_irrelevantes(dicionario)
-dicionario = fe.freq_elementos(dicionario)
+dictionary = fe.concat_elements_column(df, 'album')
+dictionary = fe.remove_contractions(dictionary)
+dictionary = fe.remove_characters(dictionary)
+dictionary = fe.remove_undesirables(dictionary)
+dictionary = fe.elements_freq(dictionary)
 
-print("10 palavras mais comuns nos títulos dos álbuns:\n")
-print(dicionario['Todas'].head(10))
-
-print("\n\n")
-
-
-print("######  QUESTÃO 2  ######\n")
-
-dicionario = fe.concatenar_elementos_coluna(df, 'name')
-dicionario = fe.remove_contracoes(dicionario)
-dicionario = fe.remove_caracteres(dicionario)
-dicionario = fe.remove_irrelevantes(dicionario)
-dicionario = fe.freq_elementos(dicionario)
-
-print("10 palavras mais comuns nos títulos das músicas:\n")
-print(dicionario['Todas'].head(10))
+print("10 most common words in the album titles:\n")
+print(dictionary['all'].head(10))
 
 print("\n\n")
 
 
-print("######  QUESTÃO 3  ######\n")
+print("######  QUESTION 2  ######\n")
 
-dicionario = fe.concatenar_elementos_coluna(df, 'lyrics', 'album')
-dicionario = fe.remove_contracoes(dicionario)
-dicionario = fe.remove_caracteres(dicionario)
-dicionario = fe.remove_irrelevantes(dicionario)
-dicionario = fe.freq_elementos(dicionario)
+dictionary = fe.concat_elements_column(df, 'name')
+dictionary = fe.remove_contractions(dictionary)
+dictionary = fe.remove_characters(dictionary)
+dictionary = fe.remove_undesirables(dictionary)
+dictionary = fe.elements_freq(dictionary)
 
-print("10 palavras mais comuns nas letras das músicas por álbum:\n")
+print("10 most common words in the track titles:\n")
+print(dictionary['all'].head(10))
 
-for key in dicionario.keys():
+print("\n\n")
+
+
+print("######  QUESTION 3  ######\n")
+
+dictionary = fe.concat_elements_column(df, 'lyrics', 'album')
+dictionary = fe.remove_contractions(dictionary)
+dictionary = fe.remove_characters(dictionary)
+dictionary = fe.remove_undesirables(dictionary)
+dictionary = fe.elements_freq(dictionary)
+
+print("10 most common words in the lyrics per album:\n")
+
+for key in dictionary.keys():
     print(key,":")
-    print(dicionario[key].head(10))
+    print(dictionary[key].head(10))
     print("\n")
 
 print("\n\n")
 
-print("######  QUESTÃO 4  ######\n")
+print("######  QUESTION 4  ######\n")
 
-dicionario = fe.concatenar_elementos_coluna(df, 'lyrics')
-dicionario = fe.remove_contracoes(dicionario)
-dicionario = fe.remove_caracteres(dicionario)
-dicionario = fe.remove_irrelevantes(dicionario)
-dicionario = fe.freq_elementos(dicionario)
+dictionary = fe.concat_elements_column(df, 'lyrics')
+dictionary = fe.remove_contractions(dictionary)
+dictionary = fe.remove_characters(dictionary)
+dictionary = fe.remove_undesirables(dictionary)
+dictionary = fe.elements_freq(dictionary)
 
-print("10 palavras mais comuns nas letras das músicas:\n")
-print(dicionario['Todas'].head(10))
-
-print("\n\n")
-
-print("######  QUESTÃO 5  ######\n")
-
-dicionario = fe.concatenar_elementos_coluna(df, 'lyrics', 'album')
-dicionario = fe.relevancia(dicionario)
-
-print("Quantidade de vezes que o nome dos álbuns aparece nas letras de suas músicas:\n")
-
-for ind in sorted(dicionario, key = dicionario.get, reverse=True):
-    print(ind, ": ", dicionario[ind])
+print("10 most common words in the lyrics:\n")
+print(dictionary['all'].head(10))
 
 print("\n\n")
 
+print("######  QUESTION 5  ######\n")
 
-print("######  QUESTÃO 6  ######\n")
+dictionary = fe.concat_elements_column(df, 'lyrics', 'album')
+dictionary = fe.relevancy(dictionary)
 
-dicionario = fe.concatenar_elementos_coluna(df, 'lyrics', 'name')
-dicionario = fe.relevancia(dicionario)
+print("Amount of times that the albums titles show up in the lyrics:\n")
+
+for ind in sorted(dictionary, key = dictionary.get, reverse=True):
+    print(ind, ": ", dictionary[ind])
+
+print("\n\n")
+
+
+print("######  QUESTION 6  ######\n")
+
+dictionary = fe.concat_elements_column(df, 'lyrics', 'name')
+dictionary = fe.relevancy(dictionary)
 
 print("Quantidade de vezes que o nome das músicas aparecem nas suas letras:\n")
 
-for ind in sorted(dicionario, key = dicionario.get, reverse=True):
-    print(ind, ": ", dicionario[ind])
+for ind in sorted(dictionary, key = dictionary.get, reverse=True):
+    print(ind, ": ", dictionary[ind])
 

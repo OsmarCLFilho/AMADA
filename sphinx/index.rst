@@ -94,12 +94,23 @@ etap2_g1.py
    :rtype: None
 
 
-.. function:: allduration
+.. function:: allduration()
 
-   Prtins the longest and the shortest track in all the albums
+   Prints the longest and the shortest track in all the albums
 
    :rtype: None
 
+.. function:: premios()
+
+   Prints the albums with the most golden and platinum certifications
+
+   :rtype: None
+
+.. function:: correlation()
+
+   Prints the correlation between the duration and popularity
+
+   :rtype: None
 
 etap2_g2.py
 ***********

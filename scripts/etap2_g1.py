@@ -1,146 +1,190 @@
 import pandas as pd
+import sys
 
-AM =  pd.read_csv('final_dataset.csv')
+try:
+    AM =  pd.read_csv('../results/final_dataset.csv')
 
-AM.columns = ['Álbum', 'Música', 'Views', 'Duração']
+except FileNotFoundError:
+    print("final_dataset.csv was not found in /results/. The file structure of the project is altered!")
+    sys.exit(1)
 
-wpsiatwin_df = AM.loc[AM['Álbum'] == "Whatever People Say I Am, That's What I'm Not"]
-fwn_df = AM.loc[AM['Álbum'] == 'Favourite Worst Nightmare']
-humbug_df = AM.loc[AM['Álbum'] == 'Humbug']
-sias_df = AM.loc[AM['Álbum'] == 'Suck It and See']
-am_df = AM.loc[AM['Álbum'] == 'AM']
-tbhc_df = AM.loc[AM['Álbum'] == 'Tranquility Base Hotel & Casino']
+wpsiatwin_df = AM.loc[AM['album'] == "WHATEVER PEOPLE SAY I AM, THAT'S WHAT I'M NOT"]
+fwn_df = AM.loc[AM['album'] == 'FAVOURITE WORST NIGHTMARE']
+humbug_df = AM.loc[AM['album'] == 'HUMBUG']
+sias_df = AM.loc[AM['album'] == 'SUCK IT AND SEE']
+am_df = AM.loc[AM['album'] == 'AM']
+tbhc_df = AM.loc[AM['album'] == 'TRANQUILITY BASE HOTEL & CASINO']
 
-wpsiatwin_views = wpsiatwin_df["Views"]
-wpsiatwin_duration = wpsiatwin_df["Duração"]
+wpsiatwin_popularity = wpsiatwin_df["popularity"]
+wpsiatwin_duration_ms = wpsiatwin_df["duration_ms"]
 
-fwn_views = fwn_df["Views"]
-fwn_duration = fwn_df["Duração"]
+fwn_popularity = fwn_df["popularity"]
+fwn_duration_ms = fwn_df["duration_ms"]
 
-humbug_views = humbug_df["Views"]
-humbug_duration = humbug_df["Duração"]
+humbug_popularity = humbug_df["popularity"]
+humbug_duration_ms = humbug_df["duration_ms"]
 
-sias_views = sias_df["Views"]
-sias_duration = sias_df["Duração"]
+sias_popularity = sias_df["popularity"]
+sias_duration_ms = sias_df["duration_ms"]
 
-am_views = am_df["Views"]
-am_duration = am_df["Duração"]
+am_popularity = am_df["popularity"]
+am_duration_ms = am_df["duration_ms"]
 
-tbhc_views = tbhc_df["Views"]
-tbhc_duration = tbhc_df["Duração"]
+tbhc_popularity = tbhc_df["popularity"]
+tbhc_duration_ms = tbhc_df["duration_ms"]
 
-AM_views = AM["Views"]
-AM_duration = AM["Duração"]
+AM_popularity = AM["popularity"]
+AM_duration_ms = AM["duration_ms"]
 
-def views(album):
-    if album == "Whatever People Say I Am, That's What I'm Not":
-        i = wpsiatwin_views.argmax()
-        j = wpsiatwin_views.argmin()
-        maxsong = wpsiatwin_df['Música'].loc[wpsiatwin_df.index[i]]
-        minsong = wpsiatwin_df['Música'].loc[wpsiatwin_df.index[j]]
-        print("Música mais ouvida:", maxsong)
-        print("Música menos ouvida:", minsong)
-    if album == 'Favourite Worst Nightmare':
-        i = fwn_views.argmax()
-        j = fwn_views.argmin()
-        maxsong = fwn_df['Música'].loc[fwn_df.index[i]]
-        minsong = fwn_df['Música'].loc[fwn_df.index[j]]
-        print("Música mais ouvida:", maxsong)
-        print("Música menos ouvida:", minsong)
-    if album == 'Humbug':
-        i = humbug_views.argmax()
-        j = humbug_views.argmin()
-        maxsong = humbug_df['Música'].loc[humbug_df.index[i]]
-        minsong = humbug_df['Música'].loc[humbug_df.index[j]]
-        print("Música mais ouvida:", maxsong)
-        print("Música menos ouvida:", minsong)
-    if album == 'Suck It and See':
-        i = sias_views.argmax()
-        j = sias_views.argmin()
-        maxsong = sias_df['Música'].loc[sias_df.index[i]]
-        minsong = sias_df['Música'].loc[sias_df.index[j]]
-        print("Música mais ouvida:", maxsong)
-        print("Música menos ouvida:", minsong)
+def popularity(album):
+    if album == "WHATEVER PEOPLE SAY I AM, THAT'S WHAT I'M NOT":
+        i = wpsiatwin_popularity.argmax()
+        j = wpsiatwin_popularity.argmin()
+        maxsong = wpsiatwin_df['name'].loc[wpsiatwin_df.index[i]]
+        minsong = wpsiatwin_df['name'].loc[wpsiatwin_df.index[j]]
+        print("Most popular track:", maxsong)
+        print("Least popular track:", minsong)
+    if album == 'FAVOURITE WORST NIGHTMARE':
+        i = fwn_popularity.argmax()
+        j = fwn_popularity.argmin()
+        maxsong = fwn_df['name'].loc[fwn_df.index[i]]
+        minsong = fwn_df['name'].loc[fwn_df.index[j]]
+        print("Most popular track:", maxsong)
+        print("Least popular track:", minsong)
+    if album == 'HUMBUG':
+        i = humbug_popularity.argmax()
+        j = humbug_popularity.argmin()
+        maxsong = humbug_df['name'].loc[humbug_df.index[i]]
+        minsong = humbug_df['name'].loc[humbug_df.index[j]]
+        print("Most popular track:", maxsong)
+        print("Least popular track:", minsong)
+    if album == 'SUCK IT AND SEE':
+        i = sias_popularity.argmax()
+        j = sias_popularity.argmin()
+        maxsong = sias_df['name'].loc[sias_df.index[i]]
+        minsong = sias_df['name'].loc[sias_df.index[j]]
+        print("Most popular track:", maxsong)
+        print("Least popular track:", minsong)
     if album == 'AM':
-        i = am_views.argmax()
-        j = am_views.argmin()
-        maxsong = am_df['Música'].loc[am_df.index[i]]
-        minsong = am_df['Música'].loc[am_df.index[j]]
-        print("Música mais ouvida:", maxsong)
-        print("Música menos ouvida:", minsong)
-    if album == 'Tranquility Base Hotel & Casino':
-        i = tbhc_views.argmax()
-        j = tbhc_views.argmin()
-        maxsong = tbhc_df['Música'].loc[tbhc_df.index[i]]
-        minsong = tbhc_df['Música'].loc[tbhc_df.index[j]]
-        print("Música mais ouvida:", maxsong)
-        print("Música menos ouvida:", minsong)
+        i = am_popularity.argmax()
+        j = am_popularity.argmin()
+        maxsong = am_df['name'].loc[am_df.index[i]]
+        minsong = am_df['name'].loc[am_df.index[j]]
+        print("Most popular track:", maxsong)
+        print("Least popular track:", minsong)
+    if album == 'TRANQUILITY BASE HOTEL & CASINO':
+        i = tbhc_popularity.argmax()
+        j = tbhc_popularity.argmin()
+        maxsong = tbhc_df['name'].loc[tbhc_df.index[i]]
+        minsong = tbhc_df['name'].loc[tbhc_df.index[j]]
+        print("Most popular track:", maxsong)
+        print("Least popular track:", minsong)
 
-def durations(album):
-    if album == "Whatever People Say I Am, That's What I'm Not":
-        i = wpsiatwin_duration.argmax()
-        j = wpsiatwin_duration.argmin()
-        maxsong = wpsiatwin_df['Música'].loc[wpsiatwin_df.index[i]]
-        minsong = wpsiatwin_df['Música'].loc[wpsiatwin_df.index[j]]
-        print("Música mais longa:", maxsong)
-        print("Música mais curta:", minsong)
-    if album == 'Favourite Worst Nightmare':
-        i = fwn_duration.argmax()
-        j = fwn_duration.argmin()
-        maxsong = fwn_df['Música'].loc[fwn_df.index[i]]
-        minsong = fwn_df['Música'].loc[fwn_df.index[j]]
-        print("Música mais longa:", maxsong)
-        print("Música mais curta:", minsong)
-    if album == 'Humbug':
-        i = humbug_duration.argmax()
-        j = humbug_duration.argmin()
-        maxsong = humbug_df['Música'].loc[humbug_df.index[i]]
-        minsong = humbug_df['Música'].loc[humbug_df.index[j]]
-        print("Música mais longa:", maxsong)
-        print("Música mais curta:", minsong)
-    if album == 'Suck It and See':
-        i = sias_duration.argmax()
-        j = sias_duration.argmin()
-        maxsong = sias_df['Música'].loc[sias_df.index[i]]
-        minsong = sias_df['Música'].loc[sias_df.index[j]]
-        print("Música mais longa:", maxsong)
-        print("Música mais curta:", minsong)
+def duration(album):
+    if album == "WHATEVER PEOPLE SAY I AM, THAT'S WHAT I'M NOT":
+        i = wpsiatwin_duration_ms.argmax()
+        j = wpsiatwin_duration_ms.argmin()
+        maxsong = wpsiatwin_df['name'].loc[wpsiatwin_df.index[i]]
+        minsong = wpsiatwin_df['name'].loc[wpsiatwin_df.index[j]]
+        print("Longest track:", maxsong)
+        print("Shortest track:", minsong)
+    if album == 'FAVOURITE WORST NIGHTMARE':
+        i = fwn_duration_ms.argmax()
+        j = fwn_duration_ms.argmin()
+        maxsong = fwn_df['name'].loc[fwn_df.index[i]]
+        minsong = fwn_df['name'].loc[fwn_df.index[j]]
+        print("Longest track:", maxsong)
+        print("Shortest track:", minsong)
+    if album == 'HUMBUG':
+        i = humbug_duration_ms.argmax()
+        j = humbug_duration_ms.argmin()
+        maxsong = humbug_df['name'].loc[humbug_df.index[i]]
+        minsong = humbug_df['name'].loc[humbug_df.index[j]]
+        print("Longest track:", maxsong)
+        print("Shortest track:", minsong)
+    if album == 'SUCK IT AND SEE':
+        i = sias_duration_ms.argmax()
+        j = sias_duration_ms.argmin()
+        maxsong = sias_df['name'].loc[sias_df.index[i]]
+        minsong = sias_df['name'].loc[sias_df.index[j]]
+        print("Longest track:", maxsong)
+        print("Shortest track:", minsong)
     if album == 'AM':
-        i = am_duration.argmax()
-        j = am_duration.argmin()
-        maxsong = am_df['Música'].loc[am_df.index[i]]
-        minsong = am_df['Música'].loc[am_df.index[j]]
-        print("Música mais longa:", maxsong)
-        print("Música mais curta:", minsong)
-    if album == 'Tranquility Base Hotel & Casino':
-        i = tbhc_duration.argmax()
-        j = tbhc_duration.argmin()
-        maxsong = tbhc_df['Música'].loc[tbhc_df.index[i]]
-        minsong = tbhc_df['Música'].loc[tbhc_df.index[j]]
-        print("Música mais longa:", maxsong)
-        print("Música mais curta:", minsong)
+        i = am_duration_ms.argmax()
+        j = am_duration_ms.argmin()
+        maxsong = am_df['name'].loc[am_df.index[i]]
+        minsong = am_df['name'].loc[am_df.index[j]]
+        print("Longest track:", maxsong)
+        print("Shortest track:", minsong)
+    if album == 'TRANQUILITY BASE HOTEL & CASINO':
+        i = tbhc_duration_ms.argmax()
+        j = tbhc_duration_ms.argmin()
+        maxsong = tbhc_df['name'].loc[tbhc_df.index[i]]
+        minsong = tbhc_df['name'].loc[tbhc_df.index[j]]
+        print("Longest track:", maxsong)
+        print("Shortest track:", minsong)
 
-def allviews():
-    i = AM_views.argmax()
-    j = AM_views.argmin()
-    maxsong = AM['Música'].loc[AM.index[i]]
-    minsong = AM['Música'].loc[AM.index[j]]
-    print("Música mais ouvida no geral: ", maxsong)
-    print("Música menos ouvida no geral: ", minsong)
+def allpopularity():
+    i = AM_popularity.argmax()
+    j = AM_popularity.argmin()
+    maxsong = AM['name'].loc[AM.index[i]]
+    minsong = AM['name'].loc[AM.index[j]]
+    print("Most popular track overall: ", maxsong)
+    print("Least popular track overall: ", minsong)
 
 def allduration():
-    i = AM_duration.argmax()
-    j = AM_duration.argmin()
-    maxsong = AM['Música'].loc[AM.index[i]]
-    minsong = AM['Música'].loc[AM.index[j]]
-    print("Música mais longa no geral:", maxsong)
-    print("Música mais curta no geral:", minsong)
+    i = AM_duration_ms.argmax()
+    j = AM_duration_ms.argmin()
+    maxsong = AM['name'].loc[AM.index[i]]
+    minsong = AM['name'].loc[AM.index[j]]
+    print("Longest track overall:", maxsong)
+    print("Shortest track overall:", minsong)
 
-def premios():
-    print("Maior número de Gold Certifications: Whatever People Say I Am, That's What I'm Not (5)")
-    print("Maior número de Platinum Certifications: AM (12)")
+def awards():
+    print("Highest number of Gold Certifications: WHATEVER PEOPLE SAY I AM, THAT'S WHAT I'M NOT (5)")
+    print("Higuest number of Platinum Certifications: AM (12)")
 
 def correlation():
-    col1, col2 = "Duração", "Views"
+    col1, col2 = "duration_ms", "popularity"
     corr = AM[col1].corr(AM[col2])
-    print("A correlação entre", col1, "e", col2, "é:", round(corr, 2))
+    print("The correlation between", col1, "and", col2, "is:", round(corr, 2))
+
+print("-----\nPopularity:")
+print("Whatever People Say...")
+popularity("WHATEVER PEOPLE SAY I AM, THAT'S WHAT I'M NOT")
+print("Favourite Worst Nightmare")
+popularity("FAVOURITE WORST NIGHTMARE")
+print("Humbug")
+popularity("HUMBUG")
+print("Suck It And See")
+popularity("SUCK IT AND SEE")
+print("AM")
+popularity("AM")
+print("Tranquility Base Hotel & Casino")
+popularity("TRANQUILITY BASE HOTEL & CASINO")
+
+print("-----\nDuration:")
+print("Whatever People Say...")
+duration("WHATEVER PEOPLE SAY I AM, THAT'S WHAT I'M NOT")
+print("Favourite Worst Nightmare")
+duration("FAVOURITE WORST NIGHTMARE")
+print("Humbug")
+duration("HUMBUG")
+print("Suck It And See")
+duration("SUCK IT AND SEE")
+print("AM")
+duration("AM")
+print("Tranquility Base Hotel & Casino")
+duration("TRANQUILITY BASE HOTEL & CASINO")
+
+print("-----\nPopularity all Albums:")
+allpopularity()
+
+print("-----\nDuration all Albums:")
+allduration()
+
+print("-----\nAwards:")
+awards()
+
+print("-----\nCorrelation:")
+correlation()
