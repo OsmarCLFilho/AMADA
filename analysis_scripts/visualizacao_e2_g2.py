@@ -5,10 +5,10 @@ from wordcloud import WordCloud
 import sys
 
 try:
-    df = pd.read_csv("../results/spo_lyr_data.csv")
+    df = pd.read_csv("../results/final_dataset.csv")
 
 except FileNotFoundError:
-    print("spo_lyr_data.csv not found in /results/. The file structure of the project is altered!")
+    print("final_dataset.csv was not found in /results/. The file structure of the project is altered!")
     sys.exit(1)
 
 ############################################################################################################
