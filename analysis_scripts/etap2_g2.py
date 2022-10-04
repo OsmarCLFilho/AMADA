@@ -8,7 +8,6 @@ print("######  QUESTION 1  ######\n")
 dictionary = fe.concat_elements_column(df, 'album')
 dictionary = fe.remove_contractions(dictionary)
 dictionary = fe.remove_characters(dictionary)
-dictionary = fe.remove_undesirables(dictionary)
 dictionary = fe.elements_freq(dictionary)
 
 print("10 most common words in the album titles:\n")
@@ -22,7 +21,6 @@ print("######  QUESTION 2  ######\n")
 dictionary = fe.concat_elements_column(df, 'name')
 dictionary = fe.remove_contractions(dictionary)
 dictionary = fe.remove_characters(dictionary)
-dictionary = fe.remove_undesirables(dictionary)
 dictionary = fe.elements_freq(dictionary)
 
 print("10 most common words in the track titles:\n")
@@ -43,7 +41,10 @@ print("10 most common words in the lyrics per album:\n")
 
 for key in dictionary.keys():
     print(key,":")
-    print(dictionary[key].head(10))
+    if isinstance(dictionary[key], str):
+        print(dictionary[key])
+    else:
+        print(dictionary[key].head(10))
     print("\n")
 
 print("\n\n")
@@ -83,4 +84,3 @@ print("Quantidade de vezes que o nome das músicas aparecem nas suas letras:\n")
 
 for ind in sorted(dictionary, key = dictionary.get, reverse=True):
     print(ind, ": ", dictionary[ind])
-
