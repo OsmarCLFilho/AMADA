@@ -54,8 +54,8 @@
 <p><cite>to_scrape.txt</cite> is a list of useful links from web_scraping data. However, in the end, only <a class="reference external" href="https://en.wikipedia.org/wiki/Arctic_Monkeys_discography">https://en.wikipedia.org/wiki/Arctic_Monkeys_discography</a> was used.</p>
 </section>
 <section id="tvappear-txt">
-<h3>TVappear.txt<a class="headerlink" href="#tvappear-txt" title="Permalink to this heading">¶</a></h3>
-<p><cite>TVappear.txt</cite> is a list of tv series and the Arctic Monkeys’ tracks that are used in them.</p>
+<h3>tvappear.txt<a class="headerlink" href="#tvappear-txt" title="Permalink to this heading">¶</a></h3>
+<p><cite>tvappear.txt</cite> is a list of tv series and the Arctic Monkeys’ tracks that are used in them.</p>
 </section>
 </section>
 <section id="extraction-scripts">
@@ -250,11 +250,58 @@
 </section>
 <section id="tvappear-py">
 <h3>tvappear.py<a class="headerlink" href="#tvappear-py" title="Permalink to this heading">¶</a></h3>
-<p><a href="#id4"><span class="problematic" id="id5">``</span></a></p>
+<p><cite>tvappear.py</cite> is responsible for answering in what tv shows, series or other related media Arctic Monkeys’ music is used in. It uses data from <cite>tvappear.txt</cite>.</p>
+<dl class="py function">
+<dt class="sig sig-object py" id="TV">
+<span class="sig-name descname"><span class="pre">TV</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">song</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#TV" title="Permalink to this definition">¶</a></dt>
+<dd><p>Prints the TV shows in which <em>song</em> is used.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>song</strong> (<em>str</em>) – Name of the song to seach for.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="TVshows">
+<span class="sig-name descname"><span class="pre">TVshows</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#TVshows" title="Permalink to this definition">¶</a></dt>
+<dd><p>Prints the shows that have at least one Arctic Monkeys music.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="songsInShow">
+<span class="sig-name descname"><span class="pre">songsInShow</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">show</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#songsInShow" title="Permalink to this definition">¶</a></dt>
+<dd><p>Prints all the Arctic Monkeys tracks in the <em>show</em>.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>show</strong> (<em>str</em>) – Name of the show to search in</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+<section id="viz-g1-py">
+<h3>viz_g1.py<a class="headerlink" href="#viz-g1-py" title="Permalink to this heading">¶</a></h3>
+<p><cite>viz_g1.py</cite> is responsible for generating graphical visualizations for the questions from the first group of questions. Output is placed into <cite>viz_g1_out/</cite>.</p>
+</section>
+<section id="visualizacao-e2-g2-py">
+<h3>visualizacao_e2_g2.py<a class="headerlink" href="#visualizacao-e2-g2-py" title="Permalink to this heading">¶</a></h3>
+<p><cite>visualizacao_e2_g2.py</cite> is responsible for generating word clouds for questions 1, 2 and 4 of the second question group. Output is placed into <cite>visualizacao_e2_g2_out.py/</cite>.</p>
 </section>
 </section>
 <section id="basis">
-<span id="id6"></span><h2>Basis<a class="headerlink" href="#basis" title="Permalink to this heading">¶</a></h2>
+<span id="id4"></span><h2>Basis<a class="headerlink" href="#basis" title="Permalink to this heading">¶</a></h2>
 <p>The basis, located in the <em>basis</em> folder, are datasets and csv created by the extraction scripts. These files contain the data over which the analysis scripts draw answers from.</p>
 <section id="spot-data-csv">
 <h3>spot_data.csv<a class="headerlink" href="#spot-data-csv" title="Permalink to this heading">¶</a></h3>
