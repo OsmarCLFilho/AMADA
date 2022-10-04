@@ -49,7 +49,7 @@ def concat_elements_column(df: pd.DataFrame, coluna: str, key: str = None) -> di
         if new_string.replace(' ', '') == '':
             dictionary[key] = '[Não possui nenhuma informação]'
         else:
-            dictionary[key] = new_string
+            dictionary[key] = " " + new_string + " "
             
     return dictionary
 
@@ -138,11 +138,16 @@ def elements_freq(dictionary: dict) -> dict:
 
 
 def relevancy(dictionary: dict) -> dict:
-    for key in dictionary.keys():
-        if dictionary[key] == '[Não possui nenhuma informação]':
-            continue
+    for key in dictionary.keys(): 
+        #se for passado um dicionário com os valores como uma lista
+        if not isinstance(dictionary[key], str):
+            dictionary[key] = " ".join(dictionary[key])
+            dictionary[key] = " " + dictionary[key] + " "
         else:
-            #coloca em cada valor do dicionário a quantidade que o key repete no valor anterior
-            dictionary[key] = dictionary[key].count(key)
+            if dictionary[key] == '[Não possui nenhuma informação]':
+                continue
+            else:
+                #coloca em cada valor do dicionário a quantidade que o key repete no valor anterior
+                dictionary[key] = dictionary[key].count(" " + key + " ")
     
     return dictionary
