@@ -69,11 +69,11 @@ The analysis scripts are located under the *scripts* folder. They are responsibl
 etap2_g1.py
 ***********
 
-`etap2_g1.py` is responsible for answering the first group of questions. It does so through the following functions:
+`etap2_g1.py` is responsible for answering the first group of questions. Running it will print the answers. It does so through the following functions:
 
-.. function:: views(album)
+.. function:: popularity(album)
 
-   Prints the most and the less listened track in an album
+   Prints the most and the least popular track in an album
 
    :param str album: The album in which to search the tracks
    :rtype: None
@@ -87,9 +87,9 @@ etap2_g1.py
    :rtype: None
 
 
-.. function:: allview()
+.. function:: allpopularity()
 
-   Prints the most and the less listened track in all the albums
+   Prints the most and the least popular track in all the albums
 
    :rtype: None
 
@@ -100,7 +100,7 @@ etap2_g1.py
 
    :rtype: None
 
-.. function:: premios()
+.. function:: awards()
 
    Prints the albums with the most golden and platinum certifications
 
@@ -115,72 +115,72 @@ etap2_g1.py
 etap2_g2.py
 ***********
 
-`etap2_g2.py` is responsible for answering the first group of questions. It does it through functions contained in `func_etapa2_g2.py`.
+`etap2_g2.py` is responsible for answering the first group of questions. Running it will print the answers. It does it through functions contained in `func_etapa2_g2.py`.
 
 func_etapa2_g2.py
 ^^^^^^^^^^^^^^^^^
 
-.. function:: concatenar_elementos_coluna(DataFrame, coluna, condicao=None)
+.. function:: concat_elements_column(df, col, key=None)
 
-   Concatenates all the strings in the *coluna* column and return it as a dictionary with a single key *Todas* and the concatenated strings; if *condicao* is None. Else, returns a dictionary with keys correponding to the values of the column *condicao*, each followed by its respective value from *coluna*. 
+   Concatenates all the strings in the *col* column and return it as a dictionary with a single key *"all"* and the concatenated strings; if *key* is None. Else, returns a dictionary with keys correponding to the values of the column *key*, each followed by its respective value from *col*. 
 
-   :param pandas.DataFrame DataFrame: The dataframe that the function will operate over.
-   :param str coluna: Column whose values will be concatenated or put into the returning dictionary.
-   :param str condicao: Column whose values will act as keys for the returning dictionary. If None, then returns a single key dictionary with the concatenated values of *coluna*.
+   :param pandas.DataFrame df: The dataframe that the function will operate over.
+   :param str col: Column whose values will be concatenated or put into the returning dictionary.
+   :param str key: Column whose values will act as keys for the returning dictionary. If None, then returns a single key dictionary with the concatenated values of *col*.
 
-   :return: Either a single key dictionary with the concatenated values or an extensive dictionary with *condicao* elements as keys and *coluna* elements as values.
+   :return: Either a single key dictionary with the concatenated values or an extensive dictionary with *key* elements as keys and *col* elements as values.
 
 
-.. function:: remove_contracoes(dicionario)
+.. function:: remove_contractions(dictionary)
 
-   Removes most common contractions from *dicionario*, i.e.: *'M*, *'S*, *'RE*, *N'T*, *'LL*, *'VE*, *'D*.
+   Removes most common contractions from *dictionary*, i.e.: *'M*, *'S*, *'RE*, *N'T*, *'LL*, *'VE*, *'D*.
 
-   :param dict dicionario: Dictionary filled with string values.
+   :param dict dictionary: Dictionary filled with string values.
 
    :return: Dictionary without the contractions.
 
 
-.. function:: remove_caracteres(dicionario)
+.. function:: remove_characters(dictionary)
 
-   Removes special characters from *dicionario*, i.e.: *( ) ? ! [ ] , . / & \ ' - : ; "*
+   Removes special characters from *dictionary*, i.e.: *( ) ? ! [ ] , . / & \ ' - : ; "*
 
-   :param dict dicionario: Dictionary filled with string values.
+   :param dict dictionary: Dictionary filled with string values.
 
    :return: Dictionary without the special characters
 
 
-.. function:: remove_irrelevantes(dicionario)
+.. function:: remove_undesirables(dictionary)
 
-   Removes the undesirable words listed in *stopwords.txt*, such as articles, prepositions and the verb to be, from *dicionario*.
+   Removes the undesirable words listed in *stopwords.txt*, such as articles, prepositions and the verb to be, from *dictionary*.
 
-   :param dict dicionario: Dictionary filled with string values.
+   :param dict dictionary: Dictionary filled with string values.
 
    :return: Dictionary of same size and keys, but with the original strings stripped of the undesirable words and turned into lists of words.
 
 
-.. function:: freq_elementos(dicionario)
+.. function:: elements_freq(dictionary)
 
-   Counts how many times each word showed up in each of the lists of words of *dicionario*. It then return a dictionary of same size and keys, but with Panda series with the words as index and each corresponding word count as value.
+   Counts how many times each word showed up in each of the lists of words of *dictionary*. It then return a dictionary of same size and keys, but with Panda series with the words as index and each corresponding word count as value.
 
-   :param dict dicionario: Dictionary filled with lists of words.
+   :param dict dictionary: Dictionary filled with lists of words.
 
    :return: Dictionary of same size and key, but filled with Panda series with the words as index and the respective word counts as values.
 
 
-.. function:: relevancia(dicionario)
+.. function:: relevancy(dictionary)
 
-   Counts how many times each key of *dicionario* shows up in its corresponding value.
+   Counts how many times each key of *dictionary* shows up in its corresponding value.
 
-   :param dict dicionario: Dictionary filled with string values
+   :param dict dictionary: Dictionary filled with string values
 
    :return: Dictionary of same size and keys, but with the values replaced by the count of how many times the key showed up in the value.
 
 .. _Results:
 
-Results
+Basis
 -------
 
-The results, located in the *resutls* folder, are datasets created by the extraction scripts, csv files generated by the analysis scripts and a final report. The csv files contain the important findings of the project and are used to answer a set of questions in the final report.
+The basis, located in the *basis* folder, are datasets and csv created by the extraction scripts. These files contain the data over which the analysis scripts draw answers from.
 
 spot_data.csv
 *************

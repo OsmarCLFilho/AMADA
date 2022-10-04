@@ -1,8 +1,14 @@
 # Informações do IMDB
 
 import pandas as pd
+import sys
 
-a_file = open("tvappear.txt", "r")
+try:
+    a_file = open("../data/tvappear.txt", "r")
+
+except FileNotFoundError:
+    print("tvappear.txt was not found in /data/. The file structure of the project is altered!")
+    sys.exit(1)
 
 lines = a_file.read().splitlines()
 
