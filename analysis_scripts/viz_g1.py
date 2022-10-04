@@ -21,20 +21,20 @@ palette_color = sns.color_palette('bright')
 
 alb_pop = sns.barplot(data=df, x="album", y="popularity")
 
-alb_pop.figure.savefig("viz1_alb_pop.png")
+alb_pop.figure.savefig("viz_g1_out/viz1_alb_pop.png")
 
 alb_pop = sns.barplot(data=df, x="album", y="duration_ms")
 
-alb_pop.figure.savefig("viz2_alb_dur.png")
+alb_pop.figure.savefig("viz_g1_out/viz2_alb_dur.png")
 
 alb_pop = sns.barplot(data=df, x="name", y="popularity")
 
-alb_pop.figure.savefig("viz3_nam_pop.png")
+alb_pop.figure.savefig("viz_g1_out/viz3_nam_pop.png")
 
 alb_pop = sns.barplot(data=df, x="name", y="duration_ms")
 
-alb_pop.figure.savefig("viz4_nam_dur.png")
+alb_pop.figure.savefig("viz_g1_out/viz4_nam_dur.png")
 
 alb_pop = sns.lmplot(data=df[df["popularity"] != 0], x="popularity", y="duration_ms")
 
-alb_pop.figure.savefig("viz5_pop_dur.png")
+alb_pop.figure.savefig("viz_g1_out/viz5_pop_dur.png")

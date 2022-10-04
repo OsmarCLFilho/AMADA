@@ -40,7 +40,7 @@
 <li><p><a class="reference internal" href="#data-sources"><span class="std std-ref">Data Sources</span></a></p></li>
 <li><p><a class="reference internal" href="#extraction-scripts"><span class="std std-ref">Extraction Scripts</span></a></p></li>
 <li><p><a class="reference internal" href="#analysis-scripts"><span class="std std-ref">Analysis Scripts</span></a></p></li>
-<li><p><a class="reference internal" href="#results"><span class="std std-ref">Results</span></a></p></li>
+<li><p><a class="reference internal" href="#basis"><span class="std std-ref">Basis</span></a></p></li>
 </ul>
 <section id="data-sources">
 <span id="id1"></span><h2>Data Sources<a class="headerlink" href="#data-sources" title="Permalink to this heading">¶</a></h2>
@@ -79,11 +79,11 @@
 <p>The analysis scripts are located under the <em>scripts</em> folder. They are responsible for analysing the refined data from the extraction scripts and producing useful information and statistics.</p>
 <section id="etap2-g1-py">
 <h3>etap2_g1.py<a class="headerlink" href="#etap2-g1-py" title="Permalink to this heading">¶</a></h3>
-<p><cite>etap2_g1.py</cite> is responsible for answering the first group of questions. It does so through the following functions:</p>
+<p><cite>etap2_g1.py</cite> is responsible for answering the first group of questions. Running it will print the answers. It does so through the following functions:</p>
 <dl class="py function">
-<dt class="sig sig-object py" id="views">
-<span class="sig-name descname"><span class="pre">views</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">album</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#views" title="Permalink to this definition">¶</a></dt>
-<dd><p>Prints the most and the less listened track in an album</p>
+<dt class="sig sig-object py" id="popularity">
+<span class="sig-name descname"><span class="pre">popularity</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">album</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#popularity" title="Permalink to this definition">¶</a></dt>
+<dd><p>Prints the most and the least popular track in an album</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><p><strong>album</strong> (<em>str</em>) – The album in which to search the tracks</p>
@@ -109,9 +109,9 @@
 </dd></dl>
 
 <dl class="py function">
-<dt class="sig sig-object py" id="allview">
-<span class="sig-name descname"><span class="pre">allview</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#allview" title="Permalink to this definition">¶</a></dt>
-<dd><p>Prints the most and the less listened track in all the albums</p>
+<dt class="sig sig-object py" id="allpopularity">
+<span class="sig-name descname"><span class="pre">allpopularity</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#allpopularity" title="Permalink to this definition">¶</a></dt>
+<dd><p>Prints the most and the least popular track in all the albums</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type<span class="colon">:</span></dt>
 <dd class="field-odd"><p>None</p>
@@ -122,7 +122,29 @@
 <dl class="py function">
 <dt class="sig sig-object py" id="allduration">
 <span class="sig-name descname"><span class="pre">allduration</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#allduration" title="Permalink to this definition">¶</a></dt>
-<dd><p>Prtins the longest and the shortest track in all the albums</p>
+<dd><p>Prints the longest and the shortest track in all the albums</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="awards">
+<span class="sig-name descname"><span class="pre">awards</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#awards" title="Permalink to this definition">¶</a></dt>
+<dd><p>Prints the albums with the most golden and platinum certifications</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="correlation">
+<span class="sig-name descname"><span class="pre">correlation</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#correlation" title="Permalink to this definition">¶</a></dt>
+<dd><p>Prints the correlation between the duration and popularity</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type<span class="colon">:</span></dt>
 <dd class="field-odd"><p>None</p>
@@ -133,34 +155,34 @@
 </section>
 <section id="etap2-g2-py">
 <h3>etap2_g2.py<a class="headerlink" href="#etap2-g2-py" title="Permalink to this heading">¶</a></h3>
-<p><cite>etap2_g2.py</cite> is responsible for answering the first group of questions. It does it through functions contained in <cite>func_etapa2_g2.py</cite>.</p>
+<p><cite>etap2_g2.py</cite> is responsible for answering the first group of questions. Running it will print the answers. It does it through functions contained in <cite>func_etapa2_g2.py</cite>.</p>
 <section id="func-etapa2-g2-py">
 <h4>func_etapa2_g2.py<a class="headerlink" href="#func-etapa2-g2-py" title="Permalink to this heading">¶</a></h4>
 <dl class="py function">
-<dt class="sig sig-object py" id="concatenar_elementos_coluna">
-<span class="sig-name descname"><span class="pre">concatenar_elementos_coluna</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">DataFrame</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">coluna</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">condicao</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#concatenar_elementos_coluna" title="Permalink to this definition">¶</a></dt>
-<dd><p>Concatenates all the strings in the <em>coluna</em> column and return it as a dictionary with a single key <em>Todas</em> and the concatenated strings; if <em>condicao</em> is None. Else, returns a dictionary with keys correponding to the values of the column <em>condicao</em>, each followed by its respective value from <em>coluna</em>.</p>
+<dt class="sig sig-object py" id="concat_elements_column">
+<span class="sig-name descname"><span class="pre">concat_elements_column</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">col</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">key</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#concat_elements_column" title="Permalink to this definition">¶</a></dt>
+<dd><p>Concatenates all the strings in the <em>col</em> column and return it as a dictionary with a single key <em>“all”</em> and the concatenated strings; if <em>key</em> is None. Else, returns a dictionary with keys correponding to the values of the column <em>key</em>, each followed by its respective value from <em>col</em>.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>DataFrame</strong> (<em>pandas.DataFrame</em>) – The dataframe that the function will operate over.</p></li>
-<li><p><strong>coluna</strong> (<em>str</em>) – Column whose values will be concatenated or put into the returning dictionary.</p></li>
-<li><p><strong>condicao</strong> (<em>str</em>) – Column whose values will act as keys for the returning dictionary. If None, then returns a single key dictionary with the concatenated values of <em>coluna</em>.</p></li>
+<li><p><strong>df</strong> (<em>pandas.DataFrame</em>) – The dataframe that the function will operate over.</p></li>
+<li><p><strong>col</strong> (<em>str</em>) – Column whose values will be concatenated or put into the returning dictionary.</p></li>
+<li><p><strong>key</strong> (<em>str</em>) – Column whose values will act as keys for the returning dictionary. If None, then returns a single key dictionary with the concatenated values of <em>col</em>.</p></li>
 </ul>
 </dd>
 <dt class="field-even">Returns<span class="colon">:</span></dt>
-<dd class="field-even"><p>Either a single key dictionary with the concatenated values or an extensive dictionary with <em>condicao</em> elements as keys and <em>coluna</em> elements as values.</p>
+<dd class="field-even"><p>Either a single key dictionary with the concatenated values or an extensive dictionary with <em>key</em> elements as keys and <em>col</em> elements as values.</p>
 </dd>
 </dl>
 </dd></dl>
 
 <dl class="py function">
-<dt class="sig sig-object py" id="remove_contracoes">
-<span class="sig-name descname"><span class="pre">remove_contracoes</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">dicionario</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#remove_contracoes" title="Permalink to this definition">¶</a></dt>
-<dd><p>Removes most common contractions from <em>dicionario</em>, i.e.: <em>‘M</em>, <em>‘S</em>, <em>‘RE</em>, <em>N’T</em>, <em>‘LL</em>, <em>‘VE</em>, <em>‘D</em>.</p>
+<dt class="sig sig-object py" id="remove_contractions">
+<span class="sig-name descname"><span class="pre">remove_contractions</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">dictionary</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#remove_contractions" title="Permalink to this definition">¶</a></dt>
+<dd><p>Removes most common contractions from <em>dictionary</em>, i.e.: <em>‘M</em>, <em>‘S</em>, <em>‘RE</em>, <em>N’T</em>, <em>‘LL</em>, <em>‘VE</em>, <em>‘D</em>.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><p><strong>dicionario</strong> (<em>dict</em>) – Dictionary filled with string values.</p>
+<dd class="field-odd"><p><strong>dictionary</strong> (<em>dict</em>) – Dictionary filled with string values.</p>
 </dd>
 <dt class="field-even">Returns<span class="colon">:</span></dt>
 <dd class="field-even"><p>Dictionary without the contractions.</p>
@@ -169,12 +191,12 @@
 </dd></dl>
 
 <dl class="py function">
-<dt class="sig sig-object py" id="remove_caracteres">
-<span class="sig-name descname"><span class="pre">remove_caracteres</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">dicionario</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#remove_caracteres" title="Permalink to this definition">¶</a></dt>
-<dd><p>Removes special characters from <em>dicionario</em>, i.e.: <em>( ) ? ! [ ] , . / &amp; ‘ - : ; “</em></p>
+<dt class="sig sig-object py" id="remove_characters">
+<span class="sig-name descname"><span class="pre">remove_characters</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">dictionary</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#remove_characters" title="Permalink to this definition">¶</a></dt>
+<dd><p>Removes special characters from <em>dictionary</em>, i.e.: <em>( ) ? ! [ ] , . / &amp; ‘ - : ; “</em></p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><p><strong>dicionario</strong> (<em>dict</em>) – Dictionary filled with string values.</p>
+<dd class="field-odd"><p><strong>dictionary</strong> (<em>dict</em>) – Dictionary filled with string values.</p>
 </dd>
 <dt class="field-even">Returns<span class="colon">:</span></dt>
 <dd class="field-even"><p>Dictionary without the special characters</p>
@@ -183,12 +205,12 @@
 </dd></dl>
 
 <dl class="py function">
-<dt class="sig sig-object py" id="remove_irrelevantes">
-<span class="sig-name descname"><span class="pre">remove_irrelevantes</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">dicionario</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#remove_irrelevantes" title="Permalink to this definition">¶</a></dt>
-<dd><p>Removes undesirable words, such as articles, prepositions and the verb to be, from <em>dicionario</em>.</p>
+<dt class="sig sig-object py" id="remove_undesirables">
+<span class="sig-name descname"><span class="pre">remove_undesirables</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">dictionary</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#remove_undesirables" title="Permalink to this definition">¶</a></dt>
+<dd><p>Removes the undesirable words listed in <em>stopwords.txt</em>, such as articles, prepositions and the verb to be, from <em>dictionary</em>.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><p><strong>dicionario</strong> (<em>dict</em>) – Dictionary filled with string values.</p>
+<dd class="field-odd"><p><strong>dictionary</strong> (<em>dict</em>) – Dictionary filled with string values.</p>
 </dd>
 <dt class="field-even">Returns<span class="colon">:</span></dt>
 <dd class="field-even"><p>Dictionary of same size and keys, but with the original strings stripped of the undesirable words and turned into lists of words.</p>
@@ -197,12 +219,12 @@
 </dd></dl>
 
 <dl class="py function">
-<dt class="sig sig-object py" id="freq_elementos">
-<span class="sig-name descname"><span class="pre">freq_elementos</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">dicionario</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#freq_elementos" title="Permalink to this definition">¶</a></dt>
-<dd><p>Counts how many times each word showed up in each of the lists of words of <em>dicionario</em>. It then return a dictionary of same size and keys, but with Panda series with the words as index and each corresponding word count as value.</p>
+<dt class="sig sig-object py" id="elements_freq">
+<span class="sig-name descname"><span class="pre">elements_freq</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">dictionary</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#elements_freq" title="Permalink to this definition">¶</a></dt>
+<dd><p>Counts how many times each word showed up in each of the lists of words of <em>dictionary</em>. It then return a dictionary of same size and keys, but with Panda series with the words as index and each corresponding word count as value.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><p><strong>dicionario</strong> (<em>dict</em>) – Dictionary filled with lists of words.</p>
+<dd class="field-odd"><p><strong>dictionary</strong> (<em>dict</em>) – Dictionary filled with lists of words.</p>
 </dd>
 <dt class="field-even">Returns<span class="colon">:</span></dt>
 <dd class="field-even"><p>Dictionary of same size and key, but filled with Panda series with the words as index and the respective word counts as values.</p>
@@ -211,12 +233,12 @@
 </dd></dl>
 
 <dl class="py function">
-<dt class="sig sig-object py" id="relevancia">
-<span class="sig-name descname"><span class="pre">relevancia</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">dicionario</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#relevancia" title="Permalink to this definition">¶</a></dt>
-<dd><p>Counts how many times each key of <em>dicionario</em> shows up in its corresponding value.</p>
+<dt class="sig sig-object py" id="relevancy">
+<span class="sig-name descname"><span class="pre">relevancy</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">dictionary</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#relevancy" title="Permalink to this definition">¶</a></dt>
+<dd><p>Counts how many times each key of <em>dictionary</em> shows up in its corresponding value.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><p><strong>dicionario</strong> (<em>dict</em>) – Dictionary filled with string values</p>
+<dd class="field-odd"><p><strong>dictionary</strong> (<em>dict</em>) – Dictionary filled with string values</p>
 </dd>
 <dt class="field-even">Returns<span class="colon">:</span></dt>
 <dd class="field-even"><p>Dictionary of same size and keys, but with the values replaced by the count of how many times the key showed up in the value.</p>
@@ -226,10 +248,14 @@
 
 </section>
 </section>
+<section id="tvappear-py">
+<h3>tvappear.py<a class="headerlink" href="#tvappear-py" title="Permalink to this heading">¶</a></h3>
+<p><a href="#id4"><span class="problematic" id="id5">``</span></a></p>
 </section>
-<section id="results">
-<span id="id4"></span><h2>Results<a class="headerlink" href="#results" title="Permalink to this heading">¶</a></h2>
-<p>The results, located in the <em>resutls</em> folder, are datasets created by the extraction scripts, csv files generated by the analysis scripts and a final report. The csv files contain the important findings of the project and are used to answer a set of questions in the final report.</p>
+</section>
+<section id="basis">
+<span id="id6"></span><h2>Basis<a class="headerlink" href="#basis" title="Permalink to this heading">¶</a></h2>
+<p>The basis, located in the <em>basis</em> folder, are datasets and csv created by the extraction scripts. These files contain the data over which the analysis scripts draw answers from.</p>
 <section id="spot-data-csv">
 <h3>spot_data.csv<a class="headerlink" href="#spot-data-csv" title="Permalink to this heading">¶</a></h3>
 <p><cite>spot_data.csv</cite> is the file generated by <cite>spot_datax.py</cite>. It contains data pulled from the <cite>Spotify API</cite>, e.g.: popularity, duration, tempo, etc..</p>

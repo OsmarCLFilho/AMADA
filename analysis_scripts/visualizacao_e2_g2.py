@@ -25,7 +25,7 @@ fig, ax = plt.subplots(figsize=(10,6))
 ax.imshow(wordcloud, interpolation='bilinear')
 ax.set_axis_off()
 plt.imshow(wordcloud)
-wordcloud.to_file("questao1.png")
+wordcloud.to_file("visualizacao_e2_g2_out/questao1.png")
 
 ############################################################################################################
 
@@ -41,7 +41,7 @@ fig, ax = plt.subplots(figsize=(10,6))
 ax.imshow(wordcloud, interpolation='bilinear')
 ax.set_axis_off()
 plt.imshow(wordcloud)
-wordcloud.to_file("questao2.png")
+wordcloud.to_file("visualizacao_e2_g2_out/questao2.png")
 
 ############################################################################################################
 
@@ -57,4 +57,4 @@ fig, ax = plt.subplots(figsize=(10,6))
 ax.imshow(wordcloud, interpolation='bilinear')
 ax.set_axis_off()
 plt.imshow(wordcloud)
-wordcloud.to_file("questao4.png")
+wordcloud.to_file("visualizacao_e2_g2_out/questao4.png")

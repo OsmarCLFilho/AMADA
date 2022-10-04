@@ -13,7 +13,7 @@ Welcome to AMADA's documentation!
 * :ref:`Data Sources`
 * :ref:`Extraction Scripts`
 * :ref:`Analysis Scripts`
-* :ref:`Results`
+* :ref:`Basis`
 
 .. _Data Sources:
 
@@ -32,10 +32,10 @@ to_scrape.txt
 
 `to_scrape.txt` is a list of useful links from web_scraping data. However, in the end, only https://en.wikipedia.org/wiki/Arctic_Monkeys_discography was used.
 
-TVappear.txt
+tvappear.txt
 ************
 
-`TVappear.txt` is a list of tv series and the Arctic Monkeys' tracks that are used in them.
+`tvappear.txt` is a list of tv series and the Arctic Monkeys' tracks that are used in them.
 
 .. _Extraction Scripts:
 
@@ -175,7 +175,44 @@ func_etapa2_g2.py
 
    :return: Dictionary of same size and keys, but with the values replaced by the count of how many times the key showed up in the value.
 
-.. _Results:
+tvappear.py
+***********
+
+`tvappear.py` is responsible for answering in what tv shows, series or other related media Arctic Monkeys' music is used in. It uses data from `tvappear.txt`.
+
+.. function:: TV(song)
+
+   Prints the TV shows in which *song* is used.
+
+   :param str song: Name of the song to seach for.
+
+   :rtype: None
+
+.. function:: TVshows()
+
+   Prints the shows that have at least one Arctic Monkeys music.
+
+   :rtype: None
+
+.. function:: songsInShow(show)
+
+   Prints all the Arctic Monkeys tracks in the *show*.
+
+   :param str show: Name of the show to search in
+
+   :rtype: None
+
+viz_g1.py
+*********
+
+`viz_g1.py` is responsible for generating graphical visualizations for the questions from the first group of questions. Output is placed into `viz_g1_out/`.
+
+visualizacao_e2_g2.py
+*********************
+
+`visualizacao_e2_g2.py` is responsible for generating word clouds for questions 1, 2 and 4 of the second question group. Output is placed into `visualizacao_e2_g2_out.py/`.
+
+.. _Basis:
 
 Basis
 -------

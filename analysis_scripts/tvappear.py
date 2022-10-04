@@ -27,7 +27,7 @@ tv_pd = pd.DataFrame.from_dict(tv_dict, orient='index')
 
 def TV(song):
     song = '"'+song+'"'
-    t = tv_pd[tv_pd.isin([song]).any(axis=1)]
+    t = tv_pd[tv_pd.isin([song]).all(axis=1)]
     print(t)
 
 # Quais TV shows têm alguma música do Arctic Monkeys?
@@ -95,3 +95,4 @@ def songsInShow(show):
         pass
 
 songsInShow("Top Gear")
+TV("Reckless Serenade")
