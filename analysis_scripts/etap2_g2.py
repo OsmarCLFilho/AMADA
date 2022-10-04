@@ -1,5 +1,6 @@
 import func_etapa2_g2 as fe
 import pandas as pd
+import copy
 
 df = pd.read_csv("../results/final_dataset.csv")
 
@@ -67,7 +68,12 @@ print("######  QUESTION 5  ######\n")
 dictionary = fe.concat_elements_column(df, 'lyrics', 'album')
 dictionary = fe.relevancy(dictionary)
 
-print("Amount of times that the albums titles show up in the lyrics:\n")
+print("Amount of times that the albums titles show up in the lyrics\n")
+print(" (os albuns que as letras não foram encontradas, foram retirados):\n")
+
+for key in copy.deepcopy(dictionary).keys():
+    if isinstance(dictionary[key], str):
+        dictionary.pop(key)
 
 for ind in sorted(dictionary, key = dictionary.get, reverse=True):
     print(ind, ": ", dictionary[ind])
@@ -80,7 +86,12 @@ print("######  QUESTION 6  ######\n")
 dictionary = fe.concat_elements_column(df, 'lyrics', 'name')
 dictionary = fe.relevancy(dictionary)
 
-print("Quantidade de vezes que o nome das músicas aparecem nas suas letras:\n")
+print("Quantidade de vezes que o nome das músicas aparecem nas suas letras\n")
+print(" (as músicas que as letras não foram encontradas, foram retiradas):")
+
+for key in copy.deepcopy(dictionary).keys():
+    if isinstance(dictionary[key], str):
+        dictionary.pop(key)
 
 for ind in sorted(dictionary, key = dictionary.get, reverse=True):
     print(ind, ": ", dictionary[ind])
