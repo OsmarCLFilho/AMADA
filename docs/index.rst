@@ -115,7 +115,7 @@ etap2_g1.py
 etap2_g2.py
 ***********
 
-`etap2_g2.py` is responsible for answering the first group of questions. Running it will print the answers. It does it through functions contained in `func_etapa2_g2.py`.
+`etap2_g2.py` is responsible for answering the second group of questions. Running it will print the answers. It does it through functions contained in `func_etapa2_g2.py`.
 
 func_etapa2_g2.py
 ^^^^^^^^^^^^^^^^^
@@ -210,7 +210,7 @@ viz_g1.py
 visualizacao_e2_g2.py
 *********************
 
-`visualizacao_e2_g2.py` is responsible for generating word clouds for questions 1, 2 and 4 of the second question group. Output is placed into `visualizacao_e2_g2_out.py/`.
+`visualizacao_e2_g2.py` is responsible for generating word clouds for questions 1, 2 and 4 of the second question group. Output is placed into `visualizacao_e2_g2_out/`.
 
 .. _Results:
 
