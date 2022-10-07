@@ -75,7 +75,7 @@ etap2_g1.py
 
    Prints the most and the least popular track in an album
 
-   :param str album: The album in which to search the tracks
+   :param str album: The album in which to search the tracks: {"WHATEVER PEOPLE SAY I AM, THAT'S WHAT I'M NOT", "FAVOURITE WORST NIGHTMARE", "HUMBUG", "SUCK IT AND SEE", "AM", "TRANQUILITY BASE HOTEL & CASINO"}
    :rtype: None
 
 
@@ -83,7 +83,7 @@ etap2_g1.py
 
    Prints the longest and the shortest track in an album
 
-   :param str album: The album in which to search the tracks
+   :param str album: The album in which to search the tracks: {"WHATEVER PEOPLE SAY I AM, THAT'S WHAT I'M NOT", "FAVOURITE WORST NIGHTMARE", "HUMBUG", "SUCK IT AND SEE", "AM", "TRANQUILITY BASE HOTEL & CASINO"}
    :rtype: None
 
 
