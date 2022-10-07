@@ -117,6 +117,42 @@ etap2_g2.py
 
 `etap2_g2.py` is responsible for answering the second group of questions. Running it will print the answers. It does it through functions contained in `func_etapa2_g2.py`.
 
+.. function:: question_1():
+
+   Prints out the answer for the first question of the second group.
+
+   :rtype: None
+
+.. function:: question_2():
+
+   Prints out the answer for the second question of the second group.
+
+   :rtype: None
+
+.. function:: question_3():
+
+   Prints out the answer for the third question of the second group.
+
+   :rtype: None
+
+.. function:: question_4():
+
+   Prints out the answer for the fourth question of the second group.
+
+   :rtype: None
+
+.. function:: question_5():
+
+   Prints out the answer for the fifth question of the second group.
+
+   :rtype: None
+
+.. function:: question_6():
+
+   Prints out the answer for the sixth question of the second group.
+
+   :rtype: None
+
 func_etapa2_g2.py
 ^^^^^^^^^^^^^^^^^
 
